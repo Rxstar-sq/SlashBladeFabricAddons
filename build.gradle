@@ -149,6 +149,19 @@ java {
     withSourcesJar()
 }
 
+// Task to fix generated recipe JSON files after datagen
+tasks.register('fixGeneratedRecipes') {
+    doLast {
+        exec {
+            executable "python"
+            args "fix_generated_recipes.py"
+        }
+    }
+}
+
+// Run fix script after build task
+tasks.build.dependsOn fixGeneratedRecipes
+
 jar {
     from("LICENSE") {
         rename { "${it}_${project.archivesBaseName}" }

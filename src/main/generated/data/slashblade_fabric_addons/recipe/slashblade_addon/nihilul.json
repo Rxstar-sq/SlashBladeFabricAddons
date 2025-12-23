@@ -26,7 +26,7 @@
     },
     "Y": {
       "fabric:type": "slashblade:blade",
-      "items": "slashblade:slashblade",
+      "items": "slashblade:slashblade_yamato",
       "request": {
         "name": "slashblade:yamato"
       }

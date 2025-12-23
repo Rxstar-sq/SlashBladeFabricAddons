@@ -5,7 +5,7 @@
   "key": {
     "B": {
       "fabric:type": "slashblade:blade",
-      "items": "slashblade:slashblade",
+      "items": "slashblade:slashblade_muramasa",
       "request": {
         "name": "slashblade:muramasa"
       }

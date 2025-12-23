@@ -5,7 +5,7 @@
   "key": {
     "E": {
       "fabric:type": "slashblade:blade",
-      "items": "slashblade:slashblade",
+      "items": "slashblade:slashblade_doutanuki",
       "request": {
         "kill": 10,
         "name": "slashblade:doutanuki",

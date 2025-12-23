@@ -5,7 +5,7 @@
   "key": {
     "B": {
       "fabric:type": "slashblade:blade",
-      "items": "slashblade:slashblade",
+      "items": "slashblade:slashblade_tukumo",
       "request": {
         "enchantments": [
           {
@@ -13,7 +13,7 @@
           }
         ],
         "kill": 1000,
-        "name": "slashblade:yuzukitukumo"
+        "name": "slashblade:tukumo"
       }
     },
     "I": {

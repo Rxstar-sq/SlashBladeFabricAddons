@@ -5,7 +5,7 @@
   "key": {
     "B": {
       "fabric:type": "slashblade:blade",
-      "items": "slashblade:slashblade",
+      "items": "slashblade:slashblade_doutanuki",
       "request": {
         "enchantments": [
           {
