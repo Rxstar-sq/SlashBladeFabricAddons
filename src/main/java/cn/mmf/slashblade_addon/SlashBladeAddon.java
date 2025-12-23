@@ -2,6 +2,7 @@ package cn.mmf.slashblade_addon;
 
 import cn.mmf.slashblade_addon.compat.SBATofuCraftItems;
 import cn.mmf.slashblade_addon.compat.botania.SBABotaniaCompat;
+import cn.mmf.slashblade_addon.init.SBAItems;
 import cn.mmf.slashblade_addon.registry.SBAComboStateRegistry;
 import cn.mmf.slashblade_addon.registry.SBAEntitiesRegistry;
 import cn.mmf.slashblade_addon.registry.SBASlashArtsRegistry;
@@ -59,6 +60,7 @@ public class SlashBladeAddon {
     }
 
     private static void register() {
+        SBAItems.init();
         if (FabricLoader.getInstance().isModLoaded("tofucraft")) {
             SBATofuCraftItems.init();
         }

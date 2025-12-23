@@ -2,6 +2,7 @@ package cn.mmf.slashblade_addon.data;
 
 import cn.mmf.energyblade.Energyblade;
 import cn.mmf.slashblade_addon.SlashBladeAddon;
+import cn.mmf.slashblade_addon.init.SBAItems;
 import cn.mmf.slashblade_addon.registry.SBASlashArtsRegistry;
 import cn.mmf.slashblade_addon.registry.SBASpecialEffectsRegistry;
 import mods.flammpfeil.slashblade.client.renderer.CarryType;
@@ -114,7 +115,8 @@ public class SlashBladeAddonBuiltInRegistry {
     public static void registerAll(BootstrapContext<SlashBladeDefinition> bootstrap) {
         //MURAKUMO
         bootstrap.register(MURAKUMO,
-                new SJAPDefinition(SlashBladeAddon.prefix("murakumo"),
+                new SJAPDefinition(BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_MURAKUMO),
+                        SlashBladeAddon.prefix("murakumo"),
                         RenderDefinition.Builder.newInstance()
                                 .textureName(SlashBladeAddon.prefix("model/murakumo/texture.png"))
                                 .modelName(SlashBladeAddon.prefix("model/murakumo/model.obj"))
@@ -127,7 +129,7 @@ public class SlashBladeAddonBuiltInRegistry {
                                 .maxDamage(80).build(),
                         List.of(new EnchantmentDefinition(getEnchantmentID(Enchantments.SMITE), 1))));
 
-        bootstrap.register(HF_MURASAMA, new SJAPDefinition(BuiltInRegistries.ITEM.getKey(Energyblade.FORGE_ENERGY_BLADE),
+        bootstrap.register(HF_MURASAMA, new SJAPDefinition(BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_HF_MURASAMA),
                 SlashBladeAddon.prefix("hf_murasama"),
                 RenderDefinition.Builder.newInstance()
                         .textureName(SlashBladeAddon.prefix("model/murasama/murasama.png"))
@@ -138,7 +140,7 @@ public class SlashBladeAddonBuiltInRegistry {
                         .defaultSwordType(List.of(SwordType.BEWITCHED))
                         .slashArtsType(SlashArtsRegistry.SLASH_ARTS.getKey(SBASlashArtsRegistry.SPIRAL_EDGE)).build(),
                 List.of()));
-        bootstrap.register(WANDERER_HF, new SJAPDefinition(BuiltInRegistries.ITEM.getKey(Energyblade.FORGE_ENERGY_BLADE),
+        bootstrap.register(WANDERER_HF, new SJAPDefinition(BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_WANDERER_HF),
                 SlashBladeAddon.prefix("wanderer_hf"),
                 RenderDefinition.Builder.newInstance()
                         .textureName(SlashBladeAddon.prefix("model/wanderer/wanderer.png"))
@@ -148,10 +150,8 @@ public class SlashBladeAddonBuiltInRegistry {
                         .defaultSwordType(List.of(SwordType.BEWITCHED))
                         .slashArtsType(SlashArtsRegistry.SLASH_ARTS.getKey(SBASlashArtsRegistry.RAPID_BLISTERING_SWORDS)).build(),
                 List.of()));
-        addConditions(WANDERER_HF, ResourceConditions.registryContains(Registries.ITEM, BuiltInRegistries.ITEM.getKey(Energyblade.FORGE_ENERGY_BLADE)));
-        addConditions(HF_MURASAMA, ResourceConditions.registryContains(Registries.ITEM, BuiltInRegistries.ITEM.getKey(Energyblade.FORGE_ENERGY_BLADE)));
 
-        bootstrap.register(WANDERER, new SJAPDefinition(
+        bootstrap.register(WANDERER, new SJAPDefinition(BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_WANDERER),
                 SlashBladeAddon.prefix("wanderer"),
                 RenderDefinition.Builder.newInstance()
                         .textureName(SlashBladeAddon.prefix("model/wanderer/wanderer.png"))
@@ -163,7 +163,8 @@ public class SlashBladeAddonBuiltInRegistry {
                 List.of()));
 
         bootstrap.register(KAMUY_NONE,
-                new SJAPDefinition(SlashBladeAddon.prefix("kamuy_none"),
+                new SJAPDefinition(BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_KAMUY_NONE),
+                        SlashBladeAddon.prefix("kamuy_none"),
                         RenderDefinition.Builder.newInstance()
                                 .textureName(SlashBladeAddon.prefix("model/kamuy/kamuy.png"))
                                 .modelName(SlashBladeAddon.prefix("model/kamuy/kamuy.obj"))
@@ -178,7 +179,8 @@ public class SlashBladeAddonBuiltInRegistry {
         );
 
         bootstrap.register(KAMUY_WATER,
-                new SJAPDefinition(SlashBladeAddon.prefix("kamuy_water"),
+                new SJAPDefinition(BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_KAMUY_WATER),
+                        SlashBladeAddon.prefix("kamuy_water"),
                         RenderDefinition.Builder.newInstance()
                                 .textureName(SlashBladeAddon.prefix("model/kamuy/water.png"))
                                 .modelName(SlashBladeAddon.prefix("model/kamuy/kamuy.obj"))
@@ -196,7 +198,8 @@ public class SlashBladeAddonBuiltInRegistry {
         );
 
         bootstrap.register(KAMUY_LIGHTING,
-                new SJAPDefinition(SlashBladeAddon.prefix("kamuy_lightning"),
+                new SJAPDefinition(BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_KAMUY_LIGHTNING),
+                        SlashBladeAddon.prefix("kamuy_lightning"),
                         RenderDefinition.Builder.newInstance()
                                 .textureName(SlashBladeAddon.prefix("model/kamuy/lightning.png"))
                                 .modelName(SlashBladeAddon.prefix("model/kamuy/kamuy.obj"))
@@ -214,7 +217,8 @@ public class SlashBladeAddonBuiltInRegistry {
         );
 
         bootstrap.register(KAMUY_FIRE,
-                new SJAPDefinition(SlashBladeAddon.prefix("kamuy_fire"),
+                new SJAPDefinition(BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_KAMUY_FIRE),
+                        SlashBladeAddon.prefix("kamuy_fire"),
                         RenderDefinition.Builder.newInstance()
                                 .textureName(SlashBladeAddon.prefix("model/kamuy/fire.png"))
                                 .modelName(SlashBladeAddon.prefix("model/kamuy/kamuy.obj"))
@@ -233,7 +237,8 @@ public class SlashBladeAddonBuiltInRegistry {
         );
 
         bootstrap.register(TERRA_BLADE,
-                new SJAPDefinition(SlashBladeAddon.prefix("terra_blade"),
+                new SJAPDefinition(BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_TERRA_BLADE),
+                        SlashBladeAddon.prefix("terra_blade"),
                         RenderDefinition.Builder.newInstance()
                                 .textureName(SlashBladeAddon.prefix("model/terra/terra.png"))
                                 .modelName(SlashBladeAddon.prefix("model/terra/terra.obj"))
@@ -253,7 +258,8 @@ public class SlashBladeAddonBuiltInRegistry {
 
         //Kirisaya
         bootstrap.register(KIRISAYA,
-                new SJAPDefinition(SlashBladeAddon.prefix("kirisaya"),
+                new SJAPDefinition(BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_KIRISAYA),
+                        SlashBladeAddon.prefix("kirisaya"),
                         RenderDefinition.Builder.newInstance()
                                 .textureName(SlashBladeAddon.prefix("model/kirisaya/kirisaya.png"))
                                 .modelName(SlashBladeAddon.prefix("model/kirisaya/kirisaya.obj"))
@@ -271,7 +277,8 @@ public class SlashBladeAddonBuiltInRegistry {
 
         //Laemmle
         bootstrap.register(LAEMMLE,
-                new SJAPDefinition(SlashBladeAddon.prefix("laemmle"),
+                new SJAPDefinition(BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_LAEMMLE),
+                        SlashBladeAddon.prefix("laemmle"),
                         RenderDefinition.Builder.newInstance()
                                 .textureName(SlashBladeAddon.prefix("model/laemmle/lem.png"))
                                 .modelName(SlashBladeAddon.prefix("model/laemmle/blade.obj"))
@@ -284,7 +291,8 @@ public class SlashBladeAddonBuiltInRegistry {
 
         //Yukari
         bootstrap.register(YUKARI,
-                new SJAPDefinition(SlashBladeAddon.prefix("yukari"),
+                new SJAPDefinition(BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_YUKARI),
+                        SlashBladeAddon.prefix("yukari"),
                         RenderDefinition.Builder.newInstance()
                                 .textureName(SlashBladeAddon.prefix("model/yukari/texture.png"))
                                 .modelName(SlashBladeAddon.prefix("model/yukari/model.obj"))
@@ -298,7 +306,8 @@ public class SlashBladeAddonBuiltInRegistry {
 
         //Tboen
         bootstrap.register(TBOEN,
-                new SJAPDefinition(SlashBladeAddon.prefix("tboen"),
+                new SJAPDefinition(BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_TBOEN),
+                        SlashBladeAddon.prefix("tboen"),
                         RenderDefinition.Builder.newInstance()
                                 .textureName(SlashBladeAddon.prefix("model/tboen/texture.png"))
                                 .modelName(SlashBladeAddon.prefix("model/tboen/model.obj"))
@@ -312,7 +321,8 @@ public class SlashBladeAddonBuiltInRegistry {
 
         //Toyako
         bootstrap.register(TOYAKO,
-                new SJAPDefinition(SlashBladeAddon.prefix("toyako"),
+                new SJAPDefinition(BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_TOYAKO),
+                        SlashBladeAddon.prefix("toyako"),
                         RenderDefinition.Builder.newInstance()
                                 .textureName(SlashBladeAddon.prefix("model/toyako/toyako.png"))
                                 .modelName(SlashBladeAddon.prefix("model/toyako/toyako.obj"))
@@ -325,7 +335,8 @@ public class SlashBladeAddonBuiltInRegistry {
 
         //nihil
         bootstrap.register(NIHIL,
-                new SJAPDefinition(SlashBladeAddon.prefix("nihil"),
+                new SJAPDefinition(BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_NIHIL),
+                        SlashBladeAddon.prefix("nihil"),
                         RenderDefinition.Builder.newInstance()
                                 .textureName(SlashBladeAddon.prefix("model/nihil/nihil.png"))
                                 .modelName(SlashBladeAddon.prefix("model/nihil/nihil.obj"))
@@ -342,7 +353,8 @@ public class SlashBladeAddonBuiltInRegistry {
                                 new EnchantmentDefinition(getEnchantmentID(Enchantments.FIRE_ASPECT), 1))));
 
         bootstrap.register(NIHILEX,
-                new SJAPDefinition(SlashBladeAddon.prefix("nihilex"),
+                new SJAPDefinition(BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_NIHILEX),
+                        SlashBladeAddon.prefix("nihilex"),
                         RenderDefinition.Builder.newInstance()
                                 .textureName(SlashBladeAddon.prefix("model/nihil/nihilex.png"))
                                 .modelName(SlashBladeAddon.prefix("model/nihil/nihil.obj"))
@@ -361,7 +373,8 @@ public class SlashBladeAddonBuiltInRegistry {
                                 new EnchantmentDefinition(getEnchantmentID(Enchantments.LOOTING), 1))));
 
         bootstrap.register(NIHILUL,
-                new SJAPDefinition(SlashBladeAddon.prefix("nihilul"),
+                new SJAPDefinition(BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_NIHILUL),
+                        SlashBladeAddon.prefix("nihilul"),
                         RenderDefinition.Builder.newInstance()
                                 .textureName(SlashBladeAddon.prefix("model/nihil/nihilul.png"))
                                 .modelName(SlashBladeAddon.prefix("model/nihil/nihil.obj"))
@@ -380,7 +393,8 @@ public class SlashBladeAddonBuiltInRegistry {
                                 new EnchantmentDefinition(getEnchantmentID(Enchantments.LOOTING), 3))));
 
         bootstrap.register(CRIMSONCHERRY,
-                new SJAPDefinition(SlashBladeAddon.prefix("crimsoncherry"),
+                new SJAPDefinition(BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_CRIMSONCHERRY),
+                        SlashBladeAddon.prefix("crimsoncherry"),
                         RenderDefinition.Builder.newInstance()
                                 .textureName(SlashBladeAddon.prefix("model/nihil/crimsoncherry.png"))
                                 .modelName(SlashBladeAddon.prefix("model/nihil/nihil.obj"))
@@ -397,7 +411,8 @@ public class SlashBladeAddonBuiltInRegistry {
                                 new EnchantmentDefinition(getEnchantmentID(Enchantments.FIRE_ASPECT), 2))));
 
         bootstrap.register(NIHILBX,
-                new SJAPDefinition(SlashBladeAddon.prefix("nihilbx"),
+                new SJAPDefinition(BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_NIHILBX),
+                        SlashBladeAddon.prefix("nihilbx"),
                         RenderDefinition.Builder.newInstance()
                                 .textureName(SlashBladeAddon.prefix("model/nihil/nihil_bx.png"))
                                 .modelName(SlashBladeAddon.prefix("model/nihil/nihil.obj"))
@@ -416,7 +431,8 @@ public class SlashBladeAddonBuiltInRegistry {
 
         //WA
         bootstrap.register(KATANA,
-                new SJAPDefinition(SlashBladeAddon.prefix("katana"),
+                new SJAPDefinition(BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_KATANA),
+                        SlashBladeAddon.prefix("katana"),
                         RenderDefinition.Builder.newInstance()
                                 .textureName(SlashBladeAddon.prefix("model/wa/katana.png"))
                                 .modelName(SlashBladeAddon.prefix("model/wa/wa.obj"))
@@ -428,7 +444,8 @@ public class SlashBladeAddonBuiltInRegistry {
                                 .defaultSwordType(List.of(SwordType.NONE)).build(), List.of()));
 
         bootstrap.register(TACHI,
-                new SJAPDefinition(SlashBladeAddon.prefix("tachi"),
+                new SJAPDefinition(BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_TACHI),
+                        SlashBladeAddon.prefix("tachi"),
                         RenderDefinition.Builder.newInstance()
                                 .textureName(SlashBladeAddon.prefix("model/wa/tachi.png"))
                                 .modelName(SlashBladeAddon.prefix("model/wa/wa.obj"))
@@ -440,7 +457,8 @@ public class SlashBladeAddonBuiltInRegistry {
                                 .defaultSwordType(List.of(SwordType.NONE)).build(), List.of()));
 
         bootstrap.register(BLUE,
-                new SJAPDefinition(SlashBladeAddon.prefix("blue"),
+                new SJAPDefinition(BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_BLUE),
+                        SlashBladeAddon.prefix("blue"),
                         RenderDefinition.Builder.newInstance()
                                 .textureName(SlashBladeAddon.prefix("model/wa/blue.png"))
                                 .modelName(SlashBladeAddon.prefix("model/wa/wa.obj"))
@@ -453,7 +471,8 @@ public class SlashBladeAddonBuiltInRegistry {
 
         //BladeMaster
         bootstrap.register(GREEN_MIST,
-                new SJAPDefinition(SlashBladeAddon.prefix("green_mist"),
+                new SJAPDefinition(BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_GREEN_MIST),
+                        SlashBladeAddon.prefix("green_mist"),
                         RenderDefinition.Builder.newInstance()
                                 .textureName(SlashBladeAddon.prefix("model/blademaster/green_mist.png"))
                                 .modelName(SlashBladeAddon.prefix("model/blademaster/blademaster.obj"))
@@ -472,6 +491,7 @@ public class SlashBladeAddonBuiltInRegistry {
                         AQUABLAZE,
                         new SJAPDefinition
                                 (
+                                        BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_AQUABLAZE),
                                         SlashBladeAddon.prefix("aquablaze"),
                                         RenderDefinition.Builder.newInstance()
                                                 .textureName(SlashBladeAddon.prefix("model/blademaster/aquablaze.png"))
@@ -496,6 +516,7 @@ public class SlashBladeAddonBuiltInRegistry {
                         MOONLIGHT_CHERRY,
                         new SJAPDefinition
                                 (
+                                        BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_MOONLIGHT_CHERRY),
                                         SlashBladeAddon.prefix("moonlight_cherry"),
                                         RenderDefinition.Builder.newInstance()
                                                 .textureName(SlashBladeAddon.prefix("model/blademaster/moonlightcherry.png"))
@@ -521,6 +542,7 @@ public class SlashBladeAddonBuiltInRegistry {
                         DARK_RAVEN,
                         new SJAPDefinition
                                 (
+                                        BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_DARK_RAVEN),
                                         SlashBladeAddon.prefix("dark_raven"),
                                         RenderDefinition.Builder.newInstance()
                                                 .textureName(SlashBladeAddon.prefix("model/darkraven/dark_raven.png"))
@@ -541,6 +563,7 @@ public class SlashBladeAddonBuiltInRegistry {
                         SNOW_CROW,
                         new SJAPDefinition
                                 (
+                                        BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_SNOW_CROW),
                                         SlashBladeAddon.prefix("snow_crow"),
                                         RenderDefinition.Builder.newInstance()
                                                 .textureName(SlashBladeAddon.prefix("model/darkraven/snow_crow.png"))
@@ -561,6 +584,7 @@ public class SlashBladeAddonBuiltInRegistry {
                         FLUORESCENT_BAR,
                         new SJAPDefinition
                                 (
+                                        BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_FLUORESCENT_BAR),
                                         SlashBladeAddon.prefix("fluorescent_bar"),
                                         RenderDefinition.Builder.newInstance()
                                                 .textureName(SlashBladeAddon.prefix("model/fluorescentbar/fluorescent_bar.png"))
@@ -584,6 +608,7 @@ public class SlashBladeAddonBuiltInRegistry {
                         FROSTY_CHERRY,
                         new SJAPDefinition
                                 (
+                                        BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_FROSTY_CHERRY),
                                         SlashBladeAddon.prefix("frosty_cherry"),
                                         RenderDefinition.Builder.newInstance()
                                                 .textureName(SlashBladeAddon.prefix("model/frostwolf/frosty_cherry.png"))
@@ -604,6 +629,7 @@ public class SlashBladeAddonBuiltInRegistry {
                         FROST_WOLF,
                         new SJAPDefinition
                                 (
+                                        BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_FROST_WOLF),
                                         SlashBladeAddon.prefix("frost_wolf"),
                                         RenderDefinition.Builder.newInstance()
                                                 .textureName(SlashBladeAddon.prefix("model/frostwolf/frost_wolf.png"))

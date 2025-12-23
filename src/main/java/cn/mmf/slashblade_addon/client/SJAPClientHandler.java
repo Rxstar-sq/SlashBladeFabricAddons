@@ -1,6 +1,7 @@
 package cn.mmf.slashblade_addon.client;
 
 import cn.mmf.slashblade_addon.SlashBladeAddon;
+import cn.mmf.slashblade_addon.init.SBAItems;
 import cn.mmf.slashblade_addon.compat.SBATofuCraftItems;
 import mods.flammpfeil.slashblade.client.renderer.model.BladeModel;
 import net.fabricmc.api.EnvType;
@@ -72,8 +73,39 @@ public class SJAPClientHandler {
     }
 
     public static void addCreative(CreativeModeTab itemGroup, FabricItemGroupEntries entries) {
-        if (FabricLoader.getInstance().isModLoaded("tofucraft")) {
-            if (itemGroup == SlashBladeAddon.SJAP_TAB) {
+        if (itemGroup == SlashBladeAddon.SJAP_TAB) {
+            entries.accept(SBAItems.SLASHBLADE_MURAKUMO);
+            entries.accept(SBAItems.SLASHBLADE_HF_MURASAMA);
+            entries.accept(SBAItems.SLASHBLADE_WANDERER);
+            entries.accept(SBAItems.SLASHBLADE_WANDERER_HF);
+            entries.accept(SBAItems.SLASHBLADE_KAMUY_NONE);
+            entries.accept(SBAItems.SLASHBLADE_KAMUY_WATER);
+            entries.accept(SBAItems.SLASHBLADE_KAMUY_FIRE);
+            entries.accept(SBAItems.SLASHBLADE_KAMUY_LIGHTNING);
+            entries.accept(SBAItems.SLASHBLADE_TERRA_BLADE);
+            entries.accept(SBAItems.SLASHBLADE_KIRISAYA);
+            entries.accept(SBAItems.SLASHBLADE_LAEMMLE);
+            entries.accept(SBAItems.SLASHBLADE_YUKARI);
+            entries.accept(SBAItems.SLASHBLADE_TBOEN);
+            entries.accept(SBAItems.SLASHBLADE_TOYAKO);
+            entries.accept(SBAItems.SLASHBLADE_NIHIL);
+            entries.accept(SBAItems.SLASHBLADE_NIHILEX);
+            entries.accept(SBAItems.SLASHBLADE_NIHILUL);
+            entries.accept(SBAItems.SLASHBLADE_CRIMSONCHERRY);
+            entries.accept(SBAItems.SLASHBLADE_NIHILBX);
+            entries.accept(SBAItems.SLASHBLADE_KATANA);
+            entries.accept(SBAItems.SLASHBLADE_TACHI);
+            entries.accept(SBAItems.SLASHBLADE_BLUE);
+            entries.accept(SBAItems.SLASHBLADE_GREEN_MIST);
+            entries.accept(SBAItems.SLASHBLADE_AQUABLAZE);
+            entries.accept(SBAItems.SLASHBLADE_MOONLIGHT_CHERRY);
+            entries.accept(SBAItems.SLASHBLADE_DARK_RAVEN);
+            entries.accept(SBAItems.SLASHBLADE_SNOW_CROW);
+            entries.accept(SBAItems.SLASHBLADE_FLUORESCENT_BAR);
+            entries.accept(SBAItems.SLASHBLADE_FROSTY_CHERRY);
+            entries.accept(SBAItems.SLASHBLADE_FROST_WOLF);
+
+            if (FabricLoader.getInstance().isModLoaded("tofucraft")) {
                 entries.accept(SBATofuCraftItems.getItem(SBATofuCraftItems.TOFUISHI_SLASHBLADE));
                 entries.accept(SBATofuCraftItems.getItem(SBATofuCraftItems.TOFUMETAL_SLASHBLADE));
                 entries.accept(SBATofuCraftItems.getItem(SBATofuCraftItems.TOFUDIAMOND_SLASHBLADE));
