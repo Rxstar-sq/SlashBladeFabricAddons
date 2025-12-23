@@ -18,6 +18,7 @@
       "lvl": 2
     }
   ],
+  "item": "slashblade_fabric_addons:slashblade_addon/crimsoncherry",
   "name": "slashblade_fabric_addons:slashblade_addon/crimsoncherry",
   "properties": {
     "attack_base": 11.0,

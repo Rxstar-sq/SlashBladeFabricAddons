@@ -24,6 +24,7 @@
       "id": "minecraft:looting"
     }
   ],
+  "item": "slashblade_fabric_addons:slashblade_addon/nihilex",
   "name": "slashblade_fabric_addons:slashblade_addon/nihilex",
   "properties": {
     "attack_base": 10.0,

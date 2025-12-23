@@ -6,6 +6,7 @@
       "lvl": 3
     }
   ],
+  "item": "slashblade_fabric_addons:slashblade_addon/fluorescent_bar",
   "name": "slashblade_fabric_addons:slashblade_addon/fluorescent_bar",
   "properties": {
     "attack_base": 2.0,

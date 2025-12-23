@@ -10,6 +10,7 @@
       "lvl": 3
     }
   ],
+  "item": "slashblade_fabric_addons:slashblade_addon/green_mist",
   "name": "slashblade_fabric_addons:slashblade_addon/green_mist",
   "properties": {
     "attack_base": 7.0,

@@ -5,6 +5,7 @@
       "id": "minecraft:power"
     }
   ],
+  "item": "slashblade_fabric_addons:slashblade_addon/terra_blade",
   "name": "slashblade_fabric_addons:slashblade_addon/terra_blade",
   "properties": {
     "attack_base": 6.0,

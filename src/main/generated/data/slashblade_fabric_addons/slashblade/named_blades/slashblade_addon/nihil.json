@@ -16,6 +16,7 @@
       "id": "minecraft:fire_aspect"
     }
   ],
+  "item": "slashblade_fabric_addons:slashblade_addon/nihil",
   "name": "slashblade_fabric_addons:slashblade_addon/nihil",
   "properties": {
     "attack_base": 8.0,

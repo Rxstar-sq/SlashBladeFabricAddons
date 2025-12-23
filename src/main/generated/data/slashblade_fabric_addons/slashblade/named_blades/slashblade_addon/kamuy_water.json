@@ -17,6 +17,7 @@
       "id": "minecraft:fire_protection"
     }
   ],
+  "item": "slashblade_fabric_addons:slashblade_addon/kamuy_water",
   "name": "slashblade_fabric_addons:slashblade_addon/kamuy_water",
   "properties": {
     "attack_base": 7.0,

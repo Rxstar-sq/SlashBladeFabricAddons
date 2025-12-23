@@ -10,6 +10,7 @@
       "lvl": 5
     }
   ],
+  "item": "slashblade_fabric_addons:slashblade_addon/kirisaya",
   "name": "slashblade_fabric_addons:slashblade_addon/kirisaya",
   "properties": {
     "attack_base": 3.0,

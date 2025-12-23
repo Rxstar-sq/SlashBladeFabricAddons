@@ -16,6 +16,7 @@
       "id": "minecraft:fire_aspect"
     }
   ],
+  "item": "slashblade_fabric_addons:slashblade_addon/kamuy_fire",
   "name": "slashblade_fabric_addons:slashblade_addon/kamuy_fire",
   "properties": {
     "attack_base": 7.0,

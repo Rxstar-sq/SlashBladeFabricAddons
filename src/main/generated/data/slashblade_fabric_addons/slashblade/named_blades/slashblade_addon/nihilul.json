@@ -26,6 +26,7 @@
       "lvl": 3
     }
   ],
+  "item": "slashblade_fabric_addons:slashblade_addon/nihilul",
   "name": "slashblade_fabric_addons:slashblade_addon/nihilul",
   "properties": {
     "attack_base": 12.0,

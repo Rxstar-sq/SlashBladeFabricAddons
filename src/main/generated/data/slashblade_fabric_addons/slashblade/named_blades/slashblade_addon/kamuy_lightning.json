@@ -13,6 +13,7 @@
       "id": "minecraft:feather_falling"
     }
   ],
+  "item": "slashblade_fabric_addons:slashblade_addon/kamuy_lightning",
   "name": "slashblade_fabric_addons:slashblade_addon/kamuy_lightning",
   "properties": {
     "attack_base": 7.0,

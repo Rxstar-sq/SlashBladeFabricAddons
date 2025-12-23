@@ -4,6 +4,7 @@ import cn.mmf.slashblade_addon.compat.SBATofuCraftItems;
 import cn.mmf.slashblade_addon.compat.botania.SBABotaniaCompat;
 import cn.mmf.slashblade_addon.registry.SBAComboStateRegistry;
 import cn.mmf.slashblade_addon.registry.SBAEntitiesRegistry;
+import cn.mmf.slashblade_addon.registry.SBAItems;
 import cn.mmf.slashblade_addon.registry.SBASlashArtsRegistry;
 import cn.mmf.slashblade_addon.registry.SBASpecialEffectsRegistry;
 import cn.sh1rocu.sfaddons.SFAddons;
@@ -43,6 +44,7 @@ public class SlashBladeAddon {
     public static void init() {
         register();
 
+        SBAItems.init();
         SBASlashArtsRegistry.init();
         SBAComboStateRegistry.init();
         SBASpecialEffectsRegistry.init();

@@ -5,6 +5,7 @@
       "id": "minecraft:smite"
     }
   ],
+  "item": "slashblade_fabric_addons:slashblade_addon/murakumo",
   "name": "slashblade_fabric_addons:slashblade_addon/murakumo",
   "properties": {
     "attack_base": 9.0,

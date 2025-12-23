@@ -22,6 +22,7 @@
       "lvl": 2
     }
   ],
+  "item": "slashblade_fabric_addons:slashblade_addon/nihilbx",
   "name": "slashblade_fabric_addons:slashblade_addon/nihilbx",
   "properties": {
     "attack_base": 13.0,

@@ -5,6 +5,7 @@
       "id": "minecraft:looting"
     }
   ],
+  "item": "slashblade_fabric_addons:slashblade_addon/kamuy_none",
   "name": "slashblade_fabric_addons:slashblade_addon/kamuy_none",
   "properties": {
     "attack_base": 7.0,

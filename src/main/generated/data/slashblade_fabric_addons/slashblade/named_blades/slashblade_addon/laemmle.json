@@ -6,6 +6,7 @@
       "lvl": 3
     }
   ],
+  "item": "slashblade_fabric_addons:slashblade_addon/laemmle",
   "name": "slashblade_fabric_addons:slashblade_addon/laemmle",
   "properties": {
     "attack_base": 7.0,

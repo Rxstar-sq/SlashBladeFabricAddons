@@ -10,7 +10,7 @@
       "lvl": 3
     }
   ],
-  "item": "slashblade:slashblade",
+  "item": "slashblade_fabric_addons:slashblade_addon/ciallo",
   "name": "slashblade_fabric_addons:cialloblade/ciallo",
   "properties": {
     "attack_base": 20.0,
