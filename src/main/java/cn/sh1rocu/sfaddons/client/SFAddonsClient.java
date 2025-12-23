@@ -6,6 +6,7 @@ import cn.mmf.slashblade_addon.client.SJAPClientHandler;
 import cn.mmf.slashblade_addon.compat.PlayerAnimationRegisterEvent;
 import cn.mmf.slashblade_addon.registry.SBAEntitiesRegistry;
 import io.github.fabricators_of_create.porting_lib.event.client.KeyInputCallback;
+import mods.flammpfeil.slashblade.SlashBladeCreativeGroup;
 import mods.flammpfeil.slashblade.client.renderer.entity.DriveRenderer;
 import mods.flammpfeil.slashblade.client.renderer.entity.SummonedSwordRenderer;
 import net.fabricmc.api.ClientModInitializer;
@@ -23,7 +24,8 @@ public class SFAddonsClient implements ClientModInitializer, ModelLoadingPlugin 
         // SJAP
         PlayerAnimationRegisterEvent.onRegisterPlayerAnim();
         SJAPClientHandler.doClientStuff();
-        ItemGroupEvents.MODIFY_ENTRIES_ALL.register(SJAPClientHandler::addCreative);
+        // 使用主模组的创造模式物品栏机制来自动添加所有定义的刀
+        ItemGroupEvents.MODIFY_ENTRIES_ALL.register(SlashBladeCreativeGroup::onCreativeTagBuilding);
         // EnergyBlade(HF Blade)
         ClientSetupHandler.setModelUser();
         ClientSetupHandler.registerKeyMapping();

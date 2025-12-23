@@ -5,7 +5,7 @@
   "key": {
     "B": {
       "fabric:type": "slashblade:blade",
-      "items": "slashblade:slashblade",
+      "items": "slashblade_fabric_addons:slashblade_addon/nihil",
       "request": {
         "kill": 1000,
         "name": "slashblade_fabric_addons:slashblade_addon/nihil",
@@ -60,6 +60,6 @@
       }
     },
     "count": 1,
-    "id": "slashblade:slashblade"
+    "id": "slashblade_fabric_addons:slashblade_addon/nihilex"
   }
 }

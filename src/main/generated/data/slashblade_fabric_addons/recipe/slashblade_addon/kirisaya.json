@@ -5,7 +5,7 @@
   "key": {
     "B": {
       "fabric:type": "slashblade:blade",
-      "items": "slashblade:slashblade_silverbamboo",
+      "items": "slashblade:slashblade",
       "request": {
         "enchantments": [
           {
@@ -65,6 +65,6 @@
       }
     },
     "count": 1,
-    "id": "slashblade:slashblade"
+    "id": "slashblade_fabric_addons:slashblade_addon/kirisaya"
   }
 }

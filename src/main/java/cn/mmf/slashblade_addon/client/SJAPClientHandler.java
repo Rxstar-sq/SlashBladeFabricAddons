@@ -72,6 +72,7 @@ public class SJAPClientHandler {
     }
 
     public static void addCreative(CreativeModeTab itemGroup, FabricItemGroupEntries entries) {
+        // TofuCraft兼容模块的特殊刀
         if (FabricLoader.getInstance().isModLoaded("tofucraft")) {
             if (itemGroup == SlashBladeAddon.SJAP_TAB) {
                 entries.accept(SBATofuCraftItems.getItem(SBATofuCraftItems.TOFUISHI_SLASHBLADE));

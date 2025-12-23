@@ -5,7 +5,7 @@
   "key": {
     "B": {
       "fabric:type": "slashblade:blade",
-      "items": "slashblade:slashblade",
+      "items": "slashblade_fabric_addons:slashblade_addon/nihilex",
       "request": {
         "kill": 3000,
         "name": "slashblade_fabric_addons:slashblade_addon/nihilex",
@@ -66,6 +66,14 @@
       }
     },
     "count": 1,
-    "id": "slashblade:slashblade"
-  }
+    "id": "slashblade_fabric_addons:slashblade_addon/nihilul"
+  },
+  "conditions": [
+    {
+      "type": "fabric:all_mods_loaded",
+      "values": [
+        "slashblade"
+      ]
+    }
+  ]
 }

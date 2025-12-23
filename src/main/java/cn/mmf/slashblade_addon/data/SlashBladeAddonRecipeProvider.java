@@ -1,6 +1,7 @@
 package cn.mmf.slashblade_addon.data;
 
 import cn.mmf.slashblade_addon.SlashBladeAddon;
+import cn.mmf.slashblade_addon.registry.SBAItems;
 import mods.flammpfeil.slashblade.data.builtin.SlashBladeBuiltInRegistry;
 import mods.flammpfeil.slashblade.init.SBItems;
 import mods.flammpfeil.slashblade.item.SwordType;

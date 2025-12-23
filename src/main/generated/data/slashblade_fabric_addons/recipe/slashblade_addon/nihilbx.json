@@ -5,7 +5,7 @@
   "key": {
     "C": {
       "fabric:type": "slashblade:blade",
-      "items": "slashblade:slashblade",
+      "items": "slashblade_fabric_addons:slashblade_addon/crimsoncherry",
       "request": {
         "kill": 3000,
         "name": "slashblade_fabric_addons:slashblade_addon/crimsoncherry",
@@ -23,7 +23,7 @@
     },
     "U": {
       "fabric:type": "slashblade:blade",
-      "items": "slashblade:slashblade",
+      "items": "slashblade_fabric_addons:slashblade_addon/nihilul",
       "request": {
         "kill": 3000,
         "name": "slashblade_fabric_addons:slashblade_addon/nihilul",
@@ -66,6 +66,6 @@
       }
     },
     "count": 1,
-    "id": "slashblade:slashblade"
+    "id": "slashblade_fabric_addons:slashblade_addon/nihilbx"
   }
 }

@@ -69,6 +69,14 @@
       }
     },
     "count": 1,
-    "id": "slashblade:slashblade"
-  }
+    "id": "slashblade_fabric_addons:slashblade_addon/green_mist"
+  },
+  "conditions": [
+    {
+      "type": "fabric:all_mods_loaded",
+      "values": [
+        "slashblade"
+      ]
+    }
+  ]
 }

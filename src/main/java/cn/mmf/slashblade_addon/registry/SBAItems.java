@@ -3,9 +3,9 @@ package cn.mmf.slashblade_addon.registry;
 import cn.mmf.slashblade_addon.SlashBladeAddon;
 import mods.flammpfeil.slashblade.item.ItemSlashBlade;
 import mods.flammpfeil.slashblade.item.ItemTierSlashBlade;
+import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Registry;
 
 /**
  * 附属模组刀的Item注册类
@@ -14,67 +14,69 @@ import net.minecraft.world.item.Registry;
 public class SBAItems {
     
     // slashblade_addon
-    public static final Item SLASHBLADE_ADDON_AQUABLAZE = register("slashblade_addon/aquablaze", 
+    public static final Item SLASHBLADE_ADDON_AQUABLAZE = register("aquablaze", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_BLUE = register("slashblade_addon/blue", 
+    public static final Item SLASHBLADE_ADDON_BLUE = register("blue", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_CRIMSONCHERRY = register("slashblade_addon/crimsoncherry", 
+    public static final Item SLASHBLADE_ADDON_CRIMSONCHERRY = register("crimsoncherry", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_DARK_RAVEN = register("slashblade_addon/dark_raven", 
+    public static final Item SLASHBLADE_ADDON_DARK_RAVEN = register("dark_raven", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_FLUORESCENT_BAR = register("slashblade_addon/fluorescent_bar", 
+    public static final Item SLASHBLADE_ADDON_FLUORESCENT_BAR = register("fluorescent_bar", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_FROSTY_CHERRY = register("slashblade_addon/frosty_cherry", 
+    public static final Item SLASHBLADE_ADDON_FROSTY_CHERRY = register("frosty_cherry", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_FROST_WOLF = register("slashblade_addon/frost_wolf", 
+    public static final Item SLASHBLADE_ADDON_FROST_WOLF = register("frost_wolf", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_GREEN_MIST = register("slashblade_addon/green_mist", 
+    public static final Item SLASHBLADE_ADDON_GREEN_MIST = register("green_mist", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_HF_MURASAMA = register("slashblade_addon/hf_murasama", 
+    public static final Item SLASHBLADE_ADDON_HF_MURASAMA = register("hf_murasama", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_KAMUY_FIRE = register("slashblade_addon/kamuy_fire", 
+    public static final Item SLASHBLADE_ADDON_KAMUY_FIRE = register("kamuy_fire", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_KAMUY_LIGHTNING = register("slashblade_addon/kamuy_lightning", 
+    public static final Item SLASHBLADE_ADDON_KAMUY_LIGHTNING = register("kamuy_lightning", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_KAMUY_NONE = register("slashblade_addon/kamuy_none", 
+    public static final Item SLASHBLADE_ADDON_KAMUY_NONE = register("kamuy_none", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_KAMUY_WATER = register("slashblade_addon/kamuy_water", 
+    public static final Item SLASHBLADE_ADDON_KAMUY_WATER = register("kamuy_water", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_KATANA = register("slashblade_addon/katana", 
+    public static final Item SLASHBLADE_ADDON_KATANA = register("katana", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_KIRISAYA = register("slashblade_addon/kirisaya", 
+    public static final Item SLASHBLADE_ADDON_KIRISAYA = register("kirisaya", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_LAEMMLE = register("slashblade_addon/laemmle", 
+    public static final Item SLASHBLADE_ADDON_LAEMMLE = register("laemmle", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_MOONLIGHT_CHERRY = register("slashblade_addon/moonlight_cherry", 
+    public static final Item SLASHBLADE_ADDON_MOONLIGHT_CHERRY = register("moonlight_cherry", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_MURAKUMO = register("slashblade_addon/murakumo", 
+    public static final Item SLASHBLADE_ADDON_MURAKUMO = register("murakumo", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_NIHIL = register("slashblade_addon/nihil", 
+    public static final Item SLASHBLADE_ADDON_NIHIL = register("nihil", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_NIHILBX = register("slashblade_addon/nihilbx", 
+    public static final Item SLASHBLADE_ADDON_NIHILBX = register("nihilbx", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_NIHILEX = register("slashblade_addon/nihilex", 
+    public static final Item SLASHBLADE_ADDON_NIHILEX = register("nihilex", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_NIHILUL = register("slashblade_addon/nihilul", 
+    public static final Item SLASHBLADE_ADDON_NIHILUL = register("nihilul", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_SNOW_CROW = register("slashblade_addon/snow_crow", 
+    public static final Item SLASHBLADE_ADDON_SNOW_CROW = register("snow_crow", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_TACHI = register("slashblade_addon/tachi", 
+    public static final Item SLASHBLADE_ADDON_TACHI = register("tachi", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_TBOEN = register("slashblade_addon/tboen", 
+    public static final Item SLASHBLADE_ADDON_TBOEN = register("tboen", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_TERRA_BLADE = register("slashblade_addon/terra_blade", 
+    public static final Item SLASHBLADE_ADDON_TERRA_BLADE = register("terra_blade", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_TOYAKO = register("slashblade_addon/toyako", 
+    public static final Item SLASHBLADE_ADDON_TOYAKO = register("toyako", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_WANDERER = register("slashblade_addon/wanderer", 
+    public static final Item SLASHBLADE_ADDON_WANDERER = register("wanderer", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_WANDERER_HF = register("slashblade_addon/wanderer_hf", 
+    public static final Item SLASHBLADE_ADDON_WANDERER_HF = register("wanderer_hf", 
+            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+    public static final Item SLASHBLADE_ADDON_YUKARI = register("yukari", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
     
     // ciallo 刀
-    public static final Item SLASHBLADE_ADDON_CIALLO = register("slashblade_addon/ciallo", 
+    public static final Item SLASHBLADE_ADDON_CIALLO = register("ciallo", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
     
     public static void init() {
@@ -116,6 +118,7 @@ public class SBAItems {
             case "toyako" -> SLASHBLADE_ADDON_TOYAKO;
             case "wanderer" -> SLASHBLADE_ADDON_WANDERER;
             case "wanderer_hf" -> SLASHBLADE_ADDON_WANDERER_HF;
+                        case "yukari" -> SLASHBLADE_ADDON_YUKARI;
             case "ciallo" -> SLASHBLADE_ADDON_CIALLO;
             default -> null;
         };

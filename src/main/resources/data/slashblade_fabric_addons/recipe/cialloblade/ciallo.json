@@ -1,11 +1,11 @@
 {
   "type": "slashblade:shaped_blade",
-  "blade": "slashblade_fabric_addons:cialloblade/ciallo",
+  "blade": "slashblade_fabric_addons:slashblade_addon/ciallo",
   "category": "equipment",
   "key": {
     "E": {
-      "type": "slashblade:blade",
-      "item": "slashblade:slashblade",
+      "fabric:type": "slashblade:blade",
+      "items": "slashblade:slashblade",
       "request": {
         "kill": 10,
         "name": "slashblade:doutanuki",
@@ -43,7 +43,7 @@
     "CGK"
   ],
   "result": {
-    "id": "slashblade:slashblade"
+    "id": "slashblade_fabric_addons:slashblade_addon/ciallo"
   },
   "show_notification": true
 }

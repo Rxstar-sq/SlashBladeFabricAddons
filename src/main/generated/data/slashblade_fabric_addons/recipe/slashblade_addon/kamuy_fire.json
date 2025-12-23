@@ -8,7 +8,7 @@
     },
     "B": {
       "fabric:type": "slashblade:blade",
-      "items": "slashblade:slashblade",
+      "items": "slashblade_fabric_addons:slashblade_addon/kamuy_none",
       "request": {
         "kill": 500,
         "name": "slashblade_fabric_addons:slashblade_addon/kamuy_none",
@@ -63,6 +63,6 @@
       }
     },
     "count": 1,
-    "id": "slashblade:slashblade"
+    "id": "slashblade_fabric_addons:slashblade_addon/kamuy_fire"
   }
 }
