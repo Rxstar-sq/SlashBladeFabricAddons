@@ -1,32 +1,46 @@
 {
   "type": "slashblade:shaped_blade",
-  "blade": "slashblade_fabric_addons:slashblade_addon/yukari",
+  "blade": "slashblade_fabric_addons:slashblade_addon/ciallo",
   "category": "equipment",
   "key": {
-    "B": {
+    "E": {
       "fabric:type": "slashblade:blade",
-      "items": "slashblade:slashblade_yuzukitukumo",
+      "items": "slashblade:slashblade_doutanuki",
       "request": {
-        "enchantments": [
-          {
-            "id": "minecraft:fire_aspect"
-          }
-        ],
-        "kill": 1000,
-        "name": "slashblade:yuzukitukumo"
+        "kill": 10,
+        "name": "slashblade:doutanuki",
+        "refine": 20
       }
     },
-    "I": {
-      "item": "slashblade:proudsoul_ingot"
+    "A": {
+      "item": "minecraft:beetroot_soup"
     },
-    "S": {
-      "item": "slashblade:proudsoul_sphere"
+    "B": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "C": {
+      "item": "minecraft:beetroot_soup"
+    },
+    "D": {
+      "item": "minecraft:rabbit_stew"
+    },
+    "G": {
+      "item": "minecraft:cake"
+    },
+    "H": {
+      "item": "minecraft:salmon_bucket"
+    },
+    "K": {
+      "item": "minecraft:cod_bucket"
+    },
+    "F": {
+      "item": "minecraft:tropical_fish_bucket"
     }
   },
   "pattern": [
-    "ISI",
-    "SBS",
-    "ISI"
+    "ABH",
+    "DEF",
+    "CGK"
   ],
   "result": {
     "components": {
@@ -48,7 +62,7 @@
           },
           {
             "type": "minecraft:generic.attack_damage",
-            "amount": 3.0,
+            "amount": 1.0,
             "id": "minecraft:base_attack_damage",
             "operation": "add_value",
             "slot": "mainhand"
@@ -57,14 +71,7 @@
       }
     },
     "count": 1,
-    "id": "slashblade_fabric_addons:slashblade_addon/yukari"
+    "id": "slashblade_fabric_addons:slashblade_addon/ciallo"
   },
-  "conditions": [
-    {
-      "type": "fabric:all_mods_loaded",
-      "values": [
-        "slashblade"
-      ]
-    }
-  ]
+  "show_notification": true
 }

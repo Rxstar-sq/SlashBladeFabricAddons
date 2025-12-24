@@ -118,7 +118,7 @@ public class SBAItems {
             case "toyako" -> SLASHBLADE_ADDON_TOYAKO;
             case "wanderer" -> SLASHBLADE_ADDON_WANDERER;
             case "wanderer_hf" -> SLASHBLADE_ADDON_WANDERER_HF;
-                        case "yukari" -> SLASHBLADE_ADDON_YUKARI;
+            case "yukari" -> SLASHBLADE_ADDON_YUKARI;
             case "ciallo" -> SLASHBLADE_ADDON_CIALLO;
             default -> null;
         };

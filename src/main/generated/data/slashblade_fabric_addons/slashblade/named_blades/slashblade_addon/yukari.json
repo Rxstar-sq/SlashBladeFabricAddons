@@ -1,5 +1,6 @@
 {
   "creativeGroup": "slashblade_fabric_addons:slashblade_addon/sjap_tab",
+  "item": "slashblade_fabric_addons:slashblade_addon/yukari",
   "name": "slashblade_fabric_addons:slashblade_addon/yukari",
   "properties": {
     "attack_base": 8.0,
