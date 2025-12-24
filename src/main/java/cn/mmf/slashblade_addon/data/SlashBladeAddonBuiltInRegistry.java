@@ -2,6 +2,7 @@ package cn.mmf.slashblade_addon.data;
 
 import cn.mmf.energyblade.Energyblade;
 import cn.mmf.slashblade_addon.SlashBladeAddon;
+import cn.mmf.slashblade_addon.registry.SBAItems;
 import cn.mmf.slashblade_addon.registry.SBASlashArtsRegistry;
 import cn.mmf.slashblade_addon.registry.SBASpecialEffectsRegistry;
 import mods.flammpfeil.slashblade.client.renderer.CarryType;
@@ -284,7 +285,7 @@ public class SlashBladeAddonBuiltInRegistry {
 
         //Yukari
         bootstrap.register(YUKARI,
-                new SJAPDefinition(SlashBladeAddon.prefix("yukari"),
+                new SJAPDefinition(BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_ADDON_YUKARI), SlashBladeAddon.prefix("yukari"),
                         RenderDefinition.Builder.newInstance()
                                 .textureName(SlashBladeAddon.prefix("model/yukari/texture.png"))
                                 .modelName(SlashBladeAddon.prefix("model/yukari/model.obj"))
