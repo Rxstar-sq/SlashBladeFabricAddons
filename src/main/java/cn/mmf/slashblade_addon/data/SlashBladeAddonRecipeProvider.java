@@ -2,6 +2,7 @@ package cn.mmf.slashblade_addon.data;
 
 import cn.mmf.slashblade_addon.SlashBladeAddon;
 import cn.mmf.slashblade_addon.registry.SBAItems;
+import mods.flammpfeil.slashblade.SlashBlade;
 import mods.flammpfeil.slashblade.data.builtin.SlashBladeBuiltInRegistry;
 import mods.flammpfeil.slashblade.init.SBItems;
 import mods.flammpfeil.slashblade.item.SwordType;
@@ -38,7 +39,7 @@ public class SlashBladeAddonRecipeProvider extends FabricRecipeProvider {
                 .define('L', Items.LEVER)
                 .define('B',
                         SlashBladeIngredient.of(RequestDefinition.Builder.newInstance()
-                                .name(SlashBladeBuiltInRegistry.MURAMASA.location()).build()).toVanilla())
+                                .name(SlashBlade.prefix("slashblade_muramasa")).build()).toVanilla())
                 .unlockedBy(getHasName(SBItems.SLASHBLADE), has(SBItems.SLASHBLADE))
                 .save(consumer, SlashBladeAddon.prefix("murasama_blade"));
 
@@ -51,7 +52,7 @@ public class SlashBladeAddonRecipeProvider extends FabricRecipeProvider {
                 .define('I', ConventionalItemTags.REDSTONE_DUSTS)
                 .define('Q', ConventionalItemTags.QUARTZ_GEMS)
                 .define('B',
-                        SlashBladeIngredient.of(RequestDefinition.Builder.newInstance()
+                        SlashBladeIngredient.of(SBAItems.SLASHBLADE_ADDON_WANDERER, RequestDefinition.Builder.newInstance()
                                 .name(SlashBladeAddonBuiltInRegistry.WANDERER.location()).build()).toVanilla())
                 .unlockedBy(getHasName(SBItems.SLASHBLADE), has(SBItems.SLASHBLADE))
                 .save(consumer, SlashBladeAddon.prefix("wanderer_hf"));
@@ -65,7 +66,7 @@ public class SlashBladeAddonRecipeProvider extends FabricRecipeProvider {
                 .define('Q', ConventionalItemTags.QUARTZ_GEMS)
                 .define('B',
                         SlashBladeIngredient.of(RequestDefinition.Builder.newInstance()
-                                .name(SlashBladeBuiltInRegistry.DOUTANUKI.location()).build()).toVanilla())
+                                .name(SlashBlade.prefix("slashblade_doutanuki")).build()).toVanilla())
                 .unlockedBy(getHasName(SBItems.SLASHBLADE), has(SBItems.SLASHBLADE)).save(consumer);
 
         // TODO: TofuCraft Fabric移植
@@ -154,7 +155,7 @@ public class SlashBladeAddonRecipeProvider extends FabricRecipeProvider {
                 .pattern("DBD").pattern("SYS").define('S', SlashBladeIngredient.of(RequestDefinition.Builder.newInstance().build()).toVanilla())
                 .define('Y',
                         SlashBladeIngredient.of(RequestDefinition.Builder.newInstance()
-                                .name(SlashBladeBuiltInRegistry.YAMATO.location()).build()).toVanilla())
+                                .name(SlashBlade.prefix("slashblade_yamato")).build()).toVanilla())
                 .define('N', Items.NETHER_STAR).define('D', Items.DIAMOND_BLOCK)
                 .define('B',
                         SlashBladeIngredient.of(RequestDefinition.Builder.newInstance()
@@ -214,7 +215,7 @@ public class SlashBladeAddonRecipeProvider extends FabricRecipeProvider {
                 .define('E', Items.EMERALD_BLOCK).define('G', Items.GOLD_BLOCK).define('C', Items.CHERRY_LEAVES)
                 .define('B',
                         SlashBladeIngredient.of(RequestDefinition.Builder.newInstance()
-                                .name(SlashBladeBuiltInRegistry.MURAMASA.location()).killCount(1000).proudSoul(10000)
+                                .name(SlashBlade.prefix("slashblade_muramasa")).killCount(1000).proudSoul(10000)
                                 .refineCount(25)
                                 .addEnchantment(new EnchantmentDefinition(Enchantments.POWER.location(), 3))
                                 .build()).toVanilla())
@@ -226,7 +227,7 @@ public class SlashBladeAddonRecipeProvider extends FabricRecipeProvider {
                 .define('C', Items.CHERRY_LEAVES)
                 .define('B',
                         SlashBladeIngredient.of(RequestDefinition.Builder.newInstance()
-                                .name(SlashBladeBuiltInRegistry.MURAMASA.location()).killCount(1000).proudSoul(10000)
+                                .name(SlashBlade.prefix("slashblade_muramasa")).killCount(1000).proudSoul(10000)
                                 .refineCount(25)
                                 .addEnchantment(new EnchantmentDefinition(Enchantments.FIRE_PROTECTION.location(), 1))
                                 .build()).toVanilla())
@@ -238,7 +239,7 @@ public class SlashBladeAddonRecipeProvider extends FabricRecipeProvider {
                 .define('C', Items.CHERRY_LEAVES)
                 .define('B',
                         SlashBladeIngredient.of(RequestDefinition.Builder.newInstance()
-                                .name(SlashBladeBuiltInRegistry.MURAMASA.location()).killCount(1000).proudSoul(10000)
+                                .name(SlashBlade.prefix("slashblade_muramasa")).killCount(1000).proudSoul(10000)
                                 .refineCount(25)
                                 .addEnchantment(new EnchantmentDefinition(Enchantments.THORNS.location(), 1))
                                 .build()).toVanilla())
@@ -250,7 +251,7 @@ public class SlashBladeAddonRecipeProvider extends FabricRecipeProvider {
                 .define('Q', Items.QUARTZ_BLOCK)
                 .define('B',
                         SlashBladeIngredient.of(RequestDefinition.Builder.newInstance()
-                                .name(SlashBladeBuiltInRegistry.DOUTANUKI.location()).build()).toVanilla())
+                                .name(SlashBlade.prefix("slashblade_doutanuki")).build()).toVanilla())
                 .unlockedBy(getHasName(SBItems.SLASHBLADE), has(SBItems.SLASHBLADE)).save(consumer);
 
         // Fluorescent Bar
@@ -265,7 +266,7 @@ public class SlashBladeAddonRecipeProvider extends FabricRecipeProvider {
                 .define('S', Items.SNOW_BLOCK).define('P', SBItems.PROUDSOUL_SPHERE).define('Q', Items.QUARTZ)
                 .define('B',
                         SlashBladeIngredient.of(RequestDefinition.Builder.newInstance()
-                                .name(SlashBladeBuiltInRegistry.DOUTANUKI.location()).refineCount(10)
+                                .name(SlashBlade.prefix("slashblade_doutanuki")).refineCount(10)
                                 .addEnchantment(new EnchantmentDefinition(Enchantments.FIRE_PROTECTION.location(), 1))
                                 .build()).toVanilla())
                 .unlockedBy(getHasName(SBItems.SLASHBLADE), has(SBItems.SLASHBLADE)).save(consumer);
@@ -275,7 +276,7 @@ public class SlashBladeAddonRecipeProvider extends FabricRecipeProvider {
                 .define('S', Items.SNOW_BLOCK).define('P', SBItems.PROUDSOUL_SPHERE).define('Q', Items.QUARTZ)
                 .define('B',
                         SlashBladeIngredient.of(RequestDefinition.Builder.newInstance()
-                                .name(SlashBladeBuiltInRegistry.MURAMASA.location()).refineCount(25)
+                                .name(SlashBlade.prefix("slashblade_muramasa")).refineCount(25)
                                 .addEnchantment(new EnchantmentDefinition(Enchantments.FIRE_PROTECTION.location(), 1))
                                 .build()).toVanilla())
                 .unlockedBy(getHasName(SBItems.SLASHBLADE), has(SBItems.SLASHBLADE)).save(consumer);
@@ -285,7 +286,7 @@ public class SlashBladeAddonRecipeProvider extends FabricRecipeProvider {
                 .define('S', SBItems.PROUDSOUL_SPHERE)
                 .define('B',
                         SlashBladeIngredient.of(RequestDefinition.Builder.newInstance()
-                                .name(SlashBladeBuiltInRegistry.TUKUMO.location()).killCount(1000)
+                                .name(SlashBlade.prefix("slashblade_yuzukitukumo")).killCount(1000)
                                 .addEnchantment(new EnchantmentDefinition(Enchantments.FIRE_ASPECT.location(), 1))
                                 .build()).toVanilla())
                 .unlockedBy(getHasName(SBItems.SLASHBLADE), has(SBItems.SLASHBLADE)).save(consumer);
@@ -307,7 +308,7 @@ public class SlashBladeAddonRecipeProvider extends FabricRecipeProvider {
                 .define('Q', Items.QUARTZ_BLOCK).define('O', ConventionalItemTags.OBSIDIANS)
                 .define('B',
                         SlashBladeIngredient.of(RequestDefinition.Builder.newInstance()
-                                .name(SlashBladeBuiltInRegistry.MURAMASA.location()).build()).toVanilla())
+                                .name(SlashBlade.prefix("slashblade_muramasa")).build()).toVanilla())
                 .unlockedBy(getHasName(SBItems.SLASHBLADE), has(SBItems.SLASHBLADE)).save(consumer);
 
         SlashBladeShapedRecipeBuilder.shaped(SlashBladeAddonBuiltInRegistry.TBOEN.location()).pattern("SSS")

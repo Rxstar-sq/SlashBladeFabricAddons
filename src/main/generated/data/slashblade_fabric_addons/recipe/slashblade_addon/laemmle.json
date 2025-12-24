@@ -7,7 +7,7 @@
       "fabric:type": "slashblade:blade",
       "items": "slashblade:slashblade_muramasa",
       "request": {
-        "name": "slashblade:muramasa"
+        "name": "slashblade:slashblade_muramasa"
       }
     },
     "G": {

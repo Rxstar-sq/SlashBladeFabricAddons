@@ -7,7 +7,7 @@
       "fabric:type": "slashblade:blade",
       "items": "slashblade:slashblade_doutanuki",
       "request": {
-        "name": "slashblade:doutanuki"
+        "name": "slashblade:slashblade_doutanuki"
       }
     },
     "F": {
