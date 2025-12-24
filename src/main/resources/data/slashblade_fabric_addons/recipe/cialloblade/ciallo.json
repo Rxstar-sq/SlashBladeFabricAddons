@@ -8,7 +8,7 @@
       "items": "slashblade:slashblade_doutanuki",
       "request": {
         "kill": 10,
-        "name": "slashblade:doutanuki",
+        "name": "slashblade:slashblade_doutanuki",
         "refine": 20
       }
     },
