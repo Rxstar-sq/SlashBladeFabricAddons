@@ -1,5 +1,37 @@
 {
+  "replace": false,
   "values": [
-    "slashblade_fabric_addons:energyblade/forge_energy_blade"
-  ]
+    "slashblade_fabric_addons:energyblade/forge_energy_blade",
+    "slashblade_fabric_addons:slashblade_addon/aquablaze",
+    "slashblade_fabric_addons:slashblade_addon/blue",
+    "slashblade_fabric_addons:slashblade_addon/crimsoncherry",
+    "slashblade_fabric_addons:slashblade_addon/dark_raven",
+    "slashblade_fabric_addons:slashblade_addon/fluorescent_bar",
+    "slashblade_fabric_addons:slashblade_addon/frosty_cherry",
+    "slashblade_fabric_addons:slashblade_addon/frost_wolf",
+    "slashblade_fabric_addons:slashblade_addon/green_mist",
+    "slashblade_fabric_addons:slashblade_addon/hf_murasama",
+    "slashblade_fabric_addons:slashblade_addon/kamuy_fire",
+    "slashblade_fabric_addons:slashblade_addon/kamuy_lightning",
+    "slashblade_fabric_addons:slashblade_addon/kamuy_none",
+    "slashblade_fabric_addons:slashblade_addon/kamuy_water",
+    "slashblade_fabric_addons:slashblade_addon/katana",
+    "slashblade_fabric_addons:slashblade_addon/kirisaya",
+    "slashblade_fabric_addons:slashblade_addon/laemmle",
+    "slashblade_fabric_addons:slashblade_addon/moonlight_cherry",
+    "slashblade_fabric_addons:slashblade_addon/murakumo",
+    "slashblade_fabric_addons:slashblade_addon/nihil",
+    "slashblade_fabric_addons:slashblade_addon/nihilbx",
+    "slashblade_fabric_addons:slashblade_addon/nihilex",
+    "slashblade_fabric_addons:slashblade_addon/nihilul",
+    "slashblade_fabric_addons:slashblade_addon/snow_crow",
+    "slashblade_fabric_addons:slashblade_addon/tachi",
+    "slashblade_fabric_addons:slashblade_addon/tboen",
+    "slashblade_fabric_addons:slashblade_addon/terra_blade",
+    "slashblade_fabric_addons:slashblade_addon/toyako",
+    "slashblade_fabric_addons:slashblade_addon/wanderer",
+    "slashblade_fabric_addons:slashblade_addon/wanderer_hf",
+    "slashblade_fabric_addons:slashblade_addon/yukari",
+    "slashblade_fabric_addons:slashblade_addon/ciallo"
+    ]
 }
