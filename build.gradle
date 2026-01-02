@@ -24,7 +24,7 @@ loom {
     }
     runs {
         datagen {
-            property "fabric-api.datagen.modid", "slashblade_fabric_addons"
+            property "fabric-api.datagen.modid", "slashblade_fabric_RE_addons"
         }
     }
 }
