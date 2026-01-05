@@ -11,7 +11,7 @@
       "items": "slashblade:slashblade_rodai_iron",
       "request": {
         "kill": 10,
-        "name": "slashblade:rodai_iron"
+        "name": "slashblade:slashblade_rodai_iron"
       }
     },
     "D": {
@@ -31,7 +31,7 @@
       "items": "slashblade:slashblade_rodai_iron",
       "request": {
         "kill": 10,
-        "name": "slashblade:rodai_iron"
+        "name": "slashblade:slashblade_rodai_iron"
       }
     },
     "X": {
