@@ -74,6 +74,8 @@ public class SBAItems {
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
     public static final Item SLASHBLADE_ADDON_YUKARI = register("yukari", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+    public static final Item SLASHBLADE_ADDON_FOXHEXAGRAM = register("foxhexagram", 
+            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));            
     
     // ciallo 刀
     public static final Item SLASHBLADE_ADDON_CIALLO = register("ciallo", 
@@ -120,6 +122,7 @@ public class SBAItems {
             case "wanderer_hf" -> SLASHBLADE_ADDON_WANDERER_HF;
             case "yukari" -> SLASHBLADE_ADDON_YUKARI;
             case "ciallo" -> SLASHBLADE_ADDON_CIALLO;
+            case "foxhexagram" -> SLASHBLADE_ADDON_FOXHEXAGRAM;
             default -> null;
         };
     }

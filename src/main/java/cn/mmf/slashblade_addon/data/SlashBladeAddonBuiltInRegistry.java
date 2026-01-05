@@ -91,6 +91,8 @@ public class SlashBladeAddonBuiltInRegistry {
 
     public static final ResourceKey<SlashBladeDefinition> MURAKUMO = register("murakumo");
 
+    public static final ResourceKey<SlashBladeDefinition> FOXHEXAGRAM = register("foxhexagram");
+
 
     private static final Map<ResourceKey<SlashBladeDefinition>, List<ResourceCondition>> CONDITIONS = new HashMap<>();
 
@@ -620,6 +622,24 @@ public class SlashBladeAddonBuiltInRegistry {
                                         List.of()
                                 )
                 );
+        bootstrap.register(FOXHEXAGRAM,
+        new SJAPDefinition(SlashBladeAddon.prefix("foxhexagram"),
+                RenderDefinition.Builder.newInstance()
+                        .textureName(SlashBladeAddon.prefix("model/foxhexagram/foxhexagram.png"))
+                        .modelName(SlashBladeAddon.prefix("model/foxhexagram/foxhexagram.obj"))
+                        .effectColor(0xFFAC28)
+                        .build(),
+                PropertiesDefinition.Builder.newInstance()
+                        .baseAttackModifier(39.0F)
+                        .maxDamage(180)
+                        .defaultSwordType(List.of(SwordType.BEWITCHED))
+                        .build(),
+                List.of(
+                        new EnchantmentDefinition(getEnchantmentID(Enchantments.SOUL_SPEED), 4),
+                        new EnchantmentDefinition(getEnchantmentID(Enchantments.POWER), 10),
+                        new EnchantmentDefinition(getEnchantmentID(Enchantments.UNBREAKING), 5),
+                        new EnchantmentDefinition(getEnchantmentID(Enchantments.MENDING), 3)
+                )));
 
     }
 
