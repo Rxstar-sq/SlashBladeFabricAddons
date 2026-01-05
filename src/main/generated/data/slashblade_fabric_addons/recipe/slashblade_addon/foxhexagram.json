@@ -1,0 +1,51 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_fabric_addons:slashblade_addon/foxhexagram",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade_fox_white",
+      "request": {
+        "name": "slashblade:fox_white"
+      }
+    },
+    "B": {
+      "item": "minecraft:sea_lantern"
+    },
+    "C": {
+      "item": "minecraft:netherite_block"
+    },
+    "D": {
+      "item": "minecraft:nether_star"
+    },
+    "E": {
+      "type": "slashblade:blade",
+      "item": "slashblade_fabric_addons:slashblade_addon/hexagram",
+      "request": {
+        "kill": 1000,
+        "name": "slashblade_fabric_addons:slashblade_addon/hexagram",
+        "proud_soul": 17000
+      }
+    },
+    "F": {
+      "item": "minecraft:nether_star"
+    },
+    "G": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade_fox_black",
+      "request": {
+        "name": "slashblade:fox_black"
+      }
+    }
+  },
+  "pattern": [
+    "ABC",
+    "DEB",
+    "FDG"
+  ],
+  "result": {
+    "item": "slashblade_fabric_addons:slashblade_addon/foxhexagram"
+  },
+  "show_notification": true
+}

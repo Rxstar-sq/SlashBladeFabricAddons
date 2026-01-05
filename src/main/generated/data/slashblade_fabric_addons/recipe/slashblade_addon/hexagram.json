@@ -1,0 +1,39 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_fabric_addons:slashblade_addon/hexagram",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:blaze_powder"
+    },
+    "B": {
+      "item": "minecraft:ender_pearl"
+    },
+    "C": {
+      "item": "slashblade:proudsoul_trapezohedron"
+    },
+    "D": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade_rodai_netherite",
+      "request": {
+        "kill": 1000,
+        "name": "slashblade:rodai_netherite"
+      }
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    },
+    "F": {
+      "item": "minecraft:sea_lantern"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "DED",
+    "DF "
+  ],
+  "result": {
+    "item": "slashblade_fabric_addons:slashblade_addon/hexagram"
+  },
+  "show_notification": true
+}

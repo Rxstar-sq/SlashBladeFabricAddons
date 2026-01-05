@@ -314,6 +314,40 @@ public class SlashBladeAddonRecipeProvider extends FabricRecipeProvider {
         SlashBladeShapedRecipeBuilder.shaped(SlashBladeAddonBuiltInRegistry.TBOEN.location()).pattern("SSS")
                 .pattern("SBS").pattern("SSS").define('S', SBItems.PROUDSOUL).define('B', SBItems.SLASHBLADE_WHITE)
                 .unlockedBy(getHasName(SBItems.SLASHBLADE_WHITE), has(SBItems.SLASHBLADE_WHITE)).save(consumer);
+        
+                // Hexagram
+        SlashBladeShapedRecipeBuilder.shaped(SlashBladeAddonBuiltInRegistry.HEXAGRAM.location())
+                .pattern("SBS")
+                .pattern("IBQ")
+                .pattern("SUS")
+                .define('S', SBItems.PROUDSOUL_SPHERE)
+                .define('I', SBItems.PROUDSOUL_INGOT)
+                .define('B', SlashBladeIngredient.of(RequestDefinition.Builder.newInstance().build()).toVanilla())
+                .define('Q', Items.QUARTZ_BLOCK)
+                .define('U', Items.NETHER_STAR)
+                .unlockedBy(getHasName(SBItems.SLASHBLADE), has(SBItems.SLASHBLADE)).save(consumer);
+
+        // FoxHexagram
+        SlashBladeShapedRecipeBuilder.shaped(SlashBladeAddonBuiltInRegistry.FOXHEXAGRAM.location())
+                .pattern("ABC")
+                .pattern("DEB")
+                .pattern("FDG")
+                .define('A', SlashBladeIngredient.of(RequestDefinition.Builder.newInstance()
+                        .name(SlashBladeBuiltInRegistry.FOX_WHITE.location())
+                        .build()).toVanilla())
+                .define('B', Items.SEA_LANTERN)
+                .define('C', Items.NETHERITE_BLOCK)
+                .define('D', Items.NETHER_STAR)
+                .define('E', SlashBladeIngredient.of(SBAItems.SLASHBLADE_ADDON_HEXAGRAM, RequestDefinition.Builder.newInstance()
+                        .name(SlashBladeAddonBuiltInRegistry.HEXAGRAM.location())
+                        .proudSoul(17000)
+                        .killCount(1000)
+                        .build()).toVanilla())
+                .define('F', Items.NETHER_STAR)
+                .define('G', SlashBladeIngredient.of(RequestDefinition.Builder.newInstance()
+                        .name(SlashBladeBuiltInRegistry.FOX_BLACK.location())
+                        .build()).toVanilla())
+                .unlockedBy(getHasName(SBItems.SLASHBLADE), has(SBItems.SLASHBLADE)).save(consumer);
 
     }
 
