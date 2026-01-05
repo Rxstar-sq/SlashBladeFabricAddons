@@ -23,7 +23,7 @@ public class SparkGreen extends SpecialEffect {
         ISlashBladeState mainState = event.getSlashBladeState();
         
         /* //调试信息
-        if (player.tickCount % 100 == 0) { // 每5秒输出一次
+        if (player.tickCount % 100 == 0) { 
             System.out.println("=== SparkGreen 调试 ===");
             System.out.println("刀上的状态: " + mainState);
             System.out.println("刀上的所有 SE: " + mainState.getSpecialEffects());
@@ -47,10 +47,7 @@ public class SparkGreen extends SpecialEffect {
     private static void applyIfReady(Player player) {
         if (player.hasEffect(MobEffects.REGENERATION)) return;
         if (SpecialEffect.isEffective(SBASpecialEffectsRegistry.SPARK_GREEN, player.experienceLevel)) {
-            System.out.println("等级足够，施加生命恢复 III");
             player.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 100, 2, false, false, true));
-        } else {
-            System.out.println("等级不足（需要10级）");
-        }
+        } 
     }
 }
