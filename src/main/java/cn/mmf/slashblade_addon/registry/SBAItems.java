@@ -80,6 +80,9 @@ public class SBAItems {
         //神·六芒星
         public static final Item SLASHBLADE_ADDON_HEXAGRAM = register("hexagram", 
                 new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        // 妖刀·六芒星
+        public static final Item SLASHBLADE_ADDON_GODBLADEHEXAGRAM = register("godbladehexagram", 
+                new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
     
     // ciallo 刀
     public static final Item SLASHBLADE_ADDON_CIALLO = register("ciallo", 
@@ -131,6 +134,8 @@ public class SBAItems {
                 case "foxhexagram" -> SLASHBLADE_ADDON_FOXHEXAGRAM;
                 //神·六芒星
                 case "hexagram" -> SLASHBLADE_ADDON_HEXAGRAM;
+                //妖刀·六芒星
+                case "godbladehexagram" -> SLASHBLADE_ADDON_GODBLADEHEXAGRAM;
 
             default -> null;
         };

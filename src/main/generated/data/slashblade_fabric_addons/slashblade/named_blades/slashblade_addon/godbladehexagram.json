@@ -1,0 +1,19 @@
+{
+  "creativeGroup": "slashblade_fabric_addons:slashblade_addon/sjap_tab",
+  "enchantments": [
+    { "id": "minecraft:sharpness", "lvl": 6 },
+    { "id": "minecraft:unbreaking", "lvl": 5 },
+    { "id": "minecraft:mending", "lvl": 1 }
+  ],
+  "item": "slashblade_fabric_addons:slashblade_addon/godbladehexagram",
+  "name": "slashblade_fabric_addons:slashblade_addon/godbladehexagram",
+  "properties": {
+    "attack_base": 20.0,
+    "max_damage": 180,
+    "sword_type": ["bewitched"]
+  },
+  "render": {
+    "model": "slashblade_fabric_addons:slashblade_addon/model/hexagram/godbladehexagram.obj",
+    "texture": "slashblade_fabric_addons:slashblade_addon/model/hexagram/godbladehexagram.png"
+  }
+}

@@ -94,6 +94,8 @@ public class SlashBladeAddonBuiltInRegistry {
     public static final ResourceKey<SlashBladeDefinition> FOXHEXAGRAM = register("foxhexagram");
     //神·六芒星
     public static final ResourceKey<SlashBladeDefinition> HEXAGRAM = register("hexagram");
+    // 妖刀·六芒星
+    public static final ResourceKey<SlashBladeDefinition> GODBLADEHEXAGRAM = register("godbladehexagram");
 
 
     private static final Map<ResourceKey<SlashBladeDefinition>, List<ResourceCondition>> CONDITIONS = new HashMap<>();
@@ -659,6 +661,24 @@ public class SlashBladeAddonBuiltInRegistry {
                 List.of(
                         new EnchantmentDefinition(getEnchantmentID(Enchantments.SHARPNESS), 10),
                         new EnchantmentDefinition(getEnchantmentID(Enchantments.UNBREAKING), 10),
+                        new EnchantmentDefinition(getEnchantmentID(Enchantments.MENDING), 1)
+                )));
+        //GodbladeHexagram
+        bootstrap.register(GODBLADEHEXAGRAM,
+        new SJAPDefinition(SlashBladeAddon.prefix("godbladehexagram"),
+                RenderDefinition.Builder.newInstance()
+                        .textureName(SlashBladeAddon.prefix("model/hexagram/godbladehexagram.png"))
+                        .modelName(SlashBladeAddon.prefix("model/hexagram/godbladehexagram.obj"))
+                        .effectColor(0x7BFF7F)
+                        .build(),
+                PropertiesDefinition.Builder.newInstance()
+                        .baseAttackModifier(20.0F)
+                        .maxDamage(180)
+                        .defaultSwordType(List.of(SwordType.BEWITCHED))
+                        .build(),
+                List.of(
+                        new EnchantmentDefinition(getEnchantmentID(Enchantments.SHARPNESS), 6),
+                        new EnchantmentDefinition(getEnchantmentID(Enchantments.UNBREAKING), 5),
                         new EnchantmentDefinition(getEnchantmentID(Enchantments.MENDING), 1)
                 )));
 

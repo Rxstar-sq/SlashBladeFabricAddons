@@ -1,0 +1,59 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_fabric_addons:slashblade_addon/godbladehexagram",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "B": {
+      "fabric:type": "slashblade:blade",
+      "items": "slashblade:slashblade_rodai_iron",
+      "request": {
+        "kill": 10,
+        "name": "slashblade:rodai_iron"
+      }
+    },
+    "D": {
+      "tag": "c:storage_blocks/diamond"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "R": {
+      "tag": "c:storage_blocks/redstone"
+    },
+    "T": {
+      "item": "slashblade:proudsoul_sphere"
+    },
+    "W": {
+      "fabric:type": "slashblade:blade",
+      "items": "slashblade:slashblade_rodai_iron",
+      "request": {
+        "kill": 10,
+        "name": "slashblade:rodai_iron"
+      }
+    },
+    "X": {
+      "item": "slashblade:proudsoul_trapezohedron"
+    }
+  },
+  "pattern": [
+    "WTA",
+    "DXT",
+    "NRB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "slashblade_fabric_addons:slashblade_addon/godbladehexagram"
+  },
+  "conditions": [
+    {
+      "type": "fabric:all_mods_loaded",
+      "values": [
+        "slashblade"
+      ]
+    }
+  ],
+  "show_notification": true
+}
