@@ -28,6 +28,9 @@
     "attack_base": 13.0,
     "max_damage": 240,
     "slash_art": "slashblade:sakura_end",
+    "special_effects": [
+      "slashblade_fabric_addons:slashblade_addon/spark_green"
+    ],
     "sword_type": [
       "bewitched"
     ]

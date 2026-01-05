@@ -408,6 +408,7 @@ public class SlashBladeAddonBuiltInRegistry {
                                 .baseAttackModifier(13.0F)
                                 .maxDamage(240)
                                 .slashArtsType(SlashArtsRegistry.SLASH_ARTS.getKey(SlashArtsRegistry.SAKURA_END))
+                                .addSpecialEffect(SpecialEffectsRegistry.SPECIAL_EFFECT.getKey(SBASpecialEffectsRegistry.SPARK_GREEN))
                                 .defaultSwordType(List.of(SwordType.BEWITCHED)).build(),
                         List.of(new EnchantmentDefinition(getEnchantmentID(Enchantments.UNBREAKING), 3),
                                 new EnchantmentDefinition(getEnchantmentID(Enchantments.SHARPNESS), 5),

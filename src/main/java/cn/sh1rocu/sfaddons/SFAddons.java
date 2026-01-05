@@ -4,6 +4,7 @@ import cn.mmf.energyblade.Energyblade;
 import cn.mmf.energyblade.item.ItemFEBlade;
 import cn.mmf.slashblade_addon.SlashBladeAddon;
 import cn.mmf.slashblade_addon.specialeffect.BurstDrive;
+import cn.mmf.slashblade_addon.specialeffect.SparkGreen;
 import com.dinzeer.cialloblade.Cialloblade;
 import com.dinzeer.cialloblade.se.Ciallo;
 import mods.flammpfeil.slashblade.event.SlashBladeEvent;
@@ -35,8 +36,10 @@ public class SFAddons implements ModInitializer {
         SlashBladeEvent.DO_SLASH.register(Ciallo::doSlash);
         // EnergyBlade(HF Blade)
         SlashBladeEvent.UPDATE.register(ItemFEBlade::onSlashBladeUpdate);
+        SlashBladeEvent.UPDATE.register(SparkGreen::onSlashBladeUpdate);
         SlashBladeEvent.HIT.register(ItemFEBlade::onSlashBladeHit);
         SlashBladeEvent.POWER_BLADE.register(ItemFEBlade::onSlashBladePowered);
+        
     }
 
     public static ResourceLocation prefix(String path) {
