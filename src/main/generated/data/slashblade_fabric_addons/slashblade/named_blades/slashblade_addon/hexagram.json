@@ -1,0 +1,19 @@
+{
+  "creativeGroup": "slashblade_fabric_addons:slashblade_addon/sjap_tab",
+  "enchantments": [
+    { "id": "minecraft:sharpness", "lvl": 10 },
+    { "id": "minecraft:unbreaking", "lvl": 10 },
+    { "id": "minecraft:mending", "lvl": 1 }
+  ],
+  "item": "slashblade_fabric_addons:slashblade_addon/hexagram",
+  "name": "slashblade_fabric_addons:slashblade_addon/hexagram",
+  "properties": {
+    "attack_base": 25.0,
+    "max_damage": 180,
+    "sword_type": ["bewitched"]
+  },
+  "render": {
+    "model": "slashblade_fabric_addons:slashblade_addon/model/hexagram/hexagram.obj",
+    "texture": "slashblade_fabric_addons:slashblade_addon/model/hexagram/hexagram.png"
+  }
+}

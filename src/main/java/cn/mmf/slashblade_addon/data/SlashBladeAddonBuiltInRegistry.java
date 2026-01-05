@@ -90,8 +90,10 @@ public class SlashBladeAddonBuiltInRegistry {
     public static final ResourceKey<SlashBladeDefinition> WANDERER_HF = register("wanderer_hf");
 
     public static final ResourceKey<SlashBladeDefinition> MURAKUMO = register("murakumo");
-
+    //仙狐之刃·六芒星
     public static final ResourceKey<SlashBladeDefinition> FOXHEXAGRAM = register("foxhexagram");
+    //神·六芒星
+    public static final ResourceKey<SlashBladeDefinition> HEXAGRAM = register("hexagram");
 
 
     private static final Map<ResourceKey<SlashBladeDefinition>, List<ResourceCondition>> CONDITIONS = new HashMap<>();
@@ -622,6 +624,7 @@ public class SlashBladeAddonBuiltInRegistry {
                                         List.of()
                                 )
                 );
+        //FoxHexagram
         bootstrap.register(FOXHEXAGRAM,
         new SJAPDefinition(SlashBladeAddon.prefix("foxhexagram"),
                 RenderDefinition.Builder.newInstance()
@@ -639,6 +642,24 @@ public class SlashBladeAddonBuiltInRegistry {
                         new EnchantmentDefinition(getEnchantmentID(Enchantments.POWER), 10),
                         new EnchantmentDefinition(getEnchantmentID(Enchantments.UNBREAKING), 5),
                         new EnchantmentDefinition(getEnchantmentID(Enchantments.MENDING), 3)
+                )));
+        //Hexagram
+        bootstrap.register(HEXAGRAM,
+        new SJAPDefinition(SlashBladeAddon.prefix("hexagram"),
+                RenderDefinition.Builder.newInstance()
+                        .textureName(SlashBladeAddon.prefix("model/hexagram/hexagram.png"))
+                        .modelName(SlashBladeAddon.prefix("model/hexagram/hexagram.obj"))
+                        .effectColor(0x7BFF7F)
+                        .build(),
+                PropertiesDefinition.Builder.newInstance()
+                        .baseAttackModifier(25.0F)
+                        .maxDamage(180)
+                        .defaultSwordType(List.of(SwordType.BEWITCHED))
+                        .build(),
+                List.of(
+                        new EnchantmentDefinition(getEnchantmentID(Enchantments.SHARPNESS), 10),
+                        new EnchantmentDefinition(getEnchantmentID(Enchantments.UNBREAKING), 10),
+                        new EnchantmentDefinition(getEnchantmentID(Enchantments.MENDING), 1)
                 )));
 
     }

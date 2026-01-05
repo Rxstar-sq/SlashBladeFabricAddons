@@ -74,8 +74,12 @@ public class SBAItems {
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
     public static final Item SLASHBLADE_ADDON_YUKARI = register("yukari", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_FOXHEXAGRAM = register("foxhexagram", 
-            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));            
+        // 仙狐之刃·六芒星
+        public static final Item SLASHBLADE_ADDON_FOXHEXAGRAM = register("foxhexagram", 
+                new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));            
+        //神·六芒星
+        public static final Item SLASHBLADE_ADDON_HEXAGRAM = register("hexagram", 
+                new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
     
     // ciallo 刀
     public static final Item SLASHBLADE_ADDON_CIALLO = register("ciallo", 
@@ -91,38 +95,43 @@ public class SBAItems {
      */
     public static Item getNamedBladeItem(String bladeName) {
         return switch (bladeName) {
-            case "aquablaze" -> SLASHBLADE_ADDON_AQUABLAZE;
-            case "blue" -> SLASHBLADE_ADDON_BLUE;
-            case "crimsoncherry" -> SLASHBLADE_ADDON_CRIMSONCHERRY;
-            case "dark_raven" -> SLASHBLADE_ADDON_DARK_RAVEN;
-            case "fluorescent_bar" -> SLASHBLADE_ADDON_FLUORESCENT_BAR;
-            case "frosty_cherry" -> SLASHBLADE_ADDON_FROSTY_CHERRY;
-            case "frost_wolf" -> SLASHBLADE_ADDON_FROST_WOLF;
-            case "green_mist" -> SLASHBLADE_ADDON_GREEN_MIST;
-            case "hf_murasama" -> SLASHBLADE_ADDON_HF_MURASAMA;
-            case "kamuy_fire" -> SLASHBLADE_ADDON_KAMUY_FIRE;
-            case "kamuy_lightning" -> SLASHBLADE_ADDON_KAMUY_LIGHTNING;
-            case "kamuy_none" -> SLASHBLADE_ADDON_KAMUY_NONE;
-            case "kamuy_water" -> SLASHBLADE_ADDON_KAMUY_WATER;
-            case "katana" -> SLASHBLADE_ADDON_KATANA;
-            case "kirisaya" -> SLASHBLADE_ADDON_KIRISAYA;
-            case "laemmle" -> SLASHBLADE_ADDON_LAEMMLE;
-            case "moonlight_cherry" -> SLASHBLADE_ADDON_MOONLIGHT_CHERRY;
-            case "murakumo" -> SLASHBLADE_ADDON_MURAKUMO;
-            case "nihil" -> SLASHBLADE_ADDON_NIHIL;
-            case "nihilbx" -> SLASHBLADE_ADDON_NIHILBX;
-            case "nihilex" -> SLASHBLADE_ADDON_NIHILEX;
-            case "nihilul" -> SLASHBLADE_ADDON_NIHILUL;
-            case "snow_crow" -> SLASHBLADE_ADDON_SNOW_CROW;
-            case "tachi" -> SLASHBLADE_ADDON_TACHI;
-            case "tboen" -> SLASHBLADE_ADDON_TBOEN;
-            case "terra_blade" -> SLASHBLADE_ADDON_TERRA_BLADE;
-            case "toyako" -> SLASHBLADE_ADDON_TOYAKO;
-            case "wanderer" -> SLASHBLADE_ADDON_WANDERER;
-            case "wanderer_hf" -> SLASHBLADE_ADDON_WANDERER_HF;
-            case "yukari" -> SLASHBLADE_ADDON_YUKARI;
-            case "ciallo" -> SLASHBLADE_ADDON_CIALLO;
-            case "foxhexagram" -> SLASHBLADE_ADDON_FOXHEXAGRAM;
+                case "aquablaze" -> SLASHBLADE_ADDON_AQUABLAZE;
+                case "blue" -> SLASHBLADE_ADDON_BLUE;
+                case "crimsoncherry" -> SLASHBLADE_ADDON_CRIMSONCHERRY;
+                case "dark_raven" -> SLASHBLADE_ADDON_DARK_RAVEN;
+                case "fluorescent_bar" -> SLASHBLADE_ADDON_FLUORESCENT_BAR;
+                case "frosty_cherry" -> SLASHBLADE_ADDON_FROSTY_CHERRY;
+                case "frost_wolf" -> SLASHBLADE_ADDON_FROST_WOLF;
+                case "green_mist" -> SLASHBLADE_ADDON_GREEN_MIST;
+                case "hf_murasama" -> SLASHBLADE_ADDON_HF_MURASAMA;
+                case "kamuy_fire" -> SLASHBLADE_ADDON_KAMUY_FIRE;
+                case "kamuy_lightning" -> SLASHBLADE_ADDON_KAMUY_LIGHTNING;
+                case "kamuy_none" -> SLASHBLADE_ADDON_KAMUY_NONE;
+                case "kamuy_water" -> SLASHBLADE_ADDON_KAMUY_WATER;
+                case "katana" -> SLASHBLADE_ADDON_KATANA;
+                case "kirisaya" -> SLASHBLADE_ADDON_KIRISAYA;
+                case "laemmle" -> SLASHBLADE_ADDON_LAEMMLE;
+                case "moonlight_cherry" -> SLASHBLADE_ADDON_MOONLIGHT_CHERRY;
+                case "murakumo" -> SLASHBLADE_ADDON_MURAKUMO;
+                case "nihil" -> SLASHBLADE_ADDON_NIHIL;
+                case "nihilbx" -> SLASHBLADE_ADDON_NIHILBX;
+                case "nihilex" -> SLASHBLADE_ADDON_NIHILEX;
+                case "nihilul" -> SLASHBLADE_ADDON_NIHILUL;
+                case "snow_crow" -> SLASHBLADE_ADDON_SNOW_CROW;
+                case "tachi" -> SLASHBLADE_ADDON_TACHI;
+                case "tboen" -> SLASHBLADE_ADDON_TBOEN;
+                case "terra_blade" -> SLASHBLADE_ADDON_TERRA_BLADE;
+                case "toyako" -> SLASHBLADE_ADDON_TOYAKO;
+                case "wanderer" -> SLASHBLADE_ADDON_WANDERER;
+                case "wanderer_hf" -> SLASHBLADE_ADDON_WANDERER_HF;
+                case "yukari" -> SLASHBLADE_ADDON_YUKARI;
+                case "ciallo" -> SLASHBLADE_ADDON_CIALLO;
+                //新移植的刀
+                //仙狐之刃·六芒星
+                case "foxhexagram" -> SLASHBLADE_ADDON_FOXHEXAGRAM;
+                //神·六芒星
+                case "hexagram" -> SLASHBLADE_ADDON_HEXAGRAM;
+
             default -> null;
         };
     }
