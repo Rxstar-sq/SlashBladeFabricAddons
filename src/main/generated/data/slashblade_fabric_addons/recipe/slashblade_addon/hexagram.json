@@ -13,27 +13,28 @@
       "item": "slashblade:proudsoul_trapezohedron"
     },
     "D": {
-      "type": "slashblade:blade",
-      "item": "slashblade:slashblade_rodai_netherite",
-      "request": {
-        "kill": 1000,
-        "name": "slashblade:rodai_netherite"
-      }
+      "item": "minecraft:ender_eye"
     },
     "E": {
-      "item": "minecraft:ender_pearl"
-    },
-    "F": {
       "item": "minecraft:sea_lantern"
     }
   },
   "pattern": [
     "ABC",
-    "DED",
-    "DF "
+    "DCD",
+    "EDE"
   ],
   "result": {
-    "item": "slashblade_fabric_addons:slashblade_addon/hexagram"
+    "count": 1,
+    "id": "slashblade_fabric_addons:slashblade_addon/hexagram"
   },
+  "conditions": [
+    {
+      "type": "fabric:all_mods_loaded",
+      "values": [
+        "slashblade"
+      ]
+    }
+  ],
   "show_notification": true
 }
