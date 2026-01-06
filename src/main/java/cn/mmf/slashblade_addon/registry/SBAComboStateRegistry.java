@@ -143,7 +143,7 @@ public class SBAComboStateRegistry {
 
     public static final ComboState TEN_DRIVE = register("ten_drive",
             ComboState.Builder.newInstance()
-                    .startAndEnd(1600, 1659)
+                    .startAndEnd(400, 459)
                     .priority(50)
                     .motionLoc(DefaultResources.ExMotionLocation)
                     .next(ComboState.TimeoutNext.buildFromFrame(15, entity -> SlashBlade.prefix("none")))

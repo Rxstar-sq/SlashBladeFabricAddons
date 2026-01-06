@@ -5,6 +5,10 @@ import cn.mmf.energyblade.item.ItemFEBlade;
 import cn.mmf.slashblade_addon.SlashBladeAddon;
 import cn.mmf.slashblade_addon.specialeffect.BurstDrive;
 import cn.mmf.slashblade_addon.specialeffect.SparkGreen;
+import cn.mmf.slashblade_addon.specialeffect.StarSoul;
+import cn.mmf.slashblade_addon.specialeffect.HexGam;
+import cn.mmf.slashblade_addon.specialeffect.Eternal;
+import cn.mmf.slashblade_addon.specialeffect.ExMode;
 import com.dinzeer.cialloblade.Cialloblade;
 import com.dinzeer.cialloblade.se.Ciallo;
 import mods.flammpfeil.slashblade.event.SlashBladeEvent;
@@ -39,8 +43,13 @@ public class SFAddons implements ModInitializer {
         SlashBladeEvent.UPDATE.register(SparkGreen::onSlashBladeUpdate);
         SlashBladeEvent.HIT.register(ItemFEBlade::onSlashBladeHit);
         SlashBladeEvent.POWER_BLADE.register(ItemFEBlade::onSlashBladePowered);
-        
+        // SJAP - New SE events
+        SlashBladeEvent.UPDATE.register(StarSoul::onSlashBladeUpdate);
+        SlashBladeEvent.UPDATE.register(HexGam::onSlashBladeUpdate);
+        SlashBladeEvent.UPDATE.register(Eternal::onSlashBladeUpdate);
+        SlashBladeEvent.DO_SLASH.register(ExMode::doSlash);    
     }
+
 
     public static ResourceLocation prefix(String path) {
         return ResourceLocation.fromNamespaceAndPath(MOD_ID, path);
