@@ -1,0 +1,22 @@
+{
+  "creativeGroup": "slashblade_fabric_addons:slashblade_addon/sjap_tab",
+  "enchantments": [
+    {
+      "id": "minecraft:power",
+      "lvl": 5
+    }
+  ],
+  "item": "slashblade_fabric_addons:slashblade_addon/star",
+  "name": "slashblade_fabric_addons:slashblade_addon/star",
+  "properties": {
+    "attack_base": 10.0,
+    "max_damage": 80,
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "slashblade_fabric_addons:slashblade_addon/model/relicofpaseone/dahe.obj",
+    "texture": "slashblade_fabric_addons:slashblade_addon/model/other/color_cs.png"
+  }
+}

@@ -96,6 +96,8 @@ public class SlashBladeAddonBuiltInRegistry {
     public static final ResourceKey<SlashBladeDefinition> HEXAGRAM = register("hexagram");
     // 妖刀·六芒星
     public static final ResourceKey<SlashBladeDefinition> GODBLADEHEXAGRAM = register("godbladehexagram");
+    // 星辰刃「三色星辰」 
+    public static final ResourceKey<SlashBladeDefinition> STAR = register("star");
 
 
     private static final Map<ResourceKey<SlashBladeDefinition>, List<ResourceCondition>> CONDITIONS = new HashMap<>();
@@ -680,6 +682,22 @@ public class SlashBladeAddonBuiltInRegistry {
                         new EnchantmentDefinition(getEnchantmentID(Enchantments.SHARPNESS), 6),
                         new EnchantmentDefinition(getEnchantmentID(Enchantments.UNBREAKING), 5),
                         new EnchantmentDefinition(getEnchantmentID(Enchantments.MENDING), 1)
+                )));
+        //Star
+        bootstrap.register(STAR,
+        new SJAPDefinition(SlashBladeAddon.prefix("star"),
+                RenderDefinition.Builder.newInstance()
+                        .textureName(SlashBladeAddon.prefix("model/other/color_cs.png"))
+                        .modelName(SlashBladeAddon.prefix("model/relicofpaseone/dahe.obj"))
+                        .effectColor(0x9FD3FF)
+                        .build(),
+                PropertiesDefinition.Builder.newInstance()
+                        .baseAttackModifier(10.0F)
+                        .maxDamage(80)
+                        .defaultSwordType(List.of(SwordType.BEWITCHED))
+                        .build(),
+                List.of(
+                        new EnchantmentDefinition(getEnchantmentID(Enchantments.POWER), 5)
                 )));
 
     }
