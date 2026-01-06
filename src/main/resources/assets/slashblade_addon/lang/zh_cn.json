@@ -35,6 +35,7 @@
   "se.slashblade_fabric_addons.slashblade_addon.spark_green": "绿光闪闪",
   "se.slashblade_fabric_addons.slashblade_addon.mana_burst": "魔力风暴",
   "se.slashblade_fabric_addons.slashblade_addon.mana_repair": "魔力修复",
+  "se.slashblade_fabric_addons.slashblade_addon.energy_absorb": "",
   "item.slashblade_fabric_addons.slashblade_addon.kamuy_water": "神威刀「乌卡」",
   "item.slashblade_fabric_addons.slashblade_addon.kamuy_lightning": "神威刀「坎那」",
   "item.slashblade_fabric_addons.slashblade_addon.kamuy_fire": "神威刀「阿贝」",
@@ -51,5 +52,17 @@
   "item.slashblade_fabric_addons.slashblade_addon.foxhexagram": "仙狐之刃「六芒星」",
   "item.slashblade_fabric_addons.slashblade_addon.hexagram": "神「六芒星」",
   "item.slashblade_fabric_addons.slashblade_addon.godbladehexagram": "妖刀六芒星",
-  "item.slashblade_fabric_addons.slashblade_addon.star": "星辰刃「三色星辰」"
+  "item.slashblade_fabric_addons.slashblade_addon.star": "星辰刃「三色星辰」",
+  "se.slashblade_fabric_addons.slashblade_addon.star_soul": "§l星之魂",
+  "se.slashblade_fabric_addons.slashblade_addon.star_soul.desc": "处于夜晚时持续给予玩家力量II，迅捷II效果",
+  "se.slashblade_fabric_addons.slashblade_addon.ex_mode": "§l幻刃连斩",
+  "se.slashblade_fabric_addons.slashblade_addon.ex_mode.desc": "每次攻击时额外生成刀光",
+  "se.slashblade_fabric_addons.slashblade_addon.hexgam_fox": "狐·神佑",
+  "se.slashblade_fabric_addons.slashblade_addon.hexgam_fox.desc": "持续给予玩家伤害吸收V，抗性提升II，力量III效果",
+  "se.slashblade_fabric_addons.slashblade_addon.hexgam_dragon": "龙·神佑",
+  "se.slashblade_fabric_addons.slashblade_addon.hexgam_dragon.desc": "持续给予玩家伤害吸收V，抗性提升II，力量III效果",
+  "se.slashblade_fabric_addons.slashblade_addon.sword_art_on_fox": "六芒流法·狐",
+  "se.slashblade_fabric_addons.slashblade_addon.sword_art_on_fox.desc": "按下热键可切换SA，幻影十字连斩，次元斩，狐「列阵剑雨」，狐「六芒激射」",
+  "slash_art.slashblade_fabric_addons.slashblade_addon.ten_drive": "幻影十字连斩",
+  "slash_art.slashblade_fabric_addons.slashblade_addon.fox_justices": "狐·「六芒激射」"
 }

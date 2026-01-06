@@ -26,6 +26,11 @@ public class SBASlashArtsRegistry {
     public static final SlashArts LIGHTING_SWORDS = register("lighting_swords",
             new SlashArts((e) -> ComboStateRegistry.getId(SBAComboStateRegistry.LIGHTING_SWORDS)));
 
+    public static final SlashArts TEN_DRIVE = register("ten_drive",
+            new SlashArts((e) -> ComboStateRegistry.getId(SBAComboStateRegistry.TEN_DRIVE)));
+    public static final SlashArts FOX_JUSTICES = register("fox_justices",
+            new SlashArts((e) -> ComboStateRegistry.getId(SBAComboStateRegistry.FOX_JUSTICES)));
+
     private static SlashArts register(String name, SlashArts slashArts) {
         return Registry.register(SlashArtsRegistry.SLASH_ARTS, SlashBladeAddon.prefix(name), slashArts);
     }

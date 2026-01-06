@@ -10,6 +10,7 @@
   "properties": {
     "attack_base": 25.0,
     "max_damage": 180,
+    "special_effects": ["slashblade_fabric_addons:slashblade_addon/star_soul"],
     "sword_type": ["bewitched"]
   },
   "render": {

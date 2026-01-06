@@ -628,25 +628,7 @@ public class SlashBladeAddonBuiltInRegistry {
                                         List.of()
                                 )
                 );
-        //FoxHexagram
-        bootstrap.register(FOXHEXAGRAM,
-        new SJAPDefinition(SlashBladeAddon.prefix("foxhexagram"),
-                RenderDefinition.Builder.newInstance()
-                        .textureName(SlashBladeAddon.prefix("model/foxhexagram/foxhexagram.png"))
-                        .modelName(SlashBladeAddon.prefix("model/foxhexagram/foxhexagram.obj"))
-                        .effectColor(0xFFAC28)
-                        .build(),
-                PropertiesDefinition.Builder.newInstance()
-                        .baseAttackModifier(39.0F)
-                        .maxDamage(180)
-                        .defaultSwordType(List.of(SwordType.BEWITCHED))
-                        .build(),
-                List.of(
-                        new EnchantmentDefinition(getEnchantmentID(Enchantments.SOUL_SPEED), 4),
-                        new EnchantmentDefinition(getEnchantmentID(Enchantments.POWER), 10),
-                        new EnchantmentDefinition(getEnchantmentID(Enchantments.UNBREAKING), 5),
-                        new EnchantmentDefinition(getEnchantmentID(Enchantments.MENDING), 3)
-                )));
+
         //Hexagram
         bootstrap.register(HEXAGRAM,
         new SJAPDefinition(SlashBladeAddon.prefix("hexagram"),
@@ -659,6 +641,7 @@ public class SlashBladeAddonBuiltInRegistry {
                         .baseAttackModifier(25.0F)
                         .maxDamage(180)
                         .defaultSwordType(List.of(SwordType.BEWITCHED))
+                        .addSpecialEffect(SpecialEffectsRegistry.SPECIAL_EFFECT.getKey(SBASpecialEffectsRegistry.STAR_SOUL))
                         .build(),
                 List.of(
                         new EnchantmentDefinition(getEnchantmentID(Enchantments.SHARPNESS), 10),
@@ -677,11 +660,36 @@ public class SlashBladeAddonBuiltInRegistry {
                         .baseAttackModifier(20.0F)
                         .maxDamage(180)
                         .defaultSwordType(List.of(SwordType.BEWITCHED))
+                        .slashArtsType(SlashArtsRegistry.SLASH_ARTS.getKey(SBASlashArtsRegistry.TEN_DRIVE))
+                        .addSpecialEffect(SpecialEffectsRegistry.SPECIAL_EFFECT.getKey(SBASpecialEffectsRegistry.STAR_SOUL))
                         .build(),
                 List.of(
                         new EnchantmentDefinition(getEnchantmentID(Enchantments.SHARPNESS), 6),
                         new EnchantmentDefinition(getEnchantmentID(Enchantments.UNBREAKING), 5),
                         new EnchantmentDefinition(getEnchantmentID(Enchantments.MENDING), 1)
+                )));
+        //FoxHexagram
+        bootstrap.register(FOXHEXAGRAM,
+        new SJAPDefinition(SlashBladeAddon.prefix("foxhexagram"),
+                RenderDefinition.Builder.newInstance()
+                        .textureName(SlashBladeAddon.prefix("model/foxhexagram/foxhexagram.png"))
+                        .modelName(SlashBladeAddon.prefix("model/foxhexagram/foxhexagram.obj"))
+                        .effectColor(0xFFAC28)
+                        .build(),
+                PropertiesDefinition.Builder.newInstance()
+                        .baseAttackModifier(39.0F)
+                        .maxDamage(180)
+                        .defaultSwordType(List.of(SwordType.BEWITCHED))
+                        .slashArtsType(SlashArtsRegistry.SLASH_ARTS.getKey(SBASlashArtsRegistry.FOX_JUSTICES))
+                        .addSpecialEffect(SpecialEffectsRegistry.SPECIAL_EFFECT.getKey(SBASpecialEffectsRegistry.SWORD_ART_ON_FOX))
+                        .addSpecialEffect(SpecialEffectsRegistry.SPECIAL_EFFECT.getKey(SBASpecialEffectsRegistry.HEXGAM_FOX))
+                        .addSpecialEffect(SpecialEffectsRegistry.SPECIAL_EFFECT.getKey(SBASpecialEffectsRegistry.EX_MODE))
+                        .build(),
+                List.of(
+                        new EnchantmentDefinition(getEnchantmentID(Enchantments.SOUL_SPEED), 4),
+                        new EnchantmentDefinition(getEnchantmentID(Enchantments.POWER), 10),
+                        new EnchantmentDefinition(getEnchantmentID(Enchantments.UNBREAKING), 5),
+                        new EnchantmentDefinition(getEnchantmentID(Enchantments.MENDING), 3)
                 )));
         //Star
         bootstrap.register(STAR,

@@ -1,6 +1,6 @@
 {
   "creativeGroup": "slashblade_fabric_addons:slashblade_addon/sjap_tab",
-    "enchantments": [
+  "enchantments": [
     { "id": "minecraft:soul_speed", "lvl": 4 },
     { "id": "minecraft:power", "lvl": 10 },
     { "id": "minecraft:unbreaking", "lvl": 5 },
@@ -11,9 +11,16 @@
   "properties": {
     "attack_base": 39.0,
     "max_damage": 180,
+    "slash_art": "slashblade_fabric_addons:slashblade_addon/fox_justices",
+    "special_effects": [
+      "slashblade_fabric_addons:slashblade_addon/sword_art_on_fox",
+      "slashblade_fabric_addons:slashblade_addon/hexgam_fox",
+      "slashblade_fabric_addons:slashblade_addon/ex_mode"
+    ],
     "sword_type": ["bewitched"]
   },
   "render": {
+    "effect_color": 16756776,
     "model": "slashblade_fabric_addons:slashblade_addon/model/foxhexagram/foxhexagram.obj",
     "texture": "slashblade_fabric_addons:slashblade_addon/model/foxhexagram/foxhexagram.png"
   }

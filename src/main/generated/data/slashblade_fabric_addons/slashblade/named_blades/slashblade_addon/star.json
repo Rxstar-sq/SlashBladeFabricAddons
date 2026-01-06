@@ -16,6 +16,7 @@
     ]
   },
   "render": {
+    "effect_color": 10527487,
     "model": "slashblade_fabric_addons:slashblade_addon/model/relicofpaseone/dahe.obj",
     "texture": "slashblade_fabric_addons:slashblade_addon/model/other/color_cs.png"
   }

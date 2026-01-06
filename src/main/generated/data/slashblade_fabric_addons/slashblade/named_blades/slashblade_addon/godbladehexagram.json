@@ -10,9 +10,12 @@
   "properties": {
     "attack_base": 20.0,
     "max_damage": 180,
+    "slash_art": "slashblade_fabric_addons:slashblade_addon/ten_drive",
+    "special_effects": ["slashblade_fabric_addons:slashblade_addon/star_soul"],
     "sword_type": ["bewitched"]
   },
   "render": {
+    "effect_color": 8126335,
     "model": "slashblade_fabric_addons:slashblade_addon/model/hexagram/godbladehexagram.obj",
     "texture": "slashblade_fabric_addons:slashblade_addon/model/hexagram/godbladehexagram.png"
   }

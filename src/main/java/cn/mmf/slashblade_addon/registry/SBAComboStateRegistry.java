@@ -133,6 +133,41 @@ public class SBAComboStateRegistry {
                             .put(0, AttackManager::playQuickSheathSoundAction).build())
                     .releaseAction(ComboState::releaseActionQuickCharge).build());
 
+   public static final ComboState WINTHER_ATTACK_END = register("winther_attck_end",
+        ComboState.Builder.newInstance().startAndEnd(459, 488).priority(50)
+                .motionLoc(DefaultResources.ExMotionLocation).next(entity -> SlashBlade.prefix("none"))
+                .nextOfTimeout(entity -> SlashBlade.prefix("none"))
+                .addTickAction(ComboState.TimeLineTickAction.getBuilder()
+                        .put(0, AttackManager::playQuickSheathSoundAction).build())
+                .releaseAction(ComboState::releaseActionQuickCharge).build());                 
+
+    public static final ComboState TEN_DRIVE = register("ten_drive",
+            ComboState.Builder.newInstance()
+                    .startAndEnd(1600, 1659)
+                    .priority(50)
+                    .motionLoc(DefaultResources.ExMotionLocation)
+                    .next(ComboState.TimeoutNext.buildFromFrame(15, entity -> SlashBlade.prefix("none")))
+                    .nextOfTimeout(entity -> SlashBladeAddon.prefix("winther_attck_end"))
+                    .addTickAction(ComboState.TimeLineTickAction.getBuilder()
+                            .put(3, (entityIn) -> TenDrive.doSlash(entityIn, 90F, 20, Vec3.ZERO, false, 5, 2f, 1f, 2))
+                            .build())
+                    .addHitEffect(StunManager::setStun)
+                    .build());
+
+    public static final ComboState FOX_JUSTICES = register("fox_justices",
+            ComboState.Builder.newInstance()
+                    .startAndEnd(200, 218)
+                    .motionLoc(DefaultResources.ExMotionLocation)
+                    .priority(100)
+                    .next(ComboState.TimeoutNext.buildFromFrame(10, entity -> SlashBlade.prefix("none")))
+                    .nextOfTimeout(entity -> SlashBladeAddon.prefix("winther_attck_end"))
+                    .addTickAction(ComboState.TimeLineTickAction.getBuilder()
+                            .put(1, (entityIn) -> AttackManager.doSlash(entityIn, 60, true, true, 2.0))
+                            .put(3, (entityIn) -> FoxJustice.doSlash(entityIn, 20))
+                            .build())
+                    .addHitEffect(StunManager::setStun)
+                    .build());
+
     private static ComboState register(String name, ComboState state) {
         return Registry.register(ComboStateRegistry.COMBO_STATE, SlashBladeAddon.prefix(name), state);
     }
