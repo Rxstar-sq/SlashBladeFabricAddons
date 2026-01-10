@@ -1,0 +1,41 @@
+{
+  "creativeGroup": "slashblade_addon:sjap_tab",
+  "enchantments": [
+    {
+      "id": "minecraft:power",
+      "level": 10
+    },
+    {
+      "id": "minecraft:soul_speed",
+      "level": 10
+    },
+    {
+      "id": "minecraft:feather_falling",
+      "level": 10
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "level": 10
+    }
+  ],
+  "item": "slashblade_fabric_addons:vergil",
+  "name": "yakumoblade:vergil",
+  "properties": {
+    "attack_base": 50.0,
+    "max_damage": 120,
+    "slash_art": "yakumoblade:randomjudgement_cut",
+    "special_effects": [
+      "yakumoblade:sword_art_on_dmc",
+      "yakumoblade:sharpness_blade",
+      "yakumoblade:lost_heart"
+    ],
+    "sword_type": [
+      "slashblade:bewitched"
+    ]
+  },
+  "render": {
+    "effect_color": 2003199,
+    "model": "slashblade_fabric_addons:yakumoblade/model/named/custom/vergil/model.obj",
+    "texture": "slashblade_fabric_addons:yakumoblade/model/named/custom/vergil/texture.png"
+  }
+}

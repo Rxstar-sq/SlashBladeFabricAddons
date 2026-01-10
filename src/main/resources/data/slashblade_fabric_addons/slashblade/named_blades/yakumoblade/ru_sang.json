@@ -1,0 +1,15 @@
+{
+  "creativeGroup": "slashblade_addon:sjap_tab",
+  "enchantments": [],
+  "item": "slashblade_fabric_addons:ru_sang",
+  "name": "yakumoblade:ru_sang",
+  "properties": {
+    "attack_base": 13.0,
+    "max_damage": 180
+  },
+  "render": {
+    "effect_color": 12013391,
+    "model": "slashblade_fabric_addons:yakumoblade/model/relicofpaseone/ru_sang.obj",
+    "texture": "slashblade_fabric_addons:yakumoblade/model/relicofpaseone/ru_sang.png"
+  }
+}

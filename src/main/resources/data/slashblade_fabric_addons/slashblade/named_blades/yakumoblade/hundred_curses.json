@@ -1,0 +1,48 @@
+{
+  "creativeGroup": "slashblade_addon:sjap_tab",
+  "enchantments": [
+    {
+      "id": "minecraft:power",
+      "level": 6
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "level": 6
+    },
+    {
+      "id": "minecraft:fire_aspect",
+      "level": 6
+    },
+    {
+      "id": "minecraft:sharpness",
+      "level": 6
+    },
+    {
+      "id": "minecraft:bane_of_arthropods",
+      "level": 6
+    },
+    {
+      "id": "minecraft:knockback",
+      "level": 6
+    }
+  ],
+  "item": "slashblade_fabric_addons:hundred_curses",
+  "name": "yakumoblade:hundred_curses",
+  "properties": {
+    "attack_base": 20.0,
+    "max_damage": 180,
+    "slash_art": "slashblade:wave_edge",
+    "special_effects": [
+      "yakumoblade:sharpness_blade",
+      "slashblade:wither_edge"
+    ],
+    "sword_type": [
+      "slashblade:bewitched"
+    ]
+  },
+  "render": {
+    "effect_color": 8126719,
+    "model": "slashblade_fabric_addons:yakumoblade/model/relicofpaseone/hundred_curses.obj",
+    "texture": "slashblade_fabric_addons:yakumoblade/model/relicofpaseone/hundred_curses.png"
+  }
+}

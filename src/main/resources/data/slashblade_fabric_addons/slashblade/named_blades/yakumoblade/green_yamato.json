@@ -1,0 +1,15 @@
+{
+  "creativeGroup": "slashblade_addon:sjap_tab",
+  "enchantments": [],
+  "item": "slashblade_fabric_addons:green_yamato",
+  "name": "yakumoblade:green_yamato",
+  "properties": {
+    "attack_base": 10.0,
+    "max_damage": 180
+  },
+  "render": {
+    "effect_color": 3729097,
+    "model": "slashblade_fabric_addons:yakumoblade/model/relicofpaseone/dahe.obj",
+    "texture": "slashblade_fabric_addons:yakumoblade/model/relicofpaseone/yamato.png"
+  }
+}

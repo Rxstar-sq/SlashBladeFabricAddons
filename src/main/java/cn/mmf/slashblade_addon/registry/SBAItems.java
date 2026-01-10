@@ -78,6 +78,26 @@ public class SBAItems {
     // ciallo 刀
     public static final Item SLASHBLADE_ADDON_CIALLO = register("ciallo", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+
+    // yakumoblade 基础集（独立物品ID）
+    public static final Item SLASHBLADE_ADDON_VERGIL = register("vergil",
+            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+    public static final Item SLASHBLADE_ADDON_DOUBLE_YAMATO = register("double_yamato",
+            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+    public static final Item SLASHBLADE_ADDON_GREEN_INFLAMMATION = register("green_inflammation",
+            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+    public static final Item SLASHBLADE_ADDON_GREEN_YAMATO = register("green_yamato",
+            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+    public static final Item SLASHBLADE_ADDON_HUNDRED_CURSES = register("hundred_curses",
+            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+    public static final Item SLASHBLADE_ADDON_RU_SANG = register("ru_sang",
+            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+    public static final Item SLASHBLADE_ADDON_UNDEAD_SLASH = register("undead_slash",
+            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+    public static final Item SLASHBLADE_ADDON_MIRAGEEDGE = register("mirageedge",
+            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+    public static final Item SLASHBLADE_ADDON_YELLOW_FOX = register("yellow_fox",
+            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
     
     public static void init() {
         // 注册初始化，此类加载时会执行静态初始化块
@@ -120,6 +140,16 @@ public class SBAItems {
             case "wanderer_hf" -> SLASHBLADE_ADDON_WANDERER_HF;
             case "yukari" -> SLASHBLADE_ADDON_YUKARI;
             case "ciallo" -> SLASHBLADE_ADDON_CIALLO;
+            // yakumoblade 基础集
+            case "vergil" -> SLASHBLADE_ADDON_VERGIL;
+            case "double_yamato" -> SLASHBLADE_ADDON_DOUBLE_YAMATO;
+            case "green_inflammation" -> SLASHBLADE_ADDON_GREEN_INFLAMMATION;
+            case "green_yamato" -> SLASHBLADE_ADDON_GREEN_YAMATO;
+            case "hundred_curses" -> SLASHBLADE_ADDON_HUNDRED_CURSES;
+            case "ru_sang" -> SLASHBLADE_ADDON_RU_SANG;
+            case "undead_slash" -> SLASHBLADE_ADDON_UNDEAD_SLASH;
+            case "mirageedge" -> SLASHBLADE_ADDON_MIRAGEEDGE;
+            case "yellow_fox" -> SLASHBLADE_ADDON_YELLOW_FOX;
             default -> null;
         };
     }
