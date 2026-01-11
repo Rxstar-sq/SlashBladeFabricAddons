@@ -6,7 +6,7 @@
     }
   ],
   "item": "slashblade_fabric_addons:slashblade_addon/mirageedge",
-  "name": "yakumoblade:mirageedge",
+    "name": "slashblade_fabric_addons:slashblade_addon/mirageedge",
   "properties": {
     "attack_base": 10.0,
     "max_damage": 120,
@@ -14,7 +14,7 @@
     "special_effects": [
       "yakumoblade:proud_soul_drive",
       "yakumoblade:lost_heart",
-      "legendblade:eternal"
+      "yakumoblade:eternal"
     ],
     "sword_type": [
       "bewitched"

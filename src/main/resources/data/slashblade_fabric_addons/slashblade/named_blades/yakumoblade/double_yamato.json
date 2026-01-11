@@ -14,7 +14,7 @@
     }
   ],
   "item": "slashblade_fabric_addons:slashblade_addon/double_yamato",
-  "name": "yakumoblade:double_yamato",
+    "name": "slashblade_fabric_addons:slashblade_addon/double_yamato",
   "properties": {
     "attack_base": 22.0,
     "max_damage": 180,

@@ -26,7 +26,7 @@
     }
   ],
   "item": "slashblade_fabric_addons:slashblade_addon/hundred_curses",
-  "name": "yakumoblade:hundred_curses",
+    "name": "slashblade_fabric_addons:slashblade_addon/hundred_curses",
   "properties": {
     "attack_base": 20.0,
     "max_damage": 180,

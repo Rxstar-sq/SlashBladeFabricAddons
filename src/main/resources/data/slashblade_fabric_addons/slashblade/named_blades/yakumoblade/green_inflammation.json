@@ -19,7 +19,7 @@
     }
   ],
   "item": "slashblade_fabric_addons:slashblade_addon/green_inflammation",
-  "name": "yakumoblade:green_inflammation",
+    "name": "slashblade_fabric_addons:slashblade_addon/green_inflammation",
   "properties": {
     "attack_base": 22.0,
     "max_damage": 180,

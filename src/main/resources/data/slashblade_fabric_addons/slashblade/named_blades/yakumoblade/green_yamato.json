@@ -1,7 +1,7 @@
 {
   "enchantments": [],
   "item": "slashblade_fabric_addons:slashblade_addon/green_yamato",
-  "name": "yakumoblade:green_yamato",
+    "name": "slashblade_fabric_addons:slashblade_addon/green_yamato",
   "properties": {
     "attack_base": 10.0,
     "max_damage": 180

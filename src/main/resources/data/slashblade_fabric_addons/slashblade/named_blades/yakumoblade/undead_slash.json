@@ -18,7 +18,7 @@
     }
   ],
   "item": "slashblade_fabric_addons:slashblade_addon/undead_slash",
-  "name": "yakumoblade:undead_slash",
+    "name": "slashblade_fabric_addons:slashblade_addon/undead_slash",
   "properties": {
     "attack_base": 25.0,
     "max_damage": 180,
@@ -35,7 +35,7 @@
   "render": {
     "effect_color": 13504014,
     "model": "yakumoblade:model/awolf/undead_slash.obj",
-    "texture": "yakumoblade:model/awolf/undead_slash.jpg"
+    "texture": "yakumoblade:model/awolf/undead_slash.png"
   }
 }
 

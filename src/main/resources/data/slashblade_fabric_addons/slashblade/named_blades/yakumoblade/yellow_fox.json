@@ -18,12 +18,12 @@
     }
   ],
   "item": "slashblade_fabric_addons:slashblade_addon/yellow_fox",
-  "name": "yakumoblade:yellow_fox",
+    "name": "slashblade_fabric_addons:slashblade_addon/yellow_fox",
   "properties": {
     "attack_base": 25.0,
     "max_damage": 180,
     "special_effects": [
-      "yakumoblade:fox_blade"
+      "yakumoblade:foxblade"
     ],
     "sword_type": [
       "bewitched"
