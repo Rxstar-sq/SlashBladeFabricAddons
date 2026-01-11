@@ -29,7 +29,7 @@ public class Yakumoblade {
     public static final Logger LOGGER = LogUtils.getLogger();
 
     public static ResourceLocation prefix(String path) {
-        return SFAddons.prefix(path).withPrefix(MODID + "/");
+        return SFAddons.prefix(path).withPrefix("slashblade_addon/");
     }
 
     public static ResourceLocation lbprefix(String path) {

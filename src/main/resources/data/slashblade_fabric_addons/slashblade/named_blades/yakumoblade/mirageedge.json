@@ -1,5 +1,5 @@
-﻿{
-  "creativeGroup": "slashblade_fabric_re_addons:yakumoblade/yakumoblade_slashblade",
+{
+  "creativeGroup": "slashblade_fabric_addons:yakumoblade/yakumoblade_slashblade",
   "enchantments": [
     {
       "id": "minecraft:power",
@@ -11,11 +11,11 @@
   "properties": {
     "attack_base": 10.0,
     "max_damage": 120,
-    "slash_art": "slashblade_fabric_re_addons:yakumoblade/tho2",
+    "slash_art": "slashblade_fabric_addons:yakumoblade/tho2",
     "special_effects": [
-      "slashblade_fabric_re_addons:yakumoblade/proud_soul_drive",
-      "slashblade_fabric_re_addons:yakumoblade/lost_heart",
-      "slashblade_fabric_re_addons:yakumoblade/eternal"
+      "slashblade_fabric_addons:yakumoblade/proud_soul_drive",
+      "slashblade_fabric_addons:yakumoblade/lost_heart",
+      "slashblade_fabric_addons:yakumoblade/eternal"
     ],
     "sword_type": [
       "bewitched"
@@ -23,8 +23,8 @@
   },
   "render": {
     "effect_color": 2003199,
-    "model": "slashblade_fabric_re_addons:yakumoblade/model/named/custom/vergil/mirageedge.obj",
-    "texture": "slashblade_fabric_re_addons:yakumoblade/model/named/custom/vergil/mirageedge.png"
+    "model": "slashblade_fabric_addons:yakumoblade/model/named/custom/vergil/mirageedge.obj",
+    "texture": "slashblade_fabric_addons:yakumoblade/model/named/custom/vergil/mirageedge.png"
   }
 }
 

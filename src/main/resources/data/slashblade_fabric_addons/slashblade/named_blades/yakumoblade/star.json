@@ -1,5 +1,5 @@
-﻿{
-  "creativeGroup": "slashblade_fabric_re_addons:yakumoblade/yakumoblade_slashblade_star",
+{
+  "creativeGroup": "slashblade_fabric_addons:yakumoblade/yakumoblade_slashblade_star",
   "enchantments": [
     { "id": "minecraft:power", "level": 5 }
   ],
@@ -8,10 +8,10 @@
   "properties": {
     "attack_base": 10.0,
     "max_damage": 80,
-    "slash_art": "slashblade_fabric_re_addons:yakumoblade/judgement_cut_low",
+    "slash_art": "slashblade_fabric_addons:yakumoblade/judgement_cut_low",
     "special_effects": [
-      "slashblade_fabric_re_addons:yakumoblade/star_soul",
-      "slashblade_fabric_re_addons:yakumoblade/sharpness_blade"
+      "slashblade_fabric_addons:yakumoblade/star_soul",
+      "slashblade_fabric_addons:yakumoblade/sharpness_blade"
     ],
     "sword_type": [
       "bewitched"
@@ -19,7 +19,7 @@
   },
   "render": {
     "effect_color": 10492369,
-    "model": "slashblade_fabric_re_addons:yakumoblade/model/relicofpaseone/dahe.obj",
-    "texture": "slashblade_fabric_re_addons:yakumoblade/model/other/color_cs.png"
+    "model": "slashblade_fabric_addons:yakumoblade/model/relicofpaseone/dahe.obj",
+    "texture": "slashblade_fabric_addons:yakumoblade/model/other/color_cs.png"
   }
 }

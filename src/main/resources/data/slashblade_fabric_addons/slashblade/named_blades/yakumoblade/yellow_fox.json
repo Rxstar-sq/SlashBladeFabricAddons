@@ -1,5 +1,5 @@
-﻿{
-  "creativeGroup": "slashblade_fabric_re_addons:yakumoblade/yakumoblade_slashblade",
+{
+  "creativeGroup": "slashblade_fabric_addons:yakumoblade/yakumoblade_slashblade",
   "enchantments": [
     {
       "id": "minecraft:power",
@@ -24,7 +24,7 @@
     "attack_base": 25.0,
     "max_damage": 180,
     "special_effects": [
-      "slashblade_fabric_re_addons:yakumoblade/foxblade"
+      "slashblade_fabric_addons:yakumoblade/foxblade"
     ],
     "sword_type": [
       "bewitched"
@@ -32,8 +32,8 @@
   },
   "render": {
     "effect_color": 16754944,
-    "model": "slashblade_fabric_re_addons:yakumoblade/model/named/sange/sange.obj",
-    "texture": "slashblade_fabric_re_addons:yakumoblade/model/named/sange/yellow_fox.png"
+    "model": "slashblade_fabric_addons:yakumoblade/model/named/sange/sange.obj",
+    "texture": "slashblade_fabric_addons:yakumoblade/model/named/sange/yellow_fox.png"
   }
 }
 
