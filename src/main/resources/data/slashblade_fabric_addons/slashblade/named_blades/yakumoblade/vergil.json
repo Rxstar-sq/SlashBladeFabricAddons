@@ -1,5 +1,5 @@
-{
-  "creativeGroup": "yakumoblade:yakumoblade_slashblade",
+﻿{
+  "creativeGroup": "slashblade_fabric_re_addons:yakumoblade/yakumoblade_slashblade",
   "enchantments": [
     {
       "id": "minecraft:power",
@@ -23,11 +23,11 @@
   "properties": {
     "attack_base": 50.0,
     "max_damage": 120,
-    "slash_art": "yakumoblade:randomjudgement_cut",
+    "slash_art": "slashblade_fabric_re_addons:yakumoblade/randomjudgement_cut",
     "special_effects": [
-      "yakumoblade:sword_art_on_dmc",
-      "yakumoblade:sharpness_blade",
-      "yakumoblade:lost_heart"
+      "slashblade_fabric_re_addons:yakumoblade/sword_art_on_dmc",
+      "slashblade_fabric_re_addons:yakumoblade/sharpness_blade",
+      "slashblade_fabric_re_addons:yakumoblade/lost_heart"
     ],
     "sword_type": [
       "bewitched"
@@ -35,8 +35,8 @@
   },
   "render": {
     "effect_color": 2003199,
-    "model": "yakumoblade:model/named/custom/vergil/model.obj",
-    "texture": "yakumoblade:model/named/custom/vergil/texture.png"
+    "model": "slashblade_fabric_re_addons:yakumoblade/model/named/custom/vergil/model.obj",
+    "texture": "slashblade_fabric_re_addons:yakumoblade/model/named/custom/vergil/texture.png"
   }
 }
 

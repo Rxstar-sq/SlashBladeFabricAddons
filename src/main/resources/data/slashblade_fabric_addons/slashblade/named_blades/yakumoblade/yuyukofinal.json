@@ -1,5 +1,5 @@
-{
-  "creativeGroup": "yakumoblade:yakumoblade_slashblade_touhou",
+﻿{
+  "creativeGroup": "slashblade_fabric_re_addons:yakumoblade/yakumoblade_slashblade_touhou",
   "enchantments": [
     {
       "id": "minecraft:soul_speed",
@@ -29,9 +29,9 @@
     "max_damage": 180,
     "slash_art": "slashblade_fabric_addons:yakumoblade/csoul_edge",
     "special_effects": [
-      "yakumoblade:yuyukose",
-      "yakumoblade:sword_art_on_dead",
-      "yakumoblade:ghost_blade"
+      "slashblade_fabric_re_addons:yakumoblade/yuyukose",
+      "slashblade_fabric_re_addons:yakumoblade/sword_art_on_dead",
+      "slashblade_fabric_re_addons:yakumoblade/ghost_blade"
     ],
     "sword_type": [
       "bewitched"

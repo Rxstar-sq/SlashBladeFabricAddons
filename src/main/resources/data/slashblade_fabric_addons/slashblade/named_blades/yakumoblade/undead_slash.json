@@ -1,5 +1,5 @@
-{
-  "creativeGroup": "yakumoblade:yakumoblade_slashblade",
+﻿{
+  "creativeGroup": "slashblade_fabric_re_addons:yakumoblade/yakumoblade_slashblade",
   "enchantments": [
     {
       "id": "minecraft:power",
@@ -23,10 +23,10 @@
   "properties": {
     "attack_base": 25.0,
     "max_damage": 180,
-    "slash_art": "yakumoblade:wither_attack",
+    "slash_art": "slashblade_fabric_re_addons:yakumoblade/wither_attack",
     "special_effects": [
-      "yakumoblade:sharpness_blade",
-      "yakumoblade:lost_heart",
+      "slashblade_fabric_re_addons:yakumoblade/sharpness_blade",
+      "slashblade_fabric_re_addons:yakumoblade/lost_heart",
       "slashblade:wither_edge"
     ],
     "sword_type": [
@@ -35,8 +35,8 @@
   },
   "render": {
     "effect_color": 13504014,
-    "model": "yakumoblade:model/awolf/undead_slash.obj",
-    "texture": "yakumoblade:model/awolf/undead_slash.png"
+    "model": "slashblade_fabric_re_addons:yakumoblade/model/awolf/undead_slash.obj",
+    "texture": "slashblade_fabric_re_addons:yakumoblade/model/awolf/undead_slash.png"
   }
 }
 

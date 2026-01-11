@@ -1,5 +1,5 @@
-{
-  "creativeGroup": "yakumoblade:yakumoblade_slashblade",
+﻿{
+  "creativeGroup": "slashblade_fabric_re_addons:yakumoblade/yakumoblade_slashblade",
   "enchantments": [
     {
       "id": "minecraft:power",
@@ -20,7 +20,7 @@
     "attack_base": 22.0,
     "max_damage": 180,
     "special_effects": [
-      "yakumoblade:very_green"
+      "slashblade_fabric_re_addons:yakumoblade/very_green"
     ],
     "sword_type": [
       "bewitched"
@@ -28,8 +28,8 @@
   },
   "render": {
     "effect_color": 3729097,
-    "model": "yakumoblade:model/relicofpaseone/double.obj",
-    "texture": "yakumoblade:model/relicofpaseone/yamato.png"
+    "model": "slashblade_fabric_re_addons:yakumoblade/model/relicofpaseone/double.obj",
+    "texture": "slashblade_fabric_re_addons:yakumoblade/model/relicofpaseone/yamato.png"
   }
 }
 

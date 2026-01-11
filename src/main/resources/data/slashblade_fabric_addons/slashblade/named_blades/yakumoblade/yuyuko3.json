@@ -1,5 +1,5 @@
-{
-  "creativeGroup": "yakumoblade:yakumoblade_slashblade_touhou",
+﻿{
+  "creativeGroup": "slashblade_fabric_re_addons:yakumoblade/yakumoblade_slashblade_touhou",
   "enchantments": [
     { "id": "minecraft:soul_speed", "level": 6 },
     { "id": "minecraft:power", "level": 7 },
@@ -12,9 +12,9 @@
   "properties": {
     "attack_base": 21.0,
     "max_damage": 180,
-    "slash_art": "yakumoblade:soul_galegwords",
+    "slash_art": "slashblade_fabric_re_addons:yakumoblade/soul_galegwords",
     "special_effects": [
-      "yakumoblade:ghost_blade"
+      "slashblade_fabric_re_addons:yakumoblade/ghost_blade"
     ],
     "sword_type": [
       "bewitched"
@@ -22,7 +22,7 @@
   },
   "render": {
     "effect_color": 16722600,
-    "model": "yakumoblade:model/named/sange/sange.obj",
-    "texture": "yakumoblade:model/named/sange/yuyukofinal.png"
+    "model": "slashblade_fabric_re_addons:yakumoblade/model/named/sange/sange.obj",
+    "texture": "slashblade_fabric_re_addons:yakumoblade/model/named/sange/yuyukofinal.png"
   }
 }

@@ -1,5 +1,5 @@
-{
-  "creativeGroup": "yakumoblade:yakumoblade_slashblade",
+﻿{
+  "creativeGroup": "slashblade_fabric_re_addons:yakumoblade/yakumoblade_slashblade",
   "enchantments": [],
   "item": "slashblade_fabric_addons:slashblade_addon/ru_sang",
     "name": "slashblade_fabric_addons:slashblade_addon/ru_sang",
@@ -9,8 +9,8 @@
   },
   "render": {
     "effect_color": 12013391,
-    "model": "yakumoblade:model/relicofpaseone/ru_sang.obj",
-    "texture": "yakumoblade:model/relicofpaseone/ru_sang.png"
+    "model": "slashblade_fabric_re_addons:yakumoblade/model/relicofpaseone/ru_sang.obj",
+    "texture": "slashblade_fabric_re_addons:yakumoblade/model/relicofpaseone/ru_sang.png"
   }
 }
 

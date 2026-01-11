@@ -1,5 +1,5 @@
-{
-  "creativeGroup": "yakumoblade:yakumoblade_slashblade_star",
+﻿{
+  "creativeGroup": "slashblade_fabric_re_addons:yakumoblade/yakumoblade_slashblade_star",
   "enchantments": [
     {
       "id": "minecraft:power",
@@ -29,9 +29,9 @@
     "max_damage": 180,
     "slash_art": "slashblade_fabric_addons:yakumoblade/thoo",
     "special_effects": [
-      "yakumoblade:stardriveedge",
-      "yakumoblade:star_soul",
-      "yakumoblade:sword_art_on_dinzeer"
+      "slashblade_fabric_re_addons:yakumoblade/stardriveedge",
+      "slashblade_fabric_re_addons:yakumoblade/star_soul",
+      "slashblade_fabric_re_addons:yakumoblade/sword_art_on_dinzeer"
     ],
     "sword_type": [
       "bewitched"

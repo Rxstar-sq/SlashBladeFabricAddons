@@ -1,5 +1,5 @@
-{
-  "creativeGroup": "yakumoblade:yakumoblade_slashblade",
+﻿{
+  "creativeGroup": "slashblade_fabric_re_addons:yakumoblade/yakumoblade_slashblade",
   "enchantments": [
     {
       "id": "minecraft:power",
@@ -33,7 +33,7 @@
     "max_damage": 180,
     "slash_art": "slashblade:wave_edge",
     "special_effects": [
-      "yakumoblade:sharpness_blade",
+      "slashblade_fabric_re_addons:yakumoblade/sharpness_blade",
       "slashblade:wither_edge"
     ],
     "sword_type": [
@@ -42,8 +42,8 @@
   },
   "render": {
     "effect_color": 8126719,
-    "model": "yakumoblade:model/relicofpaseone/hundred_curses.obj",
-    "texture": "yakumoblade:model/relicofpaseone/hundred_curses.png"
+    "model": "slashblade_fabric_re_addons:yakumoblade/model/relicofpaseone/hundred_curses.obj",
+    "texture": "slashblade_fabric_re_addons:yakumoblade/model/relicofpaseone/hundred_curses.png"
   }
 }
 
