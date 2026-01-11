@@ -5,6 +5,7 @@ import com.mojang.logging.LogUtils;
 import com.yakumosakura.yakumoblade.compat.YATouHouMaidItem;
 import com.yakumosakura.yakumoblade.registry.RegistryEventBus;
 import com.yakumosakura.yakumoblade.registry.SAchangeList;
+import com.yakumosakura.yakumoblade.registry.creativetab.ItemTab;
 import com.yakumosakura.yakumoblade.registry.slashblade.YAEntitiesRegistry;
 import com.yakumosakura.yakumoblade.registry.slashblade.YAItem;
 import fuzs.forgeconfigapiport.fabric.api.neoforge.v4.NeoForgeConfigRegistry;
@@ -29,7 +30,7 @@ public class Yakumoblade {
     public static final Logger LOGGER = LogUtils.getLogger();
 
     public static ResourceLocation prefix(String path) {
-        return SFAddons.prefix(path).withPrefix("slashblade_addon/");
+        return SFAddons.prefix(path).withPrefix(MODID + "/");
     }
 
     public static ResourceLocation lbprefix(String path) {
@@ -47,6 +48,8 @@ public class Yakumoblade {
     public static void init() {
         NeoForgeConfigRegistry.INSTANCE.register(SFAddons.MOD_ID, ModConfig.Type.COMMON, Config.SPEC, MODID);
         NeoForgeModConfigEvents.loading(SFAddons.MOD_ID).register(Config::onLoad);
+
+        ItemTab.init();
 
         SAchangeList.init();
 
