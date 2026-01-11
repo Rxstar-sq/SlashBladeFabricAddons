@@ -50,8 +50,7 @@ public class ItemTab {
                         return stack;
                     })
                     .displayItems((parameters, tabData) -> {
-                        ItemStack stack = new ItemStack(SBItems.SLASHBLADE);
-                        tabData.accept(stack);
+
                     })
                     .build());
     public static final CreativeModeTab YASlashbladeStar = register(MODID + "_slashblade_star",
@@ -65,8 +64,7 @@ public class ItemTab {
                         return stack;
                     })
                     .displayItems((parameters, tabData) -> {
-                        ItemStack stack = new ItemStack(SBItems.SLASHBLADE);
-                        tabData.accept(stack);
+
                     })
                     .build());
     public static final CreativeModeTab YASlashbladeHexGram = register(MODID + "_slashblade_hexgram",
@@ -80,8 +78,7 @@ public class ItemTab {
                         return stack;
                     })
                     .displayItems((parameters, tabData) -> {
-                        ItemStack stack = new ItemStack(SBItems.SLASHBLADE);
-                        tabData.accept(stack);
+
                     })
                     .build());
 
@@ -96,9 +93,7 @@ public class ItemTab {
                         return stack;
                     })
                     .displayItems((parameters, tabData) -> {
-                        // Add a placeholder to ensure the tab is not empty
-                        ItemStack stack = new ItemStack(SBItems.SLASHBLADE);
-                        tabData.accept(stack);
+
                     })
                     .build());
 
