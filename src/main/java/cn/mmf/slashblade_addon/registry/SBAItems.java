@@ -98,6 +98,12 @@ public class SBAItems {
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
     public static final Item SLASHBLADE_ADDON_YELLOW_FOX = register("yellow_fox",
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+    public static final Item SLASHBLADE_ADDON_HISONOTSURUGI = register("hisonotsurugi",
+            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+    public static final Item SLASHBLADE_ADDON_STAR_OF_DINZEER = register("star_of_dinzeer",
+            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+    public static final Item SLASHBLADE_ADDON_YUYUKOFINAL = register("yuyukofinal",
+            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
     
     public static void init() {
         // 注册初始化，此类加载时会执行静态初始化块
@@ -150,6 +156,9 @@ public class SBAItems {
             case "undead_slash" -> SLASHBLADE_ADDON_UNDEAD_SLASH;
             case "mirageedge" -> SLASHBLADE_ADDON_MIRAGEEDGE;
             case "yellow_fox" -> SLASHBLADE_ADDON_YELLOW_FOX;
+                        case "hisonotsurugi" -> SLASHBLADE_ADDON_HISONOTSURUGI;
+                        case "star_of_dinzeer" -> SLASHBLADE_ADDON_STAR_OF_DINZEER;
+                        case "yuyukofinal" -> SLASHBLADE_ADDON_YUYUKOFINAL;
             default -> null;
         };
     }
