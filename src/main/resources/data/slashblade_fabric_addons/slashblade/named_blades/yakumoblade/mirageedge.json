@@ -1,12 +1,12 @@
 {
-  "creativeGroup": "slashblade_addon:sjap_tab",
+  "creativeGroup": "yakumoblade:yakumoblade_slashblade",
   "enchantments": [
     {
       "id": "minecraft:power",
       "level": 10
     }
   ],
-  "item": "slashblade_fabric_addons:mirageedge",
+  "item": "slashblade_fabric_addons:slashblade_addon/mirageedge",
   "name": "yakumoblade:mirageedge",
   "properties": {
     "attack_base": 10.0,
@@ -18,7 +18,7 @@
       "legendblade:eternal"
     ],
     "sword_type": [
-      "slashblade:bewitched"
+      "bewitched"
     ]
   },
   "render": {

@@ -1,5 +1,5 @@
 {
-  "creativeGroup": "slashblade_addon:sjap_tab",
+  "creativeGroup": "yakumoblade:yakumoblade_slashblade",
   "enchantments": [
     {
       "id": "minecraft:power",
@@ -18,7 +18,7 @@
       "level": 3
     }
   ],
-  "item": "slashblade_fabric_addons:undead_slash",
+  "item": "slashblade_fabric_addons:slashblade_addon/undead_slash",
   "name": "yakumoblade:undead_slash",
   "properties": {
     "attack_base": 25.0,
@@ -30,7 +30,7 @@
       "slashblade:wither_edge"
     ],
     "sword_type": [
-      "slashblade:bewitched"
+      "bewitched"
     ]
   },
   "render": {

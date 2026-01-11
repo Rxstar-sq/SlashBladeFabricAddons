@@ -1,7 +1,7 @@
 {
-  "creativeGroup": "slashblade_addon:sjap_tab",
+  "creativeGroup": "yakumoblade:yakumoblade_slashblade",
   "enchantments": [],
-  "item": "slashblade_fabric_addons:green_yamato",
+  "item": "slashblade_fabric_addons:slashblade_addon/green_yamato",
   "name": "yakumoblade:green_yamato",
   "properties": {
     "attack_base": 10.0,

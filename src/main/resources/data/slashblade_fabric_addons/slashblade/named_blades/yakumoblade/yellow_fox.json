@@ -1,5 +1,5 @@
 {
-  "creativeGroup": "slashblade_addon:sjap_tab",
+  "creativeGroup": "yakumoblade:yakumoblade_slashblade",
   "enchantments": [
     {
       "id": "minecraft:power",
@@ -18,7 +18,7 @@
       "level": 3
     }
   ],
-  "item": "slashblade_fabric_addons:yellow_fox",
+  "item": "slashblade_fabric_addons:slashblade_addon/yellow_fox",
   "name": "yakumoblade:yellow_fox",
   "properties": {
     "attack_base": 25.0,
@@ -27,7 +27,7 @@
       "yakumoblade:fox_blade"
     ],
     "sword_type": [
-      "slashblade:bewitched"
+      "bewitched"
     ]
   },
   "render": {

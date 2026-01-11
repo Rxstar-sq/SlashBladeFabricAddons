@@ -71,7 +71,7 @@ public class DragonHexGramRender<T extends DragonHexGramEntity> extends EntityRe
                 BladeRenderState.renderOverridedLuminous(ItemStack.EMPTY, model, "z4", TEXTURE, matrixStack, buffer, packedLight);
             }
 
-            // 渲染z3、z5（顺时针旋转�?
+            // 渲染z3、z5（顺时针旋转
             try (MSAutoCloser counterClockwiseMsac = MSAutoCloser.pushMatrix(matrixStack)) {
                 matrixStack.mulPose(Axis.YP.rotationDegrees(-rotationAngle * 2));
 

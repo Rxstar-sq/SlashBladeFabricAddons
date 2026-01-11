@@ -1,5 +1,5 @@
 {
-  "creativeGroup": "slashblade_addon:sjap_tab",
+  "creativeGroup": "yakumoblade:yakumoblade_slashblade",
   "enchantments": [
     {
       "id": "minecraft:power",
@@ -18,7 +18,7 @@
       "level": 10
     }
   ],
-  "item": "slashblade_fabric_addons:green_inflammation",
+  "item": "slashblade_fabric_addons:slashblade_addon/green_inflammation",
   "name": "yakumoblade:green_inflammation",
   "properties": {
     "attack_base": 22.0,
@@ -28,7 +28,7 @@
       "yakumoblade:sharpness_blade"
     ],
     "sword_type": [
-      "slashblade:bewitched"
+      "bewitched"
     ]
   },
   "render": {

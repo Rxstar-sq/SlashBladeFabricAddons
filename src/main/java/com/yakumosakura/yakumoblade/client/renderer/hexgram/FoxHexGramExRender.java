@@ -35,7 +35,7 @@ public class FoxHexGramExRender<T extends FoxHexGramExEntity> extends EntityRend
     public void render(T entity, float entityYaw, float partialTicks, PoseStack matrixStack,
                        MultiBufferSource buffer, int packedLight) {
         try (MSAutoCloser msac = MSAutoCloser.pushMatrix(matrixStack)) {
-            // 计算透明�?
+            // 计算透明
             float lifetime = entity.getLifeTime();
             double deathTime = lifetime;
             double baseAlpha = Math.min(deathTime, Math.max(0.0F, lifetime - entity.tickCount)) / deathTime;
@@ -50,7 +50,7 @@ public class FoxHexGramExRender<T extends FoxHexGramExEntity> extends EntityRend
             float scale = 0.015F;
             matrixStack.scale(scale, scale, scale);
 
-            // 设置颜色和透明�?
+            // 设置颜色和透明
             int color = 16722600;
             int alpha = (255 & (int) (255.0F * baseAlpha)) << 24;
 
@@ -67,7 +67,7 @@ public class FoxHexGramExRender<T extends FoxHexGramExEntity> extends EntityRend
 
 
             try (MSAutoCloser counterClockwiseMsac = MSAutoCloser.pushMatrix(matrixStack)) {
-                matrixStack.mulPose(Axis.YP.rotationDegrees(-rotationAngle * 2)); // 负角度实现逆时针旋�?
+                matrixStack.mulPose(Axis.YP.rotationDegrees(-rotationAngle * 2)); // 负角度实现逆时针旋转
                 BladeRenderState.renderOverridedLuminous(ItemStack.EMPTY, model, "z3", TEXTURE, matrixStack, buffer, packedLight);
                 BladeRenderState.renderOverridedLuminous(ItemStack.EMPTY, model, "z5", TEXTURE, matrixStack, buffer, packedLight);
             }

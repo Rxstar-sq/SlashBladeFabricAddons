@@ -35,7 +35,7 @@ public class StarRideRender<T extends StarRiderEntity> extends EntityRenderer<T>
     public void render(T entity, float entityYaw, float partialTicks, PoseStack matrixStack,
                        MultiBufferSource buffer, int packedLight) {
         try (MSAutoCloser msac = MSAutoCloser.pushMatrix(matrixStack)) {
-            // 计算透明�?
+            // 计算透明
             float lifetime = entity.getLifeTime();
             double deathTime = lifetime;
             double baseAlpha = Math.min(deathTime, Math.max(0.0F, lifetime - entity.tickCount)) / deathTime;
@@ -49,7 +49,7 @@ public class StarRideRender<T extends StarRiderEntity> extends EntityRenderer<T>
             float scale = 0.1F;
             matrixStack.scale(scale, scale, scale);
 
-            // 设置颜色和透明�?
+            // 设置颜色和透明
             int color = 34303;
             int alpha = (255 & (int) (255.0F * baseAlpha)) << 24;
 

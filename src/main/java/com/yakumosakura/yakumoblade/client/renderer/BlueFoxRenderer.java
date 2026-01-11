@@ -72,11 +72,13 @@ public class BlueFoxRenderer<T extends absNeoSummonSword> extends EntityRenderer
             int alpha = 0xFF000000; // 固定不透明
             WavefrontObject model = BladeModelManager.getInstance().getModel(MODEL);
 
-            BladeRenderState.setCol(color | alpha);
-            BladeRenderState.renderOverridedLuminous(ItemStack.EMPTY, model, "blade", TEXTURE, matrixStack, bufferIn,
-                    packedLightIn);
-            BladeRenderState.renderOverridedLuminous(ItemStack.EMPTY, model, "blade_luminous", TEXTURE, matrixStack, bufferIn,
-                    packedLightIn);
+            if (model != null) {
+                BladeRenderState.setCol(color | alpha);
+                BladeRenderState.renderOverridedLuminous(ItemStack.EMPTY, model, "blade", TEXTURE, matrixStack, bufferIn,
+                        packedLightIn);
+                BladeRenderState.renderOverridedLuminous(ItemStack.EMPTY, model, "blade_luminous", TEXTURE, matrixStack, bufferIn,
+                        packedLightIn);
+            }
         }
     }
 

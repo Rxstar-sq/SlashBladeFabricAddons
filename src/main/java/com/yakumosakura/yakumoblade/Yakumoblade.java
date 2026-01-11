@@ -12,7 +12,6 @@ import fuzs.forgeconfigapiport.fabric.api.neoforge.v4.NeoForgeModConfigEvents;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.server.MinecraftServer;
 import net.neoforged.fml.config.ModConfig;
 import org.slf4j.Logger;
 
@@ -42,9 +41,7 @@ public class Yakumoblade {
 
 
     public static void queueServerWork(int tick, Runnable action) {
-        var server = SFAddons.getServer();
-        if (server != null && server.isSameThread())
-            workQueue.add(new AbstractMap.SimpleEntry<>(action, tick));
+        workQueue.add(new AbstractMap.SimpleEntry<>(action, tick));
     }
 
     public static void init() {
@@ -64,7 +61,7 @@ public class Yakumoblade {
 
     }
 
-    public static void tick(MinecraftServer server) {
+    public static void tick(net.minecraft.server.MinecraftServer server) {
         List<AbstractMap.SimpleEntry<Runnable, Integer>> actions = new ArrayList<>();
         workQueue.forEach(work -> {
             work.setValue(work.getValue() - 1);

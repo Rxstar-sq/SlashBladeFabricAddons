@@ -55,8 +55,8 @@ public class BigDriveEnity extends absNeoSummonSword {
     private KnockBacks action;
     private double damage;
     private final List<Entity> alreadyHits;
-    private int lastHitTick = 0; // 记录上次造成伤害的时�?
-    private static final int HIT_COOLDOWN = 10; // 冷却时间�?0 ticks = 1秒）
+    private int lastHitTick = 0; // 记录上次造成伤害的
+    private static final int HIT_COOLDOWN = 10; // 冷却时间：10 ticks = 1秒）
 
     public KnockBacks getKnockBack() {
         return this.action;
@@ -305,15 +305,15 @@ public class BigDriveEnity extends absNeoSummonSword {
 
         Vec3 pos = this.position();
         AABB attackRange = new AABB(
-                pos.x - 1,  // 宽度方向左右�?�?
-                pos.y - 1,  // 高度方向上下�?�?
-                pos.z - 5,  // 长度方向向后5�?
+                pos.x - 1,  // 宽度方向左右
+                pos.y - 1,  // 高度方向上下
+                pos.z - 5,  // 长度方向向后5
                 pos.x + 1,
                 pos.y + 1,
-                pos.z + 5   // 长度方向向前5�?
+                pos.z + 5   // 长度方向向前5
         );
 
-        // 获取范围内所有生物实�?
+        // 获取范围内所有生物实
         List<LivingEntity> targets = this.level().getEntitiesOfClass(
                 LivingEntity.class,
                 attackRange,

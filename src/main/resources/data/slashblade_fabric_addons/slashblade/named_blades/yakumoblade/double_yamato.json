@@ -1,5 +1,5 @@
 {
-  "creativeGroup": "slashblade_addon:sjap_tab",
+  "creativeGroup": "yakumoblade:yakumoblade_slashblade",
   "enchantments": [
     {
       "id": "minecraft:power",
@@ -14,7 +14,7 @@
       "level": 3
     }
   ],
-  "item": "slashblade_fabric_addons:double_yamato",
+  "item": "slashblade_fabric_addons:slashblade_addon/double_yamato",
   "name": "yakumoblade:double_yamato",
   "properties": {
     "attack_base": 22.0,
@@ -23,7 +23,7 @@
       "yakumoblade:very_green"
     ],
     "sword_type": [
-      "slashblade:bewitched"
+      "bewitched"
     ]
   },
   "render": {

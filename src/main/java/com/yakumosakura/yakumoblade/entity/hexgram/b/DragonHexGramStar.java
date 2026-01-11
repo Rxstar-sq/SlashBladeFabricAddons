@@ -18,7 +18,7 @@ public class DragonHexGramStar extends Projectile {
         super(p_37248_, p_37249_);
     }
 
-    private boolean isAddedToWorld;
+    private boolean initialized;
 
     private static final EntityDataAccessor<Float> LIFE_TIME = SynchedEntityData.defineId(DragonHexGramStar.class, EntityDataSerializers.FLOAT);
     private static final EntityDataAccessor<Integer> COLOR = SynchedEntityData.defineId(DragonHexGramStar.class, EntityDataSerializers.INT);
@@ -26,6 +26,14 @@ public class DragonHexGramStar extends Projectile {
     @Override
     public void tick() {
         super.tick();
+
+        if (!initialized) {
+            this.setYRot(-90);
+            this.setXRot(90);
+            this.yRotO = -90;
+            this.xRotO = 90;
+            this.initialized = true;
+        }
 
         // 修正XRot角度为90度（正确面朝正下方）并保持YRot为-90度
         this.setYRot(-90);  // 新增Y轴朝向固定
@@ -46,27 +54,10 @@ public class DragonHexGramStar extends Projectile {
     }
 
     @Override
-    public boolean isAddedToWorld() {
-        return this.isAddedToWorld;
-    }
-
-    // 恢复初始化方法设置初始朝下方向
-    @Override
-    public void onAddedToWorld() {
-        this.setYRot(-90f); // 初始面朝正下方
-        this.setXRot(90f);  // 新增初始俯仰角设置
-    }
-
-    @Override
     protected void defineSynchedData(SynchedEntityData.Builder builder) {
         super.defineSynchedData(builder);
         builder.define(COLOR, 16722600);
         builder.define(LIFE_TIME, 600.0f);
-    }
-
-    @Override
-    public void onRemovedFromWorld() {
-        this.isAddedToWorld = false;
     }
 
     public int getColor() {

@@ -1,0 +1,4 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": { "layer0": "yakumoblade:item/star_treasure_scripture" }
+}

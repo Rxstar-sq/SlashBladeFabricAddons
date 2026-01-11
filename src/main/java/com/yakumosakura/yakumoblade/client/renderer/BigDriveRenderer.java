@@ -58,9 +58,11 @@ public class BigDriveRenderer<T extends BigDriveEnity> extends EntityRenderer<T>
             int alpha = ((0xFF & (int) (0xFF * baseAlpha)) << 24);
             WavefrontObject model = BladeModelManager.getInstance().getModel(MODEL);
 
-            BladeRenderState.setCol(color | alpha);
-            BladeRenderState.renderOverridedLuminous(ItemStack.EMPTY, model, "base", TEXTURE, matrixStack, bufferIn,
-                    packedLightIn);
+            if (model != null) {
+                BladeRenderState.setCol(color | alpha);
+                BladeRenderState.renderOverridedLuminous(ItemStack.EMPTY, model, "base", TEXTURE, matrixStack, bufferIn,
+                        packedLightIn);
+            }
         }
     }
 }

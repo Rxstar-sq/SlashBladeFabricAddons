@@ -8,6 +8,12 @@ import cn.mmf.slashblade_addon.registry.SBAItems;
 import cn.mmf.slashblade_addon.registry.SBASlashArtsRegistry;
 import cn.mmf.slashblade_addon.registry.SBASpecialEffectsRegistry;
 import cn.sh1rocu.sfaddons.SFAddons;
+import com.yakumosakura.yakumoblade.registry.slashblade.YAEntitiesRegistry;
+import com.yakumosakura.yakumoblade.registry.slashblade.YAItem;
+import com.yakumosakura.yakumoblade.registry.slashblade.YASlashArtRegistry;
+import com.yakumosakura.yakumoblade.registry.slashblade.YASpecialEffectsRegistry;
+import com.yakumosakura.yakumoblade.registry.slashblade.combostate.YAComboRegistry;
+import com.yakumosakura.yakumoblade.registry.slashblade.combostate.YAComboRegistry2;
 import com.mojang.logging.LogUtils;
 import mods.flammpfeil.slashblade.capability.slashblade.CapabilitySlashBlade;
 import mods.flammpfeil.slashblade.init.SBItems;
@@ -48,6 +54,15 @@ public class SlashBladeAddon {
         SBASlashArtsRegistry.init();
         SBAComboStateRegistry.init();
         SBASpecialEffectsRegistry.init();
+        
+        // Initialize yakumoblade registries
+        YAItem.init();
+        YAEntitiesRegistry.init();
+        YASlashArtRegistry.init();
+        YASpecialEffectsRegistry.init();
+        YAComboRegistry.init();
+        YAComboRegistry2.init();
+        
         if (FabricLoader.getInstance().isModLoaded("botania")) {
             SBABotaniaCompat.init();
         }

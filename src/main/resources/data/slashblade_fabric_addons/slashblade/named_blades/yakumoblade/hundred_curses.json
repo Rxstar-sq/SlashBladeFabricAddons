@@ -1,5 +1,5 @@
 {
-  "creativeGroup": "slashblade_addon:sjap_tab",
+  "creativeGroup": "yakumoblade:yakumoblade_slashblade",
   "enchantments": [
     {
       "id": "minecraft:power",
@@ -26,7 +26,7 @@
       "level": 6
     }
   ],
-  "item": "slashblade_fabric_addons:hundred_curses",
+  "item": "slashblade_fabric_addons:slashblade_addon/hundred_curses",
   "name": "yakumoblade:hundred_curses",
   "properties": {
     "attack_base": 20.0,
@@ -37,7 +37,7 @@
       "slashblade:wither_edge"
     ],
     "sword_type": [
-      "slashblade:bewitched"
+      "bewitched"
     ]
   },
   "render": {

@@ -1,7 +1,7 @@
 {
-  "creativeGroup": "slashblade_addon:sjap_tab",
+  "creativeGroup": "yakumoblade:yakumoblade_slashblade",
   "enchantments": [],
-  "item": "slashblade_fabric_addons:ru_sang",
+  "item": "slashblade_fabric_addons:slashblade_addon/ru_sang",
   "name": "yakumoblade:ru_sang",
   "properties": {
     "attack_base": 13.0,
