@@ -1,0 +1,21 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_fabric_addons:slashblade_addon/star",
+  "category": "equipment",
+  "key": {
+    "A": { "item": "yakumoblade:umle" },
+    "B": { "item": "slashblade:proudsoul_crystal" },
+    "C": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": { "kill": 100, "refine": 50 }
+    }
+  },
+  "pattern": [
+    "BAB",
+    "BCB",
+    "BAB"
+  ],
+  "result": { "id": "slashblade_fabric_addons:slashblade_addon/star", "count": 1 },
+  "show_notification": true
+}

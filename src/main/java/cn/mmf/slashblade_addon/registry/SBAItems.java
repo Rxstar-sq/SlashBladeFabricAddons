@@ -104,6 +104,10 @@ public class SBAItems {
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
     public static final Item SLASHBLADE_ADDON_YUYUKOFINAL = register("yuyukofinal",
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+    public static final Item SLASHBLADE_ADDON_STAR = register("star",
+            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+    public static final Item SLASHBLADE_ADDON_YUYUKO3 = register("yuyuko3",
+            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
     
     public static void init() {
         // 注册初始化，此类加载时会执行静态初始化块
@@ -159,6 +163,8 @@ public class SBAItems {
                         case "hisonotsurugi" -> SLASHBLADE_ADDON_HISONOTSURUGI;
                         case "star_of_dinzeer" -> SLASHBLADE_ADDON_STAR_OF_DINZEER;
                         case "yuyukofinal" -> SLASHBLADE_ADDON_YUYUKOFINAL;
+                        case "star" -> SLASHBLADE_ADDON_STAR;
+                        case "yuyuko3" -> SLASHBLADE_ADDON_YUYUKO3;
             default -> null;
         };
     }

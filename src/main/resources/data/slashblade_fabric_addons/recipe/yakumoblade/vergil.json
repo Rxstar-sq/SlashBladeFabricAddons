@@ -1,0 +1,24 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_fabric_addons:slashblade_addon/vergil",
+  "category": "equipment",
+  "key": {
+    "A": { "item": "yakumoblade:umle" },
+    "B": { "item": "slashblade:proudsoul_trapezohedron" },
+    "C": { "item": "minecraft:nether_star" },
+    "D": { "item": "minecraft:netherite_ingot" },
+    "E": { "item": "minecraft:dragon_breath" },
+    "F": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade_yamato",
+      "request": { "kill": 1000, "proud_soul": 1000000, "refine": 200 }
+    }
+  },
+  "pattern": [
+    "ABC",
+    "DEB",
+    "FDA"
+  ],
+  "result": { "id": "slashblade_fabric_addons:slashblade_addon/vergil", "count": 1 },
+  "show_notification": true
+}

@@ -1,0 +1,32 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_fabric_addons:slashblade_addon/hundred_curses",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "type": "slashblade:blade",
+      "item": "slashblade_fabric_addons:slashblade_addon/green_yamato",
+      "request": { "kill": 1000, "refine": 20 }
+    },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade_sange",
+      "request": { "kill": 1000, "refine": 20 }
+    },
+    "C": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade_koseki",
+      "request": { "kill": 1000 }
+    },
+    "D": { "item": "yakumoblade:umle" },
+    "V": { "item": "slashblade:proudsoul_trapezohedron" },
+    "Z": { "item": "slashblade:proudsoul_sphere" }
+  },
+  "pattern": [
+    "VAZ",
+    "DBD",
+    "ZCV"
+  ],
+  "result": { "id": "slashblade_fabric_addons:slashblade_addon/hundred_curses", "count": 1 },
+  "show_notification": true
+}

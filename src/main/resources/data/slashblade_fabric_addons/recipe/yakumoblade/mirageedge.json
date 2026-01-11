@@ -1,0 +1,21 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_fabric_addons:slashblade_addon/mirageedge",
+  "category": "equipment",
+  "key": {
+    "A": { "item": "slashblade:proudsoul_crystal" },
+    "B": { "item": "slashblade:proudsoul_trapezohedron" },
+    "C": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": { "kill": 500, "proud_soul": 97540, "refine": 100 }
+    }
+  },
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "result": { "id": "slashblade_fabric_addons:slashblade_addon/mirageedge", "count": 1 },
+  "show_notification": true
+}

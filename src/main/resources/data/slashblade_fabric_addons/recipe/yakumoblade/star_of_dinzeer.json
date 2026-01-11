@@ -1,0 +1,37 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_fabric_addons:slashblade_addon/star_of_dinzeer",
+  "category": "equipment",
+  "key": {
+    "A": { "item": "yakumoblade:umle" },
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade_fabric_addons:slashblade_addon/kirisaya",
+      "request": {}
+    },
+    "D": { "tag": "forge:storage_blocks/netherite" },
+    "N": { "item": "minecraft:nether_star" },
+    "R": { "item": "minecraft:ender_eye" },
+    "T": { "item": "slashblade:proudsoul_trapezohedron" },
+    "W": {
+      "type": "slashblade:blade",
+      "item": "slashblade_fabric_addons:slashblade_addon/dark_raven",
+      "request": {}
+    },
+    "X": {
+      "type": "slashblade:blade",
+      "item": "slashblade_fabric_addons:slashblade_addon/star",
+      "request": { "kill": 1000, "refine": 20 }
+    }
+  },
+  "pattern": [
+    "WTA",
+    "DXT",
+    "NRB"
+  ],
+  "result": {
+    "id": "slashblade_fabric_addons:slashblade_addon/star_of_dinzeer",
+    "count": 1
+  },
+  "show_notification": true
+}

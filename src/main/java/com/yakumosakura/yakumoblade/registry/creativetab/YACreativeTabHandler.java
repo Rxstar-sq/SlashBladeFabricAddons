@@ -21,7 +21,7 @@ public class YACreativeTabHandler {
             entries.accept(ItemRegistry.powercoreex);
         }
 
-        // Add yakumoblade blades to YASlashblade tab statically
+        // Distribute yakumoblade blades to their dedicated tabs (match 1.21.1 style)
         if (group == ItemTab.YASlashblade) {
             entries.accept(SBAItems.SLASHBLADE_ADDON_VERGIL);
             entries.accept(SBAItems.SLASHBLADE_ADDON_DOUBLE_YAMATO);
@@ -32,6 +32,17 @@ public class YACreativeTabHandler {
             entries.accept(SBAItems.SLASHBLADE_ADDON_UNDEAD_SLASH);
             entries.accept(SBAItems.SLASHBLADE_ADDON_MIRAGEEDGE);
             entries.accept(SBAItems.SLASHBLADE_ADDON_YELLOW_FOX);
+        }
+
+        if (group == ItemTab.YASlashbladeTouHou) {
+            entries.accept(SBAItems.SLASHBLADE_ADDON_HISONOTSURUGI);
+            entries.accept(SBAItems.SLASHBLADE_ADDON_YUYUKOFINAL);
+            entries.accept(SBAItems.SLASHBLADE_ADDON_YUYUKO3);
+        }
+
+        if (group == ItemTab.YASlashbladeStar) {
+            entries.accept(SBAItems.SLASHBLADE_ADDON_STAR_OF_DINZEER);
+            entries.accept(SBAItems.SLASHBLADE_ADDON_STAR);
         }
     }
 }

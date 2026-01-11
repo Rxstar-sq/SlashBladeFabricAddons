@@ -1,0 +1,16 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_slashblade": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [ { "items": [ "slashblade:slashblade" ] } ] }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": { "recipe": "slashblade_fabric_addons:yakumoblade/star" }
+    }
+  },
+  "requirements": [ [ "has_slashblade", "has_the_recipe" ] ],
+  "rewards": { "recipes": [ "slashblade_fabric_addons:yakumoblade/star" ] },
+  "sends_telemetry_event": false
+}

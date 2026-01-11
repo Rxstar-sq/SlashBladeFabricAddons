@@ -1,0 +1,22 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_fabric_addons:slashblade_addon/undead_slash",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade_muramasa",
+      "request": {}
+    },
+    "D": { "item": "yakumoblade:umle" },
+    "S": { "item": "minecraft:nether_star" },
+    "Z": { "item": "slashblade:proudsoul_sphere" }
+  },
+  "pattern": [
+    "DSD",
+    "ZBZ",
+    "DZD"
+  ],
+  "result": { "id": "slashblade_fabric_addons:slashblade_addon/undead_slash", "count": 1 },
+  "show_notification": true
+}

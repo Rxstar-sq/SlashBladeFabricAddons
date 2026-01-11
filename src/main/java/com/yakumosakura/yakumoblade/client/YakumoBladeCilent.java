@@ -3,6 +3,7 @@ package com.yakumosakura.yakumoblade.client;
 import com.yakumosakura.yakumoblade.client.renderer.*;
 import com.yakumosakura.yakumoblade.client.renderer.effect.StarRideRender;
 import com.yakumosakura.yakumoblade.client.renderer.hexgram.DragonHexGramRender;
+import com.yakumosakura.yakumoblade.client.renderer.hexgram.DragonHexGramStarRender;
 import com.yakumosakura.yakumoblade.client.renderer.hexgram.FoxHexGramExRender;
 import com.yakumosakura.yakumoblade.client.renderer.hexgram.LaserCircleRender;
 import com.yakumosakura.yakumoblade.client.renderer.touhou.YukariRender;
@@ -30,6 +31,9 @@ public class YakumoBladeCilent {
         EntityRendererRegistry.register(YAEntitiesRegistry.SumonSwordentityFox, FoxFlowerSuperRender::new);
         EntityRendererRegistry.register(YAEntitiesRegistry.swordRainEntity, FoxFlowerRender::new);
         EntityRendererRegistry.register(YAEntitiesRegistry.swordRainEntityDragon, FoxFlowerRender::new);
+    EntityRendererRegistry.register(YAEntitiesRegistry.swordRainFire, FoxFlowerRender::new);
+    EntityRendererRegistry.register(YAEntitiesRegistry.starEntity, FoxFlowerRender::new);
+    EntityRendererRegistry.register(YAEntitiesRegistry.starEntityDragon, DragonHexGramStarRender::new);
         EntityRendererRegistry.register(YAEntitiesRegistry.SummonSword, SummonedSwordRenderer::new);
         EntityRendererRegistry.register(YAEntitiesRegistry.BlueFox, BlueFoxRenderer::new);
         EntityRendererRegistry.register(YAEntitiesRegistry.HexGramSumonSword, SummonedSwordRenderer::new);

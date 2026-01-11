@@ -1,0 +1,23 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "slashblade_fabric_addons:slashblade_addon/double_yamato",
+  "category": "equipment",
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade_fabric_addons:slashblade_addon/green_yamato",
+      "request": { "kill": 10, "refine": 20 }
+    },
+    "P": { "item": "minecraft:sculk_catalyst" },
+    "S": { "item": "minecraft:nether_star" },
+    "V": { "tag": "forge:storage_blocks/emerald" },
+    "Z": { "item": "slashblade:proudsoul_sphere" }
+  },
+  "pattern": [
+    "ZVB",
+    "VPV",
+    "BSZ"
+  ],
+  "result": { "id": "slashblade_fabric_addons:slashblade_addon/double_yamato", "count": 1 },
+  "show_notification": true
+}
