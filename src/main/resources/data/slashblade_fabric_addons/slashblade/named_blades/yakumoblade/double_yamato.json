@@ -1,5 +1,4 @@
 {
-  "creativeGroup": "yakumoblade:yakumoblade_slashblade",
   "enchantments": [
     {
       "id": "minecraft:power",
@@ -28,7 +27,9 @@
   },
   "render": {
     "effect_color": 3729097,
-    "model": "slashblade_fabric_addons:yakumoblade/model/relicofpaseone/double.obj",
-    "texture": "slashblade_fabric_addons:yakumoblade/model/relicofpaseone/yamato.png"
+    "model": "yakumoblade:model/relicofpaseone/double.obj",
+    "texture": "yakumoblade:model/relicofpaseone/yamato.png"
   }
 }
+
+

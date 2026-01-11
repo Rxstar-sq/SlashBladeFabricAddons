@@ -1,5 +1,4 @@
 {
-  "creativeGroup": "yakumoblade:yakumoblade_slashblade",
   "enchantments": [
     {
       "id": "minecraft:power",
@@ -23,7 +22,9 @@
   },
   "render": {
     "effect_color": 2003199,
-    "model": "slashblade_fabric_addons:yakumoblade/model/named/custom/vergil/mirageedge.obj",
-    "texture": "slashblade_fabric_addons:yakumoblade/model/named/custom/vergil/mirageedge.png"
+    "model": "yakumoblade:model/named/custom/vergil/mirageedge.obj",
+    "texture": "yakumoblade:model/named/custom/vergil/mirageedge.png"
   }
 }
+
+

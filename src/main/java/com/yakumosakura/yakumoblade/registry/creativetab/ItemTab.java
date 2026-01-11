@@ -93,7 +93,7 @@ public class ItemTab {
                         return stack;
                     })
                     .displayItems((parameters, tabData) -> {
-
+                        // Items will be added via ItemGroupEvents.MODIFY_ENTRIES_ALL in YACreativeTabHandler
                     })
                     .build());
 

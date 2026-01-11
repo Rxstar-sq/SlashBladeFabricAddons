@@ -33,7 +33,7 @@
   },
   "render": {
     "effect_color": 2424576,
-    "model": "slashblade_fabric_addons:yakumoblade/model/relicofpaseone/green_inflammation.obj",
-    "texture": "slashblade_fabric_addons:yakumoblade/model/relicofpaseone/green_inflammation.png"
+    "model": "yakumoblade:model/relicofpaseone/green_inflammation.obj",
+    "texture": "yakumoblade:model/relicofpaseone/green_inflammation.png"
   }
 }

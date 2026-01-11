@@ -1,5 +1,4 @@
 {
-  "creativeGroup": "yakumoblade:yakumoblade_slashblade",
   "enchantments": [],
   "item": "slashblade_fabric_addons:slashblade_addon/green_yamato",
   "name": "yakumoblade:green_yamato",
@@ -9,7 +8,9 @@
   },
   "render": {
     "effect_color": 3729097,
-    "model": "slashblade_fabric_addons:yakumoblade/model/relicofpaseone/dahe.obj",
-    "texture": "slashblade_fabric_addons:yakumoblade/model/relicofpaseone/yamato.png"
+    "model": "yakumoblade:model/relicofpaseone/dahe.obj",
+    "texture": "yakumoblade:model/relicofpaseone/yamato.png"
   }
 }
+
+

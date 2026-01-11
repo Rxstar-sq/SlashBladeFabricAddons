@@ -1,5 +1,4 @@
 {
-  "creativeGroup": "yakumoblade:yakumoblade_slashblade",
   "enchantments": [
     {
       "id": "minecraft:power",
@@ -42,7 +41,9 @@
   },
   "render": {
     "effect_color": 8126719,
-    "model": "slashblade_fabric_addons:yakumoblade/model/relicofpaseone/hundred_curses.obj",
-    "texture": "slashblade_fabric_addons:yakumoblade/model/relicofpaseone/hundred_curses.png"
+    "model": "yakumoblade:model/relicofpaseone/hundred_curses.obj",
+    "texture": "yakumoblade:model/relicofpaseone/hundred_curses.png"
   }
 }
+
+

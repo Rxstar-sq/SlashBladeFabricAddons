@@ -1,5 +1,4 @@
 {
-  "creativeGroup": "yakumoblade:yakumoblade_slashblade",
   "enchantments": [
     {
       "id": "minecraft:power",
@@ -32,7 +31,9 @@
   },
   "render": {
     "effect_color": 16754944,
-    "model": "slashblade_fabric_addons:yakumoblade/model/named/sange/sange.obj",
-    "texture": "slashblade_fabric_addons:yakumoblade/model/named/sange/yellow_fox.png"
+    "model": "yakumoblade:model/named/sange/sange.obj",
+    "texture": "yakumoblade:model/named/sange/yellow_fox.png"
   }
 }
+
+

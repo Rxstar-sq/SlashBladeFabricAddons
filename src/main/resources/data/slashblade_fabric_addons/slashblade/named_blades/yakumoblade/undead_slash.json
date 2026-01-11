@@ -1,5 +1,4 @@
 {
-  "creativeGroup": "yakumoblade:yakumoblade_slashblade",
   "enchantments": [
     {
       "id": "minecraft:power",
@@ -35,7 +34,9 @@
   },
   "render": {
     "effect_color": 13504014,
-    "model": "slashblade_fabric_addons:yakumoblade/model/awolf/undead_slash.obj",
-    "texture": "slashblade_fabric_addons:yakumoblade/model/awolf/undead_slash.jpg"
+    "model": "yakumoblade:model/awolf/undead_slash.obj",
+    "texture": "yakumoblade:model/awolf/undead_slash.jpg"
   }
 }
+
+
