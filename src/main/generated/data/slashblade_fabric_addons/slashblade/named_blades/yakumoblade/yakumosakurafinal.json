@@ -1,0 +1,51 @@
+{
+  "creativeGroup": "yakumoblade:yakumoblade_yakumoblade_slashblade_touhou",
+  "enchantments": [
+    {
+      "id": "minecraft:soul_speed",
+      "lvl": 4
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:feather_falling",
+      "lvl": 8
+    },
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 3
+    }
+  ],
+  "item": "slashblade_fabric_addons:slashblade_addon/yakumosakurafinal",
+  "name": "slashblade_fabric_addons:slashblade_addon/yakumosakurafinal",
+  "properties": {
+    "attack_base": 39.0,
+    "max_damage": 180,
+    "slash_art": "slashblade_fabric_addons:slashblade_addon/dead_or_life",
+    "special_effects": [
+      "slashblade_fabric_addons:slashblade_addon/make_gap",
+      "slashblade_fabric_addons:slashblade_addon/sword_art_on_gap",
+      "slashblade_fabric_addons:slashblade_addon/sharpness_blade",
+      "slashblade_fabric_addons:slashblade_addon/youkai"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "slashblade_fabric_addons:yakumoblade/model/named/sange/yakumosakurafinal.obj",
+    "summon_sword_color": 16722600,
+    "texture": "slashblade_fabric_addons:yakumoblade/model/named/sange/yakumosakurafinal.png"
+  }
+}

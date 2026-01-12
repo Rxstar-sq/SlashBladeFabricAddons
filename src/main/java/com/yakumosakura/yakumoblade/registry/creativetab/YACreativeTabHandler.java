@@ -11,6 +11,13 @@ public class YACreativeTabHandler {
         ItemGroupEvents.MODIFY_ENTRIES_ALL.register(YACreativeTabHandler::addCreative);
     }
 
+    private static void addIfPresent(FabricItemGroupEntries entries, String bladeName) {
+        var item = SBAItems.getNamedBladeItem(bladeName);
+        if (item != null) {
+            entries.accept(item);
+        }
+    }
+
     private static void addCreative(CreativeModeTab group, FabricItemGroupEntries entries) {
         // Add items to YAKUMOTAB (crafting materials)
         if (group == ItemTab.YAKUMOTAB) {
@@ -23,26 +30,26 @@ public class YACreativeTabHandler {
 
         // Distribute yakumoblade blades to their dedicated tabs (match 1.21.1 style)
         if (group == ItemTab.YASlashblade) {
-            entries.accept(SBAItems.SLASHBLADE_ADDON_VERGIL);
-            entries.accept(SBAItems.SLASHBLADE_ADDON_DOUBLE_YAMATO);
-            entries.accept(SBAItems.SLASHBLADE_ADDON_GREEN_INFLAMMATION);
-            entries.accept(SBAItems.SLASHBLADE_ADDON_GREEN_YAMATO);
-            entries.accept(SBAItems.SLASHBLADE_ADDON_HUNDRED_CURSES);
-            entries.accept(SBAItems.SLASHBLADE_ADDON_RU_SANG);
-            entries.accept(SBAItems.SLASHBLADE_ADDON_UNDEAD_SLASH);
-            entries.accept(SBAItems.SLASHBLADE_ADDON_MIRAGEEDGE);
-            entries.accept(SBAItems.SLASHBLADE_ADDON_YELLOW_FOX);
+            addIfPresent(entries, "vergil");
+            addIfPresent(entries, "double_yamato");
+            addIfPresent(entries, "green_inflammation");
+            addIfPresent(entries, "green_yamato");
+            addIfPresent(entries, "hundred_curses");
+            addIfPresent(entries, "ru_sang");
+            addIfPresent(entries, "undead_slash");
+            addIfPresent(entries, "mirageedge");
+            addIfPresent(entries, "yellow_fox");
         }
 
         if (group == ItemTab.YASlashbladeTouHou) {
-            entries.accept(SBAItems.SLASHBLADE_ADDON_HISONOTSURUGI);
-            entries.accept(SBAItems.SLASHBLADE_ADDON_YUYUKOFINAL);
-            entries.accept(SBAItems.SLASHBLADE_ADDON_YUYUKO3);
+            addIfPresent(entries, "hisonotsurugi");
+            addIfPresent(entries, "yuyukofinal");
+            addIfPresent(entries, "yuyuko3");
         }
 
         if (group == ItemTab.YASlashbladeStar) {
-            entries.accept(SBAItems.SLASHBLADE_ADDON_STAR_OF_DINZEER);
-            entries.accept(SBAItems.SLASHBLADE_ADDON_STAR);
+            addIfPresent(entries, "star_of_dinzeer");
+            addIfPresent(entries, "star");
         }
     }
 }

@@ -1,0 +1,13 @@
+{
+  "creativeGroup": "yakumoblade:yakumoblade_yakumoblade_slashblade_touhou",
+  "item": "slashblade_fabric_addons:slashblade_addon/seven_star",
+  "name": "slashblade_fabric_addons:slashblade_addon/seven_star",
+  "properties": {
+    "max_damage": 180
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "slashblade_fabric_addons:yakumoblade/model/touhou/seven_star/seven_star.obj",
+    "texture": "slashblade_fabric_addons:yakumoblade/model/touhou/seven_star/seven_star.png"
+  }
+}

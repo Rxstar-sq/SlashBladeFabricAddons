@@ -3,35 +3,33 @@
   "enchantments": [
     {
       "id": "minecraft:soul_speed",
-      "lvl": 4
+      "lvl": 6
     },
     {
       "id": "minecraft:power",
-      "lvl": 10
+      "lvl": 7
     },
     {
       "id": "minecraft:feather_falling",
-      "lvl": 8
+      "lvl": 6
     },
     {
       "id": "minecraft:smite",
-      "lvl": 10
+      "lvl": 6
     },
     {
       "id": "minecraft:unbreaking",
-      "lvl": 3
+      "lvl": 6
     }
   ],
-  "item": "slashblade_fabric_addons:slashblade_addon/yuyukofinal",
-  "name": "slashblade_fabric_addons:slashblade_addon/yuyukofinal",
+  "item": "slashblade_fabric_addons:slashblade_addon/yuyuko3",
+  "name": "slashblade_fabric_addons:slashblade_addon/yuyuko3",
   "properties": {
-    "attack_base": 40.0,
+    "attack_base": 21.0,
     "max_damage": 180,
-    "slash_art": "slashblade_fabric_addons:yakumoblade/csoul_edge",
+    "slash_art": "slashblade_fabric_addons:slashblade_addon/soul_galegwords",
     "special_effects": [
-      "slashblade_fabric_addons:yakumoblade/yuyukose",
-      "slashblade_fabric_addons:yakumoblade/sword_art_on_dead",
-      "slashblade_fabric_addons:yakumoblade/ghost_blade"
+      "slashblade_fabric_addons:slashblade_addon/ghost_blade"
     ],
     "sword_type": [
       "bewitched"
@@ -39,7 +37,7 @@
   },
   "render": {
     "carry_type": "default",
-    "model": "slashblade_fabric_addons:yakumoblade/model/named/sange/yakumosakurafinal.obj",
+    "model": "slashblade_fabric_addons:yakumoblade/model/named/sange/sange.obj",
     "summon_sword_color": 16722600,
     "texture": "slashblade_fabric_addons:yakumoblade/model/named/sange/yuyukofinal.png"
   }

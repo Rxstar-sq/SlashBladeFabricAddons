@@ -1,0 +1,18 @@
+{
+  "creativeGroup": "yakumoblade:yakumoblade_yakumoblade_slashblade_touhou",
+  "item": "slashblade_fabric_addons:slashblade_addon/lucky_sword",
+  "name": "slashblade_fabric_addons:slashblade_addon/lucky_sword",
+  "properties": {
+    "attack_base": 1.0,
+    "max_damage": 180,
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "slashblade_fabric_addons:yakumoblade/model/touhou/cirno/lucky_sword.obj",
+    "summon_sword_color": 12829635,
+    "texture": "slashblade_fabric_addons:yakumoblade/model/touhou/cirno/lucky_sword.png"
+  }
+}

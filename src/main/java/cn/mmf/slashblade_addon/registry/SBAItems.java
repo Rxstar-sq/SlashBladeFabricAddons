@@ -75,39 +75,70 @@ public class SBAItems {
     public static final Item SLASHBLADE_ADDON_YUKARI = register("yukari", 
             new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
     
-    // ciallo 刀
-    public static final Item SLASHBLADE_ADDON_CIALLO = register("ciallo", 
-            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        // ciallo 刀
+        public static final Item SLASHBLADE_ADDON_CIALLO = register("ciallo",
+                        new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
 
-    // yakumoblade 基础集（独立物品ID）
-    public static final Item SLASHBLADE_ADDON_VERGIL = register("vergil",
-            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_DOUBLE_YAMATO = register("double_yamato",
-            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_GREEN_INFLAMMATION = register("green_inflammation",
-            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_GREEN_YAMATO = register("green_yamato",
-            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_HUNDRED_CURSES = register("hundred_curses",
-            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_RU_SANG = register("ru_sang",
-            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_UNDEAD_SLASH = register("undead_slash",
-            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_MIRAGEEDGE = register("mirageedge",
-            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_YELLOW_FOX = register("yellow_fox",
-            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_HISONOTSURUGI = register("hisonotsurugi",
-            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_STAR_OF_DINZEER = register("star_of_dinzeer",
-            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_YUYUKOFINAL = register("yuyukofinal",
-            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_STAR = register("star",
-            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
-    public static final Item SLASHBLADE_ADDON_YUYUKO3 = register("yuyuko3",
-            new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        // yakumoblade 全量独立物品（静态注册）
+        public static final Item SLASHBLADE_ADDON_BLACKESLASHEX = register("blackeslashex", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_BLACK_SLASH = register("black_slash", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_BLADEMASTER_YUKARI = register("blademaster_yukari", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_BLUE_FOX = register("blue_fox", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_BLUE_FOX_STAR_SOUL = register("blue_fox_star_soul", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_CIRNO = register("cirno", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_DOUBLE_YAMATO = register("double_yamato", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_DRAGONHEXAGRAM = register("dragonhexagram", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_DREAM = register("dream", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_FINAL_STAR_SOUL = register("final_star_soul", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_FIRE_DRAGON = register("fire_dragon", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_FIVE_HEXGRAM = register("five_hexgram", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_FOXHEXAGRAM = register("foxhexagram", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_GODBLADEHEXAGRAM = register("godbladehexagram", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_GREEN_INFLAMMATION = register("green_inflammation", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_GREEN_INFLAMMATION_STAR = register("green_inflammation_star", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_GREEN_YAMATO = register("green_yamato", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_HEXAGRAM = register("hexagram", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_HISONOTSURUGI = register("hisonotsurugi", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_HUNDRED_CURSES = register("hundred_curses", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_HUNDRED_END = register("hundred_end", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_ICE_DRAGON = register("ice_dragon", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_LUCKY_SWORD = register("lucky_sword", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_LWT = register("lwt", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_MIRAGEEDGE = register("mirageedge", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_NIEBLADE_YUKARI = register("nieblade_yukari", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_PURPLE_FOX_STAR_SOUL = register("purple_fox_star_soul", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_RED = register("red", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_RED_FOX_STAR = register("red_fox_star", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_RED_FOX_STAR_SOUL = register("red_fox_star_soul", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_RED_SUN = register("red_sun", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_RU_SANG = register("ru_sang", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_SAN = register("san", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_SEVEN_HEXGRAM = register("seven_hexgram", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_SEVEN_STAR = register("seven_star", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_SIX_HEXGRAM = register("six_hexgram", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_SKY_RUINE = register("sky_ruine", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_STAR = register("star", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_STARSKY_RED = register("starsky_red", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_STARSTR = register("starstr", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_STAR_MUASUM = register("star_muasum", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_STAR_OF_DINZEER = register("star_of_dinzeer", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_SUN_RISE = register("sun_rise", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_TEN_HEXGRAM = register("ten_hexgram", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_UNDEAD_SLASH = register("undead_slash", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_VERGIL = register("vergil", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_WHITE = register("white", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_YAKUMOSAKURA = register("yakumosakura", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_YAKUMOSAKURA2 = register("yakumosakura2", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_YAKUMOSAKURA3 = register("yakumosakura3", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_YAKUMOSAKURAFINAL = register("yakumosakurafinal", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_YELLOW_FOX = register("yellow_fox", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_YE_SOUL = register("ye_soul", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_YUKARI_BLADE = register("yukari_blade", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_YUYUKO = register("yuyuko", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_YUYUKO2 = register("yuyuko2", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_YUYUKO3 = register("yuyuko3", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_YUYUKOFINAL = register("yuyukofinal", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
+        public static final Item SLASHBLADE_ADDON_YUYUKO_BEYOND = register("yuyuko_beyond", new ItemSlashBlade(new ItemTierSlashBlade(40, 4F), 4, 0.0F, new Item.Properties()));
     
     public static void init() {
         // 注册初始化，此类加载时会执行静态初始化块
@@ -117,8 +148,8 @@ public class SBAItems {
      * 根据刀的名称获取对应的物品 Item
      * 如果找不到，返回null
      */
-    public static Item getNamedBladeItem(String bladeName) {
-        return switch (bladeName) {
+        public static Item getNamedBladeItem(String bladeName) {
+                return switch (bladeName) {
             case "aquablaze" -> SLASHBLADE_ADDON_AQUABLAZE;
             case "blue" -> SLASHBLADE_ADDON_BLUE;
             case "crimsoncherry" -> SLASHBLADE_ADDON_CRIMSONCHERRY;
@@ -146,26 +177,26 @@ public class SBAItems {
             case "tboen" -> SLASHBLADE_ADDON_TBOEN;
             case "terra_blade" -> SLASHBLADE_ADDON_TERRA_BLADE;
             case "toyako" -> SLASHBLADE_ADDON_TOYAKO;
-            case "wanderer" -> SLASHBLADE_ADDON_WANDERER;
-            case "wanderer_hf" -> SLASHBLADE_ADDON_WANDERER_HF;
-            case "yukari" -> SLASHBLADE_ADDON_YUKARI;
-            case "ciallo" -> SLASHBLADE_ADDON_CIALLO;
-            // yakumoblade 基础集
-            case "vergil" -> SLASHBLADE_ADDON_VERGIL;
-            case "double_yamato" -> SLASHBLADE_ADDON_DOUBLE_YAMATO;
-            case "green_inflammation" -> SLASHBLADE_ADDON_GREEN_INFLAMMATION;
-            case "green_yamato" -> SLASHBLADE_ADDON_GREEN_YAMATO;
-            case "hundred_curses" -> SLASHBLADE_ADDON_HUNDRED_CURSES;
-            case "ru_sang" -> SLASHBLADE_ADDON_RU_SANG;
-            case "undead_slash" -> SLASHBLADE_ADDON_UNDEAD_SLASH;
-            case "mirageedge" -> SLASHBLADE_ADDON_MIRAGEEDGE;
-            case "yellow_fox" -> SLASHBLADE_ADDON_YELLOW_FOX;
+                        case "wanderer" -> SLASHBLADE_ADDON_WANDERER;
+                        case "wanderer_hf" -> SLASHBLADE_ADDON_WANDERER_HF;
+                        case "yukari" -> SLASHBLADE_ADDON_YUKARI;
+                        case "ciallo" -> SLASHBLADE_ADDON_CIALLO;
+                        // yakumoblade 创意页常见子集
+                        case "vergil" -> SLASHBLADE_ADDON_VERGIL;
+                        case "double_yamato" -> SLASHBLADE_ADDON_DOUBLE_YAMATO;
+                        case "green_inflammation" -> SLASHBLADE_ADDON_GREEN_INFLAMMATION;
+                        case "green_yamato" -> SLASHBLADE_ADDON_GREEN_YAMATO;
+                        case "hundred_curses" -> SLASHBLADE_ADDON_HUNDRED_CURSES;
+                        case "ru_sang" -> SLASHBLADE_ADDON_RU_SANG;
+                        case "undead_slash" -> SLASHBLADE_ADDON_UNDEAD_SLASH;
+                        case "mirageedge" -> SLASHBLADE_ADDON_MIRAGEEDGE;
+                            case "yellow_fox" -> SLASHBLADE_ADDON_YELLOW_FOX;
                         case "hisonotsurugi" -> SLASHBLADE_ADDON_HISONOTSURUGI;
-                        case "star_of_dinzeer" -> SLASHBLADE_ADDON_STAR_OF_DINZEER;
                         case "yuyukofinal" -> SLASHBLADE_ADDON_YUYUKOFINAL;
-                        case "star" -> SLASHBLADE_ADDON_STAR;
                         case "yuyuko3" -> SLASHBLADE_ADDON_YUYUKO3;
-            default -> null;
+                        case "star_of_dinzeer" -> SLASHBLADE_ADDON_STAR_OF_DINZEER;
+                        case "star" -> SLASHBLADE_ADDON_STAR;
+                        default -> null;
         };
     }
     

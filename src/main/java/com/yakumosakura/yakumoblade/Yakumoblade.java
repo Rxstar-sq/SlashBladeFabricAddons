@@ -5,7 +5,6 @@ import com.mojang.logging.LogUtils;
 import com.yakumosakura.yakumoblade.compat.YATouHouMaidItem;
 import com.yakumosakura.yakumoblade.registry.RegistryEventBus;
 import com.yakumosakura.yakumoblade.registry.SAchangeList;
-import com.yakumosakura.yakumoblade.registry.creativetab.ItemTab;
 import com.yakumosakura.yakumoblade.registry.slashblade.YAEntitiesRegistry;
 import com.yakumosakura.yakumoblade.registry.slashblade.YAItem;
 import fuzs.forgeconfigapiport.fabric.api.neoforge.v4.NeoForgeConfigRegistry;
@@ -46,10 +45,8 @@ public class Yakumoblade {
     }
 
     public static void init() {
-        NeoForgeConfigRegistry.INSTANCE.register(SFAddons.MOD_ID, ModConfig.Type.COMMON, Config.SPEC, MODID);
-        NeoForgeModConfigEvents.loading(SFAddons.MOD_ID).register(Config::onLoad);
-
-        ItemTab.init();
+        NeoForgeConfigRegistry.INSTANCE.register("slashblade_fabric_re_addons", ModConfig.Type.COMMON, Config.SPEC, MODID);
+        NeoForgeModConfigEvents.loading("slashblade_fabric_re_addons").register(Config::onLoad);
 
         SAchangeList.init();
 
@@ -79,8 +76,9 @@ public class Yakumoblade {
         if (FabricLoader.getInstance().isModLoaded(TLM)) {
             YATouHouMaidItem.init();
         }
-        YAItem.init();
-        YAEntitiesRegistry.init();
+        // yakumoblade 刀已迁移到 SBAItems 静态独立物品注册
+        //YAItem.init();
+        //YAEntitiesRegistry.init();
     }
 
 }

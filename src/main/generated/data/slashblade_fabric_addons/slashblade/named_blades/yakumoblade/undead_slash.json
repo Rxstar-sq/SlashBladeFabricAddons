@@ -1,32 +1,32 @@
-﻿{
+{
   "creativeGroup": "slashblade_fabric_addons:yakumoblade/yakumoblade_slashblade",
   "enchantments": [
     {
       "id": "minecraft:power",
-      "level": 5
+      "lvl": 5
     },
     {
       "id": "minecraft:smite",
-      "level": 10
+      "lvl": 10
     },
     {
       "id": "minecraft:bane_of_arthropods",
-      "level": 10
+      "lvl": 10
     },
     {
       "id": "minecraft:punch",
-      "level": 3
+      "lvl": 3
     }
   ],
   "item": "slashblade_fabric_addons:slashblade_addon/undead_slash",
-    "name": "slashblade_fabric_addons:slashblade_addon/undead_slash",
+  "name": "slashblade_fabric_addons:slashblade_addon/undead_slash",
   "properties": {
     "attack_base": 25.0,
     "max_damage": 180,
-    "slash_art": "slashblade_fabric_addons:yakumoblade/wither_attack",
+    "slash_art": "slashblade_fabric_addons:slashblade_addon/wither_attack",
     "special_effects": [
-      "slashblade_fabric_addons:yakumoblade/sharpness_blade",
-      "slashblade_fabric_addons:yakumoblade/lost_heart",
+      "slashblade_fabric_addons:slashblade_addon/sharpness_blade",
+      "slashblade_fabric_addons:slashblade_addon/lost_heart",
       "slashblade:wither_edge"
     ],
     "sword_type": [
@@ -34,10 +34,9 @@
     ]
   },
   "render": {
-    "effect_color": 13504014,
+    "carry_type": "default",
     "model": "slashblade_fabric_addons:yakumoblade/model/awolf/undead_slash.obj",
-    "texture": "slashblade_fabric_addons:yakumoblade/model/awolf/undead_slash.png"
+    "summon_sword_color": 13504014,
+    "texture": "slashblade_fabric_addons:yakumoblade/model/awolf/undead_slash.jpg"
   }
 }
-
-

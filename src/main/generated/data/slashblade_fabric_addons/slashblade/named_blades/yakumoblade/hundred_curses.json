@@ -3,37 +3,37 @@
   "enchantments": [
     {
       "id": "minecraft:power",
-      "level": 6
+      "lvl": 6
     },
     {
       "id": "minecraft:unbreaking",
-      "level": 6
+      "lvl": 6
     },
     {
       "id": "minecraft:fire_aspect",
-      "level": 6
+      "lvl": 6
     },
     {
       "id": "minecraft:sharpness",
-      "level": 6
+      "lvl": 6
     },
     {
       "id": "minecraft:bane_of_arthropods",
-      "level": 6
+      "lvl": 6
     },
     {
       "id": "minecraft:knockback",
-      "level": 6
+      "lvl": 6
     }
   ],
   "item": "slashblade_fabric_addons:slashblade_addon/hundred_curses",
-    "name": "slashblade_fabric_addons:slashblade_addon/hundred_curses",
+  "name": "slashblade_fabric_addons:slashblade_addon/hundred_curses",
   "properties": {
     "attack_base": 20.0,
     "max_damage": 180,
     "slash_art": "slashblade:wave_edge",
     "special_effects": [
-      "slashblade_fabric_addons:yakumoblade/sharpness_blade",
+      "slashblade_fabric_addons:slashblade_addon/sharpness_blade",
       "slashblade:wither_edge"
     ],
     "sword_type": [
@@ -41,10 +41,9 @@
     ]
   },
   "render": {
-    "effect_color": 8126719,
+    "carry_type": "default",
     "model": "slashblade_fabric_addons:yakumoblade/model/relicofpaseone/hundred_curses.obj",
+    "summon_sword_color": 8126719,
     "texture": "slashblade_fabric_addons:yakumoblade/model/relicofpaseone/hundred_curses.png"
   }
 }
-
-

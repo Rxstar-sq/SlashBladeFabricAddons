@@ -5,6 +5,7 @@ import cn.mmf.slashblade_addon.SlashBladeAddon;
 import cn.mmf.slashblade_addon.registry.SBAItems;
 import cn.mmf.slashblade_addon.registry.SBASlashArtsRegistry;
 import cn.mmf.slashblade_addon.registry.SBASpecialEffectsRegistry;
+import cn.sh1rocu.sfaddons.SFAddons;
 import mods.flammpfeil.slashblade.client.renderer.CarryType;
 import mods.flammpfeil.slashblade.item.SwordType;
 import mods.flammpfeil.slashblade.registry.SlashArtsRegistry;
@@ -90,6 +91,67 @@ public class SlashBladeAddonBuiltInRegistry {
     public static final ResourceKey<SlashBladeDefinition> WANDERER_HF = register("wanderer_hf");
 
     public static final ResourceKey<SlashBladeDefinition> MURAKUMO = register("murakumo");
+
+    // yakumoblade series - 全量57把
+    public static final ResourceKey<SlashBladeDefinition> VERGIL = register("vergil");
+    public static final ResourceKey<SlashBladeDefinition> DOUBLE_YAMATO = register("double_yamato");
+    public static final ResourceKey<SlashBladeDefinition> GREEN_INFLAMMATION = register("green_inflammation");
+    public static final ResourceKey<SlashBladeDefinition> GREEN_YAMATO = register("green_yamato");
+    public static final ResourceKey<SlashBladeDefinition> HUNDRED_CURSES = register("hundred_curses");
+    public static final ResourceKey<SlashBladeDefinition> RU_SANG = register("ru_sang");
+    public static final ResourceKey<SlashBladeDefinition> UNDEAD_SLASH = register("undead_slash");
+    public static final ResourceKey<SlashBladeDefinition> MIRAGEEDGE = register("mirageedge");
+    public static final ResourceKey<SlashBladeDefinition> YELLOW_FOX = register("yellow_fox");
+    public static final ResourceKey<SlashBladeDefinition> HISONOTSURUGI = register("hisonotsurugi");
+    public static final ResourceKey<SlashBladeDefinition> BLACKESLASHEX = register("blackeslashex");
+    public static final ResourceKey<SlashBladeDefinition> BLACK_SLASH = register("black_slash");
+    public static final ResourceKey<SlashBladeDefinition> BLADEMASTER_YUKARI = register("blademaster_yukari");
+    public static final ResourceKey<SlashBladeDefinition> BLUE_FOX = register("blue_fox");
+    public static final ResourceKey<SlashBladeDefinition> BLUE_FOX_STAR_SOUL = register("blue_fox_star_soul");
+    public static final ResourceKey<SlashBladeDefinition> CIRNO = register("cirno");
+    public static final ResourceKey<SlashBladeDefinition> DRAGONHEXAGRAM = register("dragonhexagram");
+    public static final ResourceKey<SlashBladeDefinition> DREAM = register("dream");
+    public static final ResourceKey<SlashBladeDefinition> FINAL_STAR_SOUL = register("final_star_soul");
+    public static final ResourceKey<SlashBladeDefinition> FIRE_DRAGON = register("fire_dragon");
+    public static final ResourceKey<SlashBladeDefinition> FIVE_HEXGRAM = register("five_hexgram");
+    public static final ResourceKey<SlashBladeDefinition> FOXHEXAGRAM = register("foxhexagram");
+    public static final ResourceKey<SlashBladeDefinition> GODBLADEHEXAGRAM = register("godbladehexagram");
+    public static final ResourceKey<SlashBladeDefinition> GREEN_INFLAMMATION_STAR = register("green_inflammation_star");
+    public static final ResourceKey<SlashBladeDefinition> HEXAGRAM = register("hexagram");
+    public static final ResourceKey<SlashBladeDefinition> HUNDRED_END = register("hundred_end");
+    public static final ResourceKey<SlashBladeDefinition> ICE_DRAGON = register("ice_dragon");
+    public static final ResourceKey<SlashBladeDefinition> LUCKY_SWORD = register("lucky_sword");
+    public static final ResourceKey<SlashBladeDefinition> LWT = register("lwt");
+    public static final ResourceKey<SlashBladeDefinition> NIEBLADE_YUKARI = register("nieblade_yukari");
+    public static final ResourceKey<SlashBladeDefinition> PURPLE_FOX_STAR_SOUL = register("purple_fox_star_soul");
+    public static final ResourceKey<SlashBladeDefinition> RED = register("red");
+    public static final ResourceKey<SlashBladeDefinition> RED_FOX_STAR = register("red_fox_star");
+    public static final ResourceKey<SlashBladeDefinition> RED_FOX_STAR_SOUL = register("red_fox_star_soul");
+    public static final ResourceKey<SlashBladeDefinition> RED_SUN = register("red_sun");
+    public static final ResourceKey<SlashBladeDefinition> SAN = register("san");
+    public static final ResourceKey<SlashBladeDefinition> SEVEN_HEXGRAM = register("seven_hexgram");
+    public static final ResourceKey<SlashBladeDefinition> SEVEN_STAR = register("seven_star");
+    public static final ResourceKey<SlashBladeDefinition> SIX_HEXGRAM = register("six_hexgram");
+    public static final ResourceKey<SlashBladeDefinition> SKY_RUINE = register("sky_ruine");
+    public static final ResourceKey<SlashBladeDefinition> STAR = register("star");
+    public static final ResourceKey<SlashBladeDefinition> STAR_MUASUM = register("star_muasum");
+    public static final ResourceKey<SlashBladeDefinition> STAR_OF_DINZEER = register("star_of_dinzeer");
+    public static final ResourceKey<SlashBladeDefinition> STARSKY_RED = register("starsky_red");
+    public static final ResourceKey<SlashBladeDefinition> STARSTR = register("starstr");
+    public static final ResourceKey<SlashBladeDefinition> SUN_RISE = register("sun_rise");
+    public static final ResourceKey<SlashBladeDefinition> TEN_HEXGRAM = register("ten_hexgram");
+    public static final ResourceKey<SlashBladeDefinition> WHITE = register("white");
+    public static final ResourceKey<SlashBladeDefinition> YAKUMOSAKURA = register("yakumosakura");
+    public static final ResourceKey<SlashBladeDefinition> YAKUMOSAKURA2 = register("yakumosakura2");
+    public static final ResourceKey<SlashBladeDefinition> YAKUMOSAKURA3 = register("yakumosakura3");
+    public static final ResourceKey<SlashBladeDefinition> YAKUMOSAKURAFINAL = register("yakumosakurafinal");
+    public static final ResourceKey<SlashBladeDefinition> YE_SOUL = register("ye_soul");
+    public static final ResourceKey<SlashBladeDefinition> YUKARI_BLADE = register("yukari_blade");
+    public static final ResourceKey<SlashBladeDefinition> YUYUKO = register("yuyuko");
+    public static final ResourceKey<SlashBladeDefinition> YUYUKO2 = register("yuyuko2");
+    public static final ResourceKey<SlashBladeDefinition> YUYUKO3 = register("yuyuko3");
+    public static final ResourceKey<SlashBladeDefinition> YUYUKOFINAL = register("yuyukofinal");
+    public static final ResourceKey<SlashBladeDefinition> YUYUKO_BEYOND = register("yuyuko_beyond");
 
 
     private static final Map<ResourceKey<SlashBladeDefinition>, List<ResourceCondition>> CONDITIONS = new HashMap<>();
@@ -617,6 +679,236 @@ public class SlashBladeAddonBuiltInRegistry {
                                                 .slashArtsType(SlashArtsRegistry.SLASH_ARTS.getKey(SBASlashArtsRegistry.GALE_SWORDS))
                                                 .defaultSwordType(List.of(SwordType.BEWITCHED)).build(),
                                         List.of()
+                                )
+                );
+
+        // yakumoblade series
+        // 真 •「閻魔刀」
+        bootstrap.register
+                (
+                        VERGIL,
+                        new SJAPDefinition
+                                (
+                                        BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_ADDON_VERGIL),
+                                        SFAddons.prefix("yakumoblade/vergil"),
+                                        RenderDefinition.Builder.newInstance()
+                                                .textureName(SFAddons.prefix("yakumoblade/model/named/custom/vergil/texture.png"))
+                                                .modelName(SFAddons.prefix("yakumoblade/model/named/custom/vergil/model.obj"))
+                                                .effectColor(2003199)
+                                                .build(),
+                                        PropertiesDefinition.Builder.newInstance()
+                                                .defaultSwordType(List.of(SwordType.BEWITCHED))
+                                                .baseAttackModifier(50)
+                                                .maxDamage(120)
+                                                .build(),
+                                        List.of(
+                                                new EnchantmentDefinition(getEnchantmentID(Enchantments.POWER), 10),
+                                                new EnchantmentDefinition(getEnchantmentID(Enchantments.SOUL_SPEED), 10),
+                                                new EnchantmentDefinition(getEnchantmentID(Enchantments.FEATHER_FALLING), 10),
+                                                new EnchantmentDefinition(getEnchantmentID(Enchantments.UNBREAKING), 10)
+                                        )
+                                )
+                );
+
+        // 大和·贰
+        bootstrap.register
+                (
+                        DOUBLE_YAMATO,
+                        new SJAPDefinition
+                                (
+                                        BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_ADDON_DOUBLE_YAMATO),
+                                        SFAddons.prefix("yakumoblade/double_yamato"),
+                                        RenderDefinition.Builder.newInstance()
+                                                .textureName(SFAddons.prefix("yakumoblade/model/relicofpaseone/yamato.png"))
+                                                .modelName(SFAddons.prefix("yakumoblade/model/relicofpaseone/double.obj"))
+                                                .effectColor(3729097)
+                                                .build(),
+                                        PropertiesDefinition.Builder.newInstance()
+                                                .baseAttackModifier(22)
+                                                .maxDamage(180)
+                                                .defaultSwordType(List.of(SwordType.BEWITCHED))
+                                                .build(),
+                                        List.of(
+                                                new EnchantmentDefinition(getEnchantmentID(Enchantments.POWER), 3),
+                                                new EnchantmentDefinition(getEnchantmentID(Enchantments.SHARPNESS), 3),
+                                                new EnchantmentDefinition(getEnchantmentID(Enchantments.LOOTING), 3)
+                                        )
+                                )
+                );
+
+        // 染绿炎
+        bootstrap.register
+                (
+                        GREEN_INFLAMMATION,
+                        new SJAPDefinition
+                                (
+                                        BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_ADDON_GREEN_INFLAMMATION),
+                                        SFAddons.prefix("yakumoblade/green_inflammation"),
+                                        RenderDefinition.Builder.newInstance()
+                                                .textureName(SFAddons.prefix("yakumoblade/model/relicofpaseone/green_inflammation.png"))
+                                                .modelName(SFAddons.prefix("yakumoblade/model/relicofpaseone/green_inflammation.obj"))
+                                                .effectColor(2424576)
+                                                .build(),
+                                        PropertiesDefinition.Builder.newInstance()
+                                                .baseAttackModifier(22)
+                                                .maxDamage(180)
+                                                .defaultSwordType(List.of(SwordType.BEWITCHED))
+                                                .build(),
+                                        List.of(
+                                                new EnchantmentDefinition(getEnchantmentID(Enchantments.POWER), 5),
+                                                new EnchantmentDefinition(getEnchantmentID(Enchantments.SHARPNESS), 5),
+                                                new EnchantmentDefinition(getEnchantmentID(Enchantments.UNBREAKING), 3),
+                                                new EnchantmentDefinition(getEnchantmentID(Enchantments.LOOTING), 10)
+                                        )
+                                )
+                );
+
+        // 大和
+        bootstrap.register
+                (
+                        GREEN_YAMATO,
+                        new SJAPDefinition
+                                (
+                                        BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_ADDON_GREEN_YAMATO),
+                                        SFAddons.prefix("yakumoblade/green_yamato"),
+                                        RenderDefinition.Builder.newInstance()
+                                                .textureName(SFAddons.prefix("yakumoblade/model/relicofpaseone/yamato.png"))
+                                                .modelName(SFAddons.prefix("yakumoblade/model/relicofpaseone/dahe.obj"))
+                                                .effectColor(3729097)
+                                                .build(),
+                                        PropertiesDefinition.Builder.newInstance()
+                                                .baseAttackModifier(10)
+                                                .maxDamage(180)
+                                                .build(),
+                                        List.of()
+                                )
+                );
+
+        // 百涙
+        bootstrap.register
+                (
+                        HUNDRED_CURSES,
+                        new SJAPDefinition
+                                (
+                                        BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_ADDON_HUNDRED_CURSES),
+                                        SFAddons.prefix("yakumoblade/hundred_curses"),
+                                        RenderDefinition.Builder.newInstance()
+                                                .textureName(SFAddons.prefix("yakumoblade/model/relicofpaseone/hundred_curses.png"))
+                                                .modelName(SFAddons.prefix("yakumoblade/model/relicofpaseone/hundred_curses.obj"))
+                                                .effectColor(8126719)
+                                                .build(),
+                                        PropertiesDefinition.Builder.newInstance()
+                                                .baseAttackModifier(20)
+                                                .maxDamage(180)
+                                                .defaultSwordType(List.of(SwordType.BEWITCHED))
+                                                .build(),
+                                        List.of(
+                                                new EnchantmentDefinition(getEnchantmentID(Enchantments.POWER), 6),
+                                                new EnchantmentDefinition(getEnchantmentID(Enchantments.UNBREAKING), 6),
+                                                new EnchantmentDefinition(getEnchantmentID(Enchantments.FIRE_ASPECT), 6),
+                                                new EnchantmentDefinition(getEnchantmentID(Enchantments.SHARPNESS), 6),
+                                                new EnchantmentDefinition(getEnchantmentID(Enchantments.BANE_OF_ARTHROPODS), 6),
+                                                new EnchantmentDefinition(getEnchantmentID(Enchantments.KNOCKBACK), 6)
+                                        )
+                                )
+                );
+
+        // 如丧
+        bootstrap.register
+                (
+                        RU_SANG,
+                        new SJAPDefinition
+                                (
+                                        BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_ADDON_RU_SANG),
+                                        SFAddons.prefix("yakumoblade/ru_sang"),
+                                        RenderDefinition.Builder.newInstance()
+                                                .textureName(SFAddons.prefix("yakumoblade/model/relicofpaseone/ru_sang.png"))
+                                                .modelName(SFAddons.prefix("yakumoblade/model/relicofpaseone/ru_sang.obj"))
+                                                .effectColor(12013391)
+                                                .build(),
+                                        PropertiesDefinition.Builder.newInstance()
+                                                .baseAttackModifier(13)
+                                                .maxDamage(180)
+                                                .build(),
+                                        List.of()
+                                )
+                );
+
+        // 不死斩
+        bootstrap.register
+                (
+                        UNDEAD_SLASH,
+                        new SJAPDefinition
+                                (
+                                        BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_ADDON_UNDEAD_SLASH),
+                                        SFAddons.prefix("yakumoblade/undead_slash"),
+                                        RenderDefinition.Builder.newInstance()
+                                                .textureName(SFAddons.prefix("yakumoblade/model/awolf/undead_slash.jpg"))
+                                                .modelName(SFAddons.prefix("yakumoblade/model/awolf/undead_slash.obj"))
+                                                .effectColor(13504014)
+                                                .build(),
+                                        PropertiesDefinition.Builder.newInstance()
+                                                .baseAttackModifier(25)
+                                                .maxDamage(180)
+                                                .defaultSwordType(List.of(SwordType.BEWITCHED))
+                                                .build(),
+                                        List.of(
+                                                new EnchantmentDefinition(getEnchantmentID(Enchantments.POWER), 5),
+                                                new EnchantmentDefinition(getEnchantmentID(Enchantments.SMITE), 10),
+                                                new EnchantmentDefinition(getEnchantmentID(Enchantments.BANE_OF_ARTHROPODS), 10),
+                                                new EnchantmentDefinition(getEnchantmentID(Enchantments.PUNCH), 3)
+                                        )
+                                )
+                );
+
+        // 幻影刃
+        bootstrap.register
+                (
+                        MIRAGEEDGE,
+                        new SJAPDefinition
+                                (
+                                        BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_ADDON_MIRAGEEDGE),
+                                        SFAddons.prefix("yakumoblade/mirageedge"),
+                                        RenderDefinition.Builder.newInstance()
+                                                .textureName(SFAddons.prefix("yakumoblade/model/named/custom/vergil/mirageedge.png"))
+                                                .modelName(SFAddons.prefix("yakumoblade/model/named/custom/vergil/mirageedge.obj"))
+                                                .effectColor(2003199)
+                                                .build(),
+                                        PropertiesDefinition.Builder.newInstance()
+                                                .defaultSwordType(List.of(SwordType.BEWITCHED))
+                                                .baseAttackModifier(10)
+                                                .maxDamage(120)
+                                                .build(),
+                                        List.of(
+                                                new EnchantmentDefinition(getEnchantmentID(Enchantments.POWER), 10)
+                                        )
+                                )
+                );
+
+        // 名刀「酒狐」
+        bootstrap.register
+                (
+                        YELLOW_FOX,
+                        new SJAPDefinition
+                                (
+                                        BuiltInRegistries.ITEM.getKey(SBAItems.SLASHBLADE_ADDON_YELLOW_FOX),
+                                        SFAddons.prefix("yakumoblade/yellow_fox"),
+                                        RenderDefinition.Builder.newInstance()
+                                                .effectColor(16754944)
+                                                .modelName(SFAddons.prefix("yakumoblade/model/named/sange/sange.obj"))
+                                                .textureName(SFAddons.prefix("yakumoblade/model/named/sange/yellow_fox.png"))
+                                                .build(),
+                                        PropertiesDefinition.Builder.newInstance()
+                                                .baseAttackModifier(25F)
+                                                .maxDamage(180)
+                                                .defaultSwordType(List.of(SwordType.BEWITCHED))
+                                                .build(),
+                                        List.of(
+                                                new EnchantmentDefinition(getEnchantmentID(Enchantments.POWER), 6),
+                                                new EnchantmentDefinition(getEnchantmentID(Enchantments.SMITE), 10),
+                                                new EnchantmentDefinition(getEnchantmentID(Enchantments.FIRE_ASPECT), 1),
+                                                new EnchantmentDefinition(getEnchantmentID(Enchantments.THORNS), 3)
+                                        )
                                 )
                 );
 

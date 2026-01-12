@@ -1,0 +1,45 @@
+{
+  "creativeGroup": "yakumoblade:yakumoblade_yakumoblade_slashblade_star",
+  "enchantments": [
+    {
+      "id": "minecraft:power",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:fire_aspect"
+    },
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:thorns",
+      "lvl": 10
+    }
+  ],
+  "item": "slashblade_fabric_addons:slashblade_addon/starstr",
+  "name": "slashblade_fabric_addons:slashblade_addon/starstr",
+  "properties": {
+    "attack_base": 50.0,
+    "max_damage": 180,
+    "slash_art": "slashblade_fabric_addons:slashblade_addon/high_slash",
+    "special_effects": [
+      "slashblade_fabric_addons:slashblade_addon/starsname",
+      "slashblade_fabric_addons:slashblade_addon/eternal",
+      "slashblade_fabric_addons:slashblade_addon/sharpness_blade"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "slashblade_fabric_addons:yakumoblade/model/relicofstar/starstr.obj",
+    "summon_sword_color": 7935,
+    "texture": "slashblade_fabric_addons:yakumoblade/model/relicofstar/starstr.png"
+  }
+}

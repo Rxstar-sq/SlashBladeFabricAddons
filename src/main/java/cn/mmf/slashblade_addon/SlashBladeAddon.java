@@ -56,8 +56,8 @@ public class SlashBladeAddon {
         SBASpecialEffectsRegistry.init();
         
         // Initialize yakumoblade registries
-        YAItem.init();
-        YAEntitiesRegistry.init();
+        //YAItem.init();
+        //YAEntitiesRegistry.init();
         YASlashArtRegistry.init();
         YASpecialEffectsRegistry.init();
         YAComboRegistry.init();

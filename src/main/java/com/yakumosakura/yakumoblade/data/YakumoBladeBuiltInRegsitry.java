@@ -47,6 +47,7 @@ public class YakumoBladeBuiltInRegsitry {
     public static final ResourceKey<SlashBladeDefinition> yellowfox = register("yellow_fox");
 
     public static void registerAll(BootstrapContext<SlashBladeDefinition> bootstrap) {
+        /*
 
         bootstrap.register(VERGIL,
                 register(Yakumoblade.prefix("vergil"),
@@ -230,6 +231,7 @@ public class YakumoBladeBuiltInRegsitry {
                         new EnchantmentDefinition(getEnchantmentID(Enchantments.THORNS), 3)
                 ), BuiltInRegistries.CREATIVE_MODE_TAB.getKey(ItemTab.YASlashblade))
         );
+        */
     }
 
     private static SlashBladeDefinition register(ResourceLocation id,

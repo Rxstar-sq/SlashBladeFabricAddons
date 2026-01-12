@@ -27,11 +27,11 @@
   "properties": {
     "attack_base": 20.0,
     "max_damage": 180,
-    "slash_art": "slashblade_fabric_addons:yakumoblade/thoo",
+    "slash_art": "slashblade_fabric_addons:slashblade_addon/thoo",
     "special_effects": [
-      "slashblade_fabric_addons:yakumoblade/stardriveedge",
-      "slashblade_fabric_addons:yakumoblade/star_soul",
-      "slashblade_fabric_addons:yakumoblade/sword_art_on_dinzeer"
+      "slashblade_fabric_addons:slashblade_addon/stardriveedge",
+      "slashblade_fabric_addons:slashblade_addon/star_soul",
+      "slashblade_fabric_addons:slashblade_addon/sword_art_on_dinzeer"
     ],
     "sword_type": [
       "bewitched"

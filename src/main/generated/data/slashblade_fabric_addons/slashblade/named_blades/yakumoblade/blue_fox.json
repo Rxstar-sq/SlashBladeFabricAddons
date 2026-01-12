@@ -1,0 +1,29 @@
+{
+  "creativeGroup": "yakumoblade:yakumoblade_yakumoblade_slashblade_star",
+  "enchantments": [
+    {
+      "id": "minecraft:power",
+      "lvl": 3
+    }
+  ],
+  "item": "slashblade_fabric_addons:slashblade_addon/blue_fox",
+  "name": "slashblade_fabric_addons:slashblade_addon/blue_fox",
+  "properties": {
+    "attack_base": 24.0,
+    "max_damage": 180,
+    "slash_art": "slashblade_fabric_addons:slashblade_addon/judgement_cut",
+    "special_effects": [
+      "slashblade_fabric_addons:slashblade_addon/star_soul",
+      "slashblade_fabric_addons:slashblade_addon/sharpness_blade"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "slashblade_fabric_addons:yakumoblade/model/named/sange/sange.obj",
+    "summon_sword_color": 2003199,
+    "texture": "slashblade_fabric_addons:yakumoblade/model/named/sange/blue.png"
+  }
+}

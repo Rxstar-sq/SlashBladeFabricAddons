@@ -1,0 +1,22 @@
+{
+  "creativeGroup": "yakumoblade:yakumoblade_yakumoblade_slashblade_touhou",
+  "item": "slashblade_fabric_addons:slashblade_addon/yakumosakura",
+  "name": "slashblade_fabric_addons:slashblade_addon/yakumosakura",
+  "properties": {
+    "attack_base": 16.0,
+    "max_damage": 180,
+    "slash_art": "slashblade:drive_vertical",
+    "special_effects": [
+      "slashblade_fabric_addons:slashblade_addon/sharpness_blade"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "slashblade_fabric_addons:yakumoblade/model/named/sange/sange.obj",
+    "summon_sword_color": 16722600,
+    "texture": "slashblade_fabric_addons:yakumoblade/model/named/sange/yakumosakura.png"
+  }
+}

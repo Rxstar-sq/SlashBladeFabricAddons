@@ -72,6 +72,8 @@ public class SJAPClientHandler {
     }
 
     public static void addCreative(CreativeModeTab itemGroup, FabricItemGroupEntries entries) {
+        // 将SlashBladeDefinition registered的所有SJAP物品添加到创造模式物品栏
+        // 这些物品已经在SlashBladeAddonBuiltInRegistry中使用SJAPDefinition注册
         // TofuCraft兼容模块的特殊刀
         if (FabricLoader.getInstance().isModLoaded("tofucraft")) {
             if (itemGroup == SlashBladeAddon.SJAP_TAB) {

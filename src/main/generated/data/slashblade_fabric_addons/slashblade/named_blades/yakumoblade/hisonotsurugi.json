@@ -23,7 +23,7 @@
   "properties": {
     "attack_base": 12.0,
     "max_damage": 180,
-    "slash_art": "slashblade_fabric_addons:yakumoblade/crison_swords",
+    "slash_art": "slashblade_fabric_addons:slashblade_addon/crison_swords",
     "sword_type": [
       "bewitched"
     ]

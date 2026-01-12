@@ -1,0 +1,37 @@
+{
+  "creativeGroup": "yakumoblade:yakumoblade_yakumoblade_slashblade_touhou",
+  "enchantments": [
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 4
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:fire_aspect",
+      "lvl": 3
+    }
+  ],
+  "item": "slashblade_fabric_addons:slashblade_addon/san",
+  "name": "slashblade_fabric_addons:slashblade_addon/san",
+  "properties": {
+    "attack_base": 21.0,
+    "max_damage": 180,
+    "slash_art": "slashblade:circle_slash",
+    "special_effects": [
+      "slashblade_fabric_addons:slashblade_addon/sharpness_blade",
+      "slashblade_fabric_addons:slashblade_addon/youkai"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "slashblade_fabric_addons:yakumoblade/model/named/sange/sange.obj",
+    "summon_sword_color": 16769536,
+    "texture": "slashblade_fabric_addons:yakumoblade/model/named/sange/san.png"
+  }
+}

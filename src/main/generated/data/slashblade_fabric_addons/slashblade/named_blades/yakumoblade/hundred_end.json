@@ -1,0 +1,42 @@
+{
+  "creativeGroup": "yakumoblade:yakumoblade_yakumoblade_slashblade_star",
+  "enchantments": [
+    {
+      "id": "minecraft:soul_speed",
+      "lvl": 4
+    },
+    {
+      "id": "minecraft:power",
+      "lvl": 10
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 5
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 3
+    }
+  ],
+  "item": "slashblade_fabric_addons:slashblade_addon/hundred_end",
+  "name": "slashblade_fabric_addons:slashblade_addon/hundred_end",
+  "properties": {
+    "attack_base": 39.0,
+    "max_damage": 180,
+    "slash_art": "slashblade_fabric_addons:slashblade_addon/thoo",
+    "special_effects": [
+      "slashblade_fabric_addons:slashblade_addon/blackslashbreak",
+      "slashblade:wither_edge",
+      "slashblade_fabric_addons:slashblade_addon/sharpness_blade"
+    ],
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "slashblade_fabric_addons:yakumoblade/model/relicofstar/diosex.obj",
+    "summon_sword_color": 16722600,
+    "texture": "slashblade_fabric_addons:yakumoblade/model/named/dios/black_slashs.png"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "creativeGroup": "yakumoblade:yakumoblade_yakumoblade_slashblade_star",
+  "enchantments": [
+    {
+      "id": "minecraft:power",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:mending"
+    },
+    {
+      "id": "minecraft:sharpness",
+      "lvl": 3
+    }
+  ],
+  "item": "slashblade_fabric_addons:slashblade_addon/ye_soul",
+  "name": "slashblade_fabric_addons:slashblade_addon/ye_soul",
+  "properties": {
+    "attack_base": 17.0,
+    "max_damage": 180,
+    "slash_art": "slashblade:circle_slash",
+    "special_effects": [
+      "slashblade_fabric_addons:slashblade_addon/star_soul",
+      "slashblade_fabric_addons:slashblade_addon/very_blue",
+      "slashblade_fabric_addons:slashblade_addon/sharpness_blade"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "model": "slashblade_fabric_addons:yakumoblade/model/named/yasha/yasha_true.obj",
+    "summon_sword_color": 3091266,
+    "texture": "slashblade_fabric_addons:yakumoblade/model/named/yasha/ye_soul.png"
+  }
+}

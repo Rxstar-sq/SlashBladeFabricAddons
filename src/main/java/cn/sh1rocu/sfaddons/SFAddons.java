@@ -18,7 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 
 public class SFAddons implements ModInitializer {
 
-    public static final String MOD_ID = "slashblade_fabric_re_addons";
+    public static final String MOD_ID = "slashblade_fabric_addons";
 
     @Override
     public void onInitialize() {
